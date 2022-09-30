@@ -42,30 +42,38 @@ Field::~Field() {
         delete[] fieldVariable;
     }
 }
-//
-//// Конструктор копирования
+
+void Field::swap(Field &fieldObj){
+    std::swap(fieldHeight, fieldObj.fieldHeight);
+    std::swap(fieldWidth, fieldObj.fieldWidth);
+    std::swap(fieldVariable, fieldObj.fieldVariable);
+    std::swap(playerPosition, fieldObj.playerPosition);
+}
+
+// Конструктор копирования
 Field::Field(const Field &other):
         playerPosition(other.playerPosition),
         player(other.player),
         fieldWidth(other.fieldWidth),
-        fieldHeight(other.fieldHeight) {
+        fieldHeight(other.fieldHeight),
+        fieldVariable(other.fieldVariable){};
 
-    other.fieldVariable = new Cell*[fieldWidth];
-    for (int i = 0; i < fieldHeight; i++) {
-        other.fieldVariable[i] = new Cell[fieldHeight];
+Field& Field::operator=(const Field& fieldObj){
+    if(this != &fieldObj){
+        Field(fieldObj).swap(*this);
     }
-
-    if (fieldVariable) {
-        for (int i = 0; i < fieldWidth; i++) {
-            for (int j = 0; j < fieldHeight; j++) {
-                other.fieldVariable[i][j] = fieldVariable[i][j];
-            }
-        }
-    }
+    return *this;
 }
-//
-//Field& Field::operator=(const Field& fieldObj){
-//}
+
+Field::Field(Field&& fieldObj) noexcept {
+    this->swap(fieldObj);
+};
+
+Field& Field::operator=(Field&& filedObj) noexcept {
+    if (this != &filedObj)
+        this->swap(filedObj);
+    return *this;
+}
 
 void Field::fieldUpdate() {
     std::pair<int, int> playerPos = getPlayerPosition();

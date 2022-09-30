@@ -19,10 +19,17 @@ public:
     explicit Field(std::pair<int, int> playerPos, int width, int height, Player *currentPlayer);
 
     Field();
-//    // Написать конструктор перемещения и оператор, копирования и оператор, удаления, по умолчанию (без пар.)
+
+    void swap(Field &fieldObj);
+
+    // Написать конструктор перемещения и оператор, копирования и оператор, удаления, по умолчанию (без пар.)
     Field(const Field &other);
-//
-//    Field &operator=(const Field &other);
+
+    Field& operator=(const Field& fieldObj);
+
+    Field (Field&& fieldObj) noexcept;
+
+    Field& operator=(Field&& filedObj) noexcept ;
 
     ~Field();
 
