@@ -169,6 +169,110 @@ CMakeFiles/coursegame.dir/Controller/Controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Controller/Controller.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Controller\Controller.cpp -o CMakeFiles\coursegame.dir\Controller\Controller.cpp.s
 
+CMakeFiles/coursegame.dir/Event/PlayerEvent/HpIncrease/HpIncrease.cpp.obj: CMakeFiles/coursegame.dir/flags.make
+CMakeFiles/coursegame.dir/Event/PlayerEvent/HpIncrease/HpIncrease.cpp.obj: ../Event/PlayerEvent/HpIncrease/HpIncrease.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/coursegame.dir/Event/PlayerEvent/HpIncrease/HpIncrease.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\PlayerEvent\HpIncrease\HpIncrease.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\HpIncrease\HpIncrease.cpp
+
+CMakeFiles/coursegame.dir/Event/PlayerEvent/HpIncrease/HpIncrease.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Event/PlayerEvent/HpIncrease/HpIncrease.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\HpIncrease\HpIncrease.cpp > CMakeFiles\coursegame.dir\Event\PlayerEvent\HpIncrease\HpIncrease.cpp.i
+
+CMakeFiles/coursegame.dir/Event/PlayerEvent/HpIncrease/HpIncrease.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Event/PlayerEvent/HpIncrease/HpIncrease.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\HpIncrease\HpIncrease.cpp -o CMakeFiles\coursegame.dir\Event\PlayerEvent\HpIncrease\HpIncrease.cpp.s
+
+CMakeFiles/coursegame.dir/Event/PlayerEvent/HpDecrease/HpDecrease.cpp.obj: CMakeFiles/coursegame.dir/flags.make
+CMakeFiles/coursegame.dir/Event/PlayerEvent/HpDecrease/HpDecrease.cpp.obj: ../Event/PlayerEvent/HpDecrease/HpDecrease.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/coursegame.dir/Event/PlayerEvent/HpDecrease/HpDecrease.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\PlayerEvent\HpDecrease\HpDecrease.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\HpDecrease\HpDecrease.cpp
+
+CMakeFiles/coursegame.dir/Event/PlayerEvent/HpDecrease/HpDecrease.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Event/PlayerEvent/HpDecrease/HpDecrease.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\HpDecrease\HpDecrease.cpp > CMakeFiles\coursegame.dir\Event\PlayerEvent\HpDecrease\HpDecrease.cpp.i
+
+CMakeFiles/coursegame.dir/Event/PlayerEvent/HpDecrease/HpDecrease.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Event/PlayerEvent/HpDecrease/HpDecrease.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\HpDecrease\HpDecrease.cpp -o CMakeFiles\coursegame.dir\Event\PlayerEvent\HpDecrease\HpDecrease.cpp.s
+
+CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.obj: CMakeFiles/coursegame.dir/flags.make
+CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.obj: ../Event/PlayerEvent/PlayerEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\PlayerEvent\PlayerEvent.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\PlayerEvent.cpp
+
+CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\PlayerEvent.cpp > CMakeFiles\coursegame.dir\Event\PlayerEvent\PlayerEvent.cpp.i
+
+CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\PlayerEvent.cpp -o CMakeFiles\coursegame.dir\Event\PlayerEvent\PlayerEvent.cpp.s
+
+CMakeFiles/coursegame.dir/Event/FieldEvent/FieldEvent.cpp.obj: CMakeFiles/coursegame.dir/flags.make
+CMakeFiles/coursegame.dir/Event/FieldEvent/FieldEvent.cpp.obj: ../Event/FieldEvent/FieldEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/coursegame.dir/Event/FieldEvent/FieldEvent.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\FieldEvent\FieldEvent.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Event\FieldEvent\FieldEvent.cpp
+
+CMakeFiles/coursegame.dir/Event/FieldEvent/FieldEvent.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Event/FieldEvent/FieldEvent.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Event\FieldEvent\FieldEvent.cpp > CMakeFiles\coursegame.dir\Event\FieldEvent\FieldEvent.cpp.i
+
+CMakeFiles/coursegame.dir/Event/FieldEvent/FieldEvent.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Event/FieldEvent/FieldEvent.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Event\FieldEvent\FieldEvent.cpp -o CMakeFiles\coursegame.dir\Event\FieldEvent\FieldEvent.cpp.s
+
+CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.obj: CMakeFiles/coursegame.dir/flags.make
+CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.obj: ../Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\FieldEvent\CellChangeToMine\CellChangeToMine.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Event\FieldEvent\CellChangeToMine\CellChangeToMine.cpp
+
+CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Event\FieldEvent\CellChangeToMine\CellChangeToMine.cpp > CMakeFiles\coursegame.dir\Event\FieldEvent\CellChangeToMine\CellChangeToMine.cpp.i
+
+CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Event\FieldEvent\CellChangeToMine\CellChangeToMine.cpp -o CMakeFiles\coursegame.dir\Event\FieldEvent\CellChangeToMine\CellChangeToMine.cpp.s
+
+CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.obj: CMakeFiles/coursegame.dir/flags.make
+CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.obj: ../Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\FieldEvent\CellChangeToWall\CellChangeToWall.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Event\FieldEvent\CellChangeToWall\CellChangeToWall.cpp
+
+CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Event\FieldEvent\CellChangeToWall\CellChangeToWall.cpp > CMakeFiles\coursegame.dir\Event\FieldEvent\CellChangeToWall\CellChangeToWall.cpp.i
+
+CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Event\FieldEvent\CellChangeToWall\CellChangeToWall.cpp -o CMakeFiles\coursegame.dir\Event\FieldEvent\CellChangeToWall\CellChangeToWall.cpp.s
+
+CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.obj: CMakeFiles/coursegame.dir/flags.make
+CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.obj: ../Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\FieldEvent\CellChangeToBuff\CellChangeToBuff.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Event\FieldEvent\CellChangeToBuff\CellChangeToBuff.cpp
+
+CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Event\FieldEvent\CellChangeToBuff\CellChangeToBuff.cpp > CMakeFiles\coursegame.dir\Event\FieldEvent\CellChangeToBuff\CellChangeToBuff.cpp.i
+
+CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Event\FieldEvent\CellChangeToBuff\CellChangeToBuff.cpp -o CMakeFiles\coursegame.dir\Event\FieldEvent\CellChangeToBuff\CellChangeToBuff.cpp.s
+
+CMakeFiles/coursegame.dir/Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.obj: CMakeFiles/coursegame.dir/flags.make
+CMakeFiles/coursegame.dir/Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.obj: ../Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/coursegame.dir/Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\PlayerEvent\StatsIncrease\StatsIncrease.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\StatsIncrease\StatsIncrease.cpp
+
+CMakeFiles/coursegame.dir/Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\StatsIncrease\StatsIncrease.cpp > CMakeFiles\coursegame.dir\Event\PlayerEvent\StatsIncrease\StatsIncrease.cpp.i
+
+CMakeFiles/coursegame.dir/Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\StatsIncrease\StatsIncrease.cpp -o CMakeFiles\coursegame.dir\Event\PlayerEvent\StatsIncrease\StatsIncrease.cpp.s
+
 # Object files for target coursegame
 coursegame_OBJECTS = \
 "CMakeFiles/coursegame.dir/main.cpp.obj" \
@@ -178,7 +282,15 @@ coursegame_OBJECTS = \
 "CMakeFiles/coursegame.dir/Field/Field.cpp.obj" \
 "CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.obj" \
 "CMakeFiles/coursegame.dir/CommandReader/CommandReader.cpp.obj" \
-"CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj"
+"CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj" \
+"CMakeFiles/coursegame.dir/Event/PlayerEvent/HpIncrease/HpIncrease.cpp.obj" \
+"CMakeFiles/coursegame.dir/Event/PlayerEvent/HpDecrease/HpDecrease.cpp.obj" \
+"CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.obj" \
+"CMakeFiles/coursegame.dir/Event/FieldEvent/FieldEvent.cpp.obj" \
+"CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.obj" \
+"CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.obj" \
+"CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.obj" \
+"CMakeFiles/coursegame.dir/Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.obj"
 
 # External object files for target coursegame
 coursegame_EXTERNAL_OBJECTS =
@@ -191,11 +303,19 @@ coursegame.exe: CMakeFiles/coursegame.dir/Field/Field.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/CommandReader/CommandReader.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj
+coursegame.exe: CMakeFiles/coursegame.dir/Event/PlayerEvent/HpIncrease/HpIncrease.cpp.obj
+coursegame.exe: CMakeFiles/coursegame.dir/Event/PlayerEvent/HpDecrease/HpDecrease.cpp.obj
+coursegame.exe: CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.obj
+coursegame.exe: CMakeFiles/coursegame.dir/Event/FieldEvent/FieldEvent.cpp.obj
+coursegame.exe: CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.obj
+coursegame.exe: CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.obj
+coursegame.exe: CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.obj
+coursegame.exe: CMakeFiles/coursegame.dir/Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/build.make
 coursegame.exe: CMakeFiles/coursegame.dir/linklibs.rsp
 coursegame.exe: CMakeFiles/coursegame.dir/objects1.rsp
 coursegame.exe: CMakeFiles/coursegame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable coursegame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable coursegame.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\coursegame.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

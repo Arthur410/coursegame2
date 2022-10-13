@@ -21,7 +21,8 @@ void CellView::cellView() {
     } else if (currentType == Cell::POWER) {
         std::cout << "P";
     } else if (currentType == Cell::MEDICAL) {
-        std::cout << "M";
+        std::cout << "+";
+    } else if (currentType == Cell::MINE) {
+        std::cout << "x";
     }
-
 }

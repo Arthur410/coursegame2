@@ -13,26 +13,26 @@ void Player::rage() {
     isRage = !isRage;
 }
 
-int Player::getStrength() {
+int Player::getStrength() const {
     return strength;
 };
 
-void Player::addStrength() {
-    strength += 1;
+void Player::setStrength(int newStrength) {
+    strength = newStrength;
 };
 
-int Player::getSpeed() {
+int Player::getSpeed() const {
     return speed;
 };
 
-void Player::addSpeed() {
-    speed += 1;
+void Player::setSpeed(int newSpeed) {
+    speed = newSpeed;
 };
 
 int Player::getHp() {
     return health;
 };
 
-void Player::addHp() {
-    health += 1;
+void Player::setHp(int newHp) {
+    health = newHp;
 };

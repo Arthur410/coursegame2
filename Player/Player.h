@@ -5,7 +5,7 @@
 #ifndef INC_2COURSEGAME_PLAYER_H
 #define INC_2COURSEGAME_PLAYER_H
 
-#include "../Event/Event.h"
+#include "../Event/IEvent.h"
 
 class Player {
 public:
@@ -15,23 +15,22 @@ public:
     // Способность, при которой игрок без контроля движется в определенном направлении, при этой способности +10 к силе
     void rage();
 
-    int getStrength();
+    int getStrength() const;
 
-    void addStrength();
+    void setStrength(int newStrength);
 
-    int getSpeed();
+    int getSpeed() const;
 
-    void addSpeed();
+    void setSpeed(int newSpeed);
 
     int getHp();
 
-    void addHp();
+    void setHp(int newHp);
 
 private:
     int strength{};
     int speed{};
     int health{};
-
 };
 
 

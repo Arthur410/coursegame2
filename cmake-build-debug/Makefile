@@ -224,6 +224,198 @@ Controller/Controller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Controller/Controller.cpp.s
 .PHONY : Controller/Controller.cpp.s
 
+Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.obj: Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.obj
+.PHONY : Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.obj
+
+# target to build an object file
+Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.obj
+.PHONY : Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.obj
+
+Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.i: Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.i
+.PHONY : Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.i
+
+# target to preprocess a source file
+Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.i
+.PHONY : Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.i
+
+Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.s: Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.s
+.PHONY : Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.s
+
+# target to generate assembly for a file
+Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.s
+.PHONY : Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp.s
+
+Event/FieldEvent/CellChangeToMine/CellChangeToMine.obj: Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.obj
+.PHONY : Event/FieldEvent/CellChangeToMine/CellChangeToMine.obj
+
+# target to build an object file
+Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.obj
+.PHONY : Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.obj
+
+Event/FieldEvent/CellChangeToMine/CellChangeToMine.i: Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.i
+.PHONY : Event/FieldEvent/CellChangeToMine/CellChangeToMine.i
+
+# target to preprocess a source file
+Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.i
+.PHONY : Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.i
+
+Event/FieldEvent/CellChangeToMine/CellChangeToMine.s: Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.s
+.PHONY : Event/FieldEvent/CellChangeToMine/CellChangeToMine.s
+
+# target to generate assembly for a file
+Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.s
+.PHONY : Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp.s
+
+Event/FieldEvent/CellChangeToWall/CellChangeToWall.obj: Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.obj
+.PHONY : Event/FieldEvent/CellChangeToWall/CellChangeToWall.obj
+
+# target to build an object file
+Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.obj
+.PHONY : Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.obj
+
+Event/FieldEvent/CellChangeToWall/CellChangeToWall.i: Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.i
+.PHONY : Event/FieldEvent/CellChangeToWall/CellChangeToWall.i
+
+# target to preprocess a source file
+Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.i
+.PHONY : Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.i
+
+Event/FieldEvent/CellChangeToWall/CellChangeToWall.s: Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.s
+.PHONY : Event/FieldEvent/CellChangeToWall/CellChangeToWall.s
+
+# target to generate assembly for a file
+Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.s
+.PHONY : Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp.s
+
+Event/FieldEvent/FieldEvent.obj: Event/FieldEvent/FieldEvent.cpp.obj
+.PHONY : Event/FieldEvent/FieldEvent.obj
+
+# target to build an object file
+Event/FieldEvent/FieldEvent.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/FieldEvent/FieldEvent.cpp.obj
+.PHONY : Event/FieldEvent/FieldEvent.cpp.obj
+
+Event/FieldEvent/FieldEvent.i: Event/FieldEvent/FieldEvent.cpp.i
+.PHONY : Event/FieldEvent/FieldEvent.i
+
+# target to preprocess a source file
+Event/FieldEvent/FieldEvent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/FieldEvent/FieldEvent.cpp.i
+.PHONY : Event/FieldEvent/FieldEvent.cpp.i
+
+Event/FieldEvent/FieldEvent.s: Event/FieldEvent/FieldEvent.cpp.s
+.PHONY : Event/FieldEvent/FieldEvent.s
+
+# target to generate assembly for a file
+Event/FieldEvent/FieldEvent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/FieldEvent/FieldEvent.cpp.s
+.PHONY : Event/FieldEvent/FieldEvent.cpp.s
+
+Event/PlayerEvent/HpDecrease/HpDecrease.obj: Event/PlayerEvent/HpDecrease/HpDecrease.cpp.obj
+.PHONY : Event/PlayerEvent/HpDecrease/HpDecrease.obj
+
+# target to build an object file
+Event/PlayerEvent/HpDecrease/HpDecrease.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/PlayerEvent/HpDecrease/HpDecrease.cpp.obj
+.PHONY : Event/PlayerEvent/HpDecrease/HpDecrease.cpp.obj
+
+Event/PlayerEvent/HpDecrease/HpDecrease.i: Event/PlayerEvent/HpDecrease/HpDecrease.cpp.i
+.PHONY : Event/PlayerEvent/HpDecrease/HpDecrease.i
+
+# target to preprocess a source file
+Event/PlayerEvent/HpDecrease/HpDecrease.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/PlayerEvent/HpDecrease/HpDecrease.cpp.i
+.PHONY : Event/PlayerEvent/HpDecrease/HpDecrease.cpp.i
+
+Event/PlayerEvent/HpDecrease/HpDecrease.s: Event/PlayerEvent/HpDecrease/HpDecrease.cpp.s
+.PHONY : Event/PlayerEvent/HpDecrease/HpDecrease.s
+
+# target to generate assembly for a file
+Event/PlayerEvent/HpDecrease/HpDecrease.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/PlayerEvent/HpDecrease/HpDecrease.cpp.s
+.PHONY : Event/PlayerEvent/HpDecrease/HpDecrease.cpp.s
+
+Event/PlayerEvent/HpIncrease/HpIncrease.obj: Event/PlayerEvent/HpIncrease/HpIncrease.cpp.obj
+.PHONY : Event/PlayerEvent/HpIncrease/HpIncrease.obj
+
+# target to build an object file
+Event/PlayerEvent/HpIncrease/HpIncrease.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/PlayerEvent/HpIncrease/HpIncrease.cpp.obj
+.PHONY : Event/PlayerEvent/HpIncrease/HpIncrease.cpp.obj
+
+Event/PlayerEvent/HpIncrease/HpIncrease.i: Event/PlayerEvent/HpIncrease/HpIncrease.cpp.i
+.PHONY : Event/PlayerEvent/HpIncrease/HpIncrease.i
+
+# target to preprocess a source file
+Event/PlayerEvent/HpIncrease/HpIncrease.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/PlayerEvent/HpIncrease/HpIncrease.cpp.i
+.PHONY : Event/PlayerEvent/HpIncrease/HpIncrease.cpp.i
+
+Event/PlayerEvent/HpIncrease/HpIncrease.s: Event/PlayerEvent/HpIncrease/HpIncrease.cpp.s
+.PHONY : Event/PlayerEvent/HpIncrease/HpIncrease.s
+
+# target to generate assembly for a file
+Event/PlayerEvent/HpIncrease/HpIncrease.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/PlayerEvent/HpIncrease/HpIncrease.cpp.s
+.PHONY : Event/PlayerEvent/HpIncrease/HpIncrease.cpp.s
+
+Event/PlayerEvent/PlayerEvent.obj: Event/PlayerEvent/PlayerEvent.cpp.obj
+.PHONY : Event/PlayerEvent/PlayerEvent.obj
+
+# target to build an object file
+Event/PlayerEvent/PlayerEvent.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.obj
+.PHONY : Event/PlayerEvent/PlayerEvent.cpp.obj
+
+Event/PlayerEvent/PlayerEvent.i: Event/PlayerEvent/PlayerEvent.cpp.i
+.PHONY : Event/PlayerEvent/PlayerEvent.i
+
+# target to preprocess a source file
+Event/PlayerEvent/PlayerEvent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.i
+.PHONY : Event/PlayerEvent/PlayerEvent.cpp.i
+
+Event/PlayerEvent/PlayerEvent.s: Event/PlayerEvent/PlayerEvent.cpp.s
+.PHONY : Event/PlayerEvent/PlayerEvent.s
+
+# target to generate assembly for a file
+Event/PlayerEvent/PlayerEvent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.s
+.PHONY : Event/PlayerEvent/PlayerEvent.cpp.s
+
+Event/PlayerEvent/StatsIncrease/StatsIncrease.obj: Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.obj
+.PHONY : Event/PlayerEvent/StatsIncrease/StatsIncrease.obj
+
+# target to build an object file
+Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.obj
+.PHONY : Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.obj
+
+Event/PlayerEvent/StatsIncrease/StatsIncrease.i: Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.i
+.PHONY : Event/PlayerEvent/StatsIncrease/StatsIncrease.i
+
+# target to preprocess a source file
+Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.i
+.PHONY : Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.i
+
+Event/PlayerEvent/StatsIncrease/StatsIncrease.s: Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.s
+.PHONY : Event/PlayerEvent/StatsIncrease/StatsIncrease.s
+
+# target to generate assembly for a file
+Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.s
+.PHONY : Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp.s
+
 Field/Field.obj: Field/Field.cpp.obj
 .PHONY : Field/Field.obj
 
@@ -341,6 +533,30 @@ help:
 	@echo ... Controller/Controller.obj
 	@echo ... Controller/Controller.i
 	@echo ... Controller/Controller.s
+	@echo ... Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.obj
+	@echo ... Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.i
+	@echo ... Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.s
+	@echo ... Event/FieldEvent/CellChangeToMine/CellChangeToMine.obj
+	@echo ... Event/FieldEvent/CellChangeToMine/CellChangeToMine.i
+	@echo ... Event/FieldEvent/CellChangeToMine/CellChangeToMine.s
+	@echo ... Event/FieldEvent/CellChangeToWall/CellChangeToWall.obj
+	@echo ... Event/FieldEvent/CellChangeToWall/CellChangeToWall.i
+	@echo ... Event/FieldEvent/CellChangeToWall/CellChangeToWall.s
+	@echo ... Event/FieldEvent/FieldEvent.obj
+	@echo ... Event/FieldEvent/FieldEvent.i
+	@echo ... Event/FieldEvent/FieldEvent.s
+	@echo ... Event/PlayerEvent/HpDecrease/HpDecrease.obj
+	@echo ... Event/PlayerEvent/HpDecrease/HpDecrease.i
+	@echo ... Event/PlayerEvent/HpDecrease/HpDecrease.s
+	@echo ... Event/PlayerEvent/HpIncrease/HpIncrease.obj
+	@echo ... Event/PlayerEvent/HpIncrease/HpIncrease.i
+	@echo ... Event/PlayerEvent/HpIncrease/HpIncrease.s
+	@echo ... Event/PlayerEvent/PlayerEvent.obj
+	@echo ... Event/PlayerEvent/PlayerEvent.i
+	@echo ... Event/PlayerEvent/PlayerEvent.s
+	@echo ... Event/PlayerEvent/StatsIncrease/StatsIncrease.obj
+	@echo ... Event/PlayerEvent/StatsIncrease/StatsIncrease.i
+	@echo ... Event/PlayerEvent/StatsIncrease/StatsIncrease.s
 	@echo ... Field/Field.obj
 	@echo ... Field/Field.i
 	@echo ... Field/Field.s

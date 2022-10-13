@@ -4,11 +4,11 @@
 
 #ifndef INC_2COURSEGAME_CELL_H
 #define INC_2COURSEGAME_CELL_H
-#include "../Event/Event.h"
+#include "../Event/IEvent.h"
 
 class Cell {
 public:
-    enum CellType {WALL, EMPTY, PLAYER, ENEMY, POWER, MEDICAL};
+    enum CellType {WALL, EMPTY, PLAYER, ENEMY, POWER, MEDICAL, MINE};
 
     explicit Cell(CellType type);
 
@@ -18,13 +18,12 @@ public:
 
     CellType getCellType();
 
-    // метод из пустого абстр. класса
-    void setNewEvent(Event *e) {
+    void setNewEvent(IEvent *e) {
         event = e;
     }
 
 private:
-    Event *event;
+    IEvent *event;
     CellType type;
 };
 
