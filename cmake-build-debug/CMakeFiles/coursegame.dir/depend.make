@@ -4,17 +4,25 @@
 CMakeFiles/coursegame.dir/Cell/Cell.cpp.obj: \
  ../Cell/Cell.cpp \
  ../Cell/Cell.h \
- ../Event/Event.h
+ ../Event/CellEvent/CellEvent.h \
+ ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Player/Player.h
 CMakeFiles/coursegame.dir/CellView/CellView.cpp.obj: \
  ../Cell/Cell.h \
  ../CellView/CellView.cpp \
  ../CellView/CellView.h \
- ../Event/Event.h
+ ../Event/CellEvent/CellEvent.h \
+ ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Player/Player.h
 CMakeFiles/coursegame.dir/CommandReader/CommandReader.cpp.obj: \
  ../Cell/Cell.h \
  ../CommandReader/CommandReader.cpp \
  ../CommandReader/CommandReader.h \
- ../Event/Event.h \
+ ../Event/CellEvent/CellEvent.h \
+ ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
  ../Field/Field.h \
  ../Player/Player.h
 CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj: \
@@ -22,33 +30,85 @@ CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj: \
  ../CommandReader/CommandReader.h \
  ../Controller/Controller.cpp \
  ../Controller/Controller.h \
- ../Event/Event.h \
+ ../Event/CellEvent/CellEvent.h \
+ ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
  ../Field/Field.h \
  ../FieldView/FieldView.h \
  ../Player/Player.h
+CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp.obj: \
+ ../Cell/Cell.h \
+ ../Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp \
+ ../Event/CellEvent/CellChangeToExit/CellChangeToExit.h \
+ ../Event/CellEvent/CellEvent.h \
+ ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Player/Player.h
+CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp.obj: \
+ ../Cell/Cell.h \
+ ../Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp \
+ ../Event/CellEvent/CellChangeToWall/CellChangeToWall.h \
+ ../Event/CellEvent/CellEvent.h \
+ ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Player/Player.h
+CMakeFiles/coursegame.dir/Event/CellEvent/CellEvent.cpp.obj: \
+ ../Cell/Cell.h \
+ ../Event/CellEvent/CellEvent.cpp \
+ ../Event/CellEvent/CellEvent.h \
+ ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Player/Player.h
+CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.obj: \
+ ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.cpp \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Player/Player.h
+CMakeFiles/coursegame.dir/Event/PlayerEvent/medicalEvent/MedicalEvent.cpp.obj: \
+ ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Event/PlayerEvent/medicalEvent/MedicalEvent.cpp \
+ ../Event/PlayerEvent/medicalEvent/MedicalEvent.h \
+ ../Player/Player.h
+CMakeFiles/coursegame.dir/Event/PlayerEvent/mineEvent/MineEvent.cpp.obj: \
+ ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Event/PlayerEvent/mineEvent/MineEvent.cpp \
+ ../Event/PlayerEvent/mineEvent/MineEvent.h \
+ ../Player/Player.h
 CMakeFiles/coursegame.dir/Field/Field.cpp.obj: \
  ../Cell/Cell.h \
- ../Event/Event.h \
+ ../Event/CellEvent/CellChangeToExit/CellChangeToExit.h \
+ ../Event/CellEvent/CellChangeToWall/CellChangeToWall.h \
+ ../Event/CellEvent/CellEvent.h \
+ ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Event/PlayerEvent/medicalEvent/MedicalEvent.h \
+ ../Event/PlayerEvent/mineEvent/MineEvent.h \
  ../Field/Field.cpp \
  ../Field/Field.h \
  ../Player/Player.h
 CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.obj: \
  ../Cell/Cell.h \
  ../CellView/CellView.h \
- ../Event/Event.h \
+ ../Event/CellEvent/CellEvent.h \
+ ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
  ../Field/Field.h \
  ../FieldView/FieldView.cpp \
  ../FieldView/FieldView.h \
  ../Player/Player.h
 CMakeFiles/coursegame.dir/Player/Player.cpp.obj: \
- ../Event/Event.h \
+ ../Event/IEvent.h \
  ../Player/Player.cpp \
  ../Player/Player.h
 CMakeFiles/coursegame.dir/main.cpp.obj: \
  ../Cell/Cell.h \
  ../CommandReader/CommandReader.h \
  ../Controller/Controller.h \
- ../Event/Event.h \
+ ../Event/CellEvent/CellEvent.h \
+ ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
  ../Field/Field.h \
  ../FieldView/FieldView.h \
  ../Player/Player.h \

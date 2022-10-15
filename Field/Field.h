@@ -14,6 +14,7 @@
 class Field{
 
 public:
+    bool medical = true, mine = true;
     Player *player{};
 
     explicit Field(std::pair<int, int> playerPos, int width, int height, Player *currentPlayer);
@@ -45,14 +46,20 @@ public:
         return playerPosition;
     }
 
-    void setPlayerPosition(std::pair<int, int> currentPos) {
-        playerPosition = currentPos;
-    }
+    void setPlayerPosition(std::pair<int, int> currentPos);
 
+    int getStepsCounter() const;
+
+    void increaseStepsCounter();
 
 
 private:
+    std::pair<int ,int> healPosition;
+    std::pair<int ,int> minePosition;
+    std::pair<int ,int> wallPosition;
+    std::pair<int ,int> exitPosition;
     std::pair<int, int> playerPosition;
+    int stepsCounter = 0;
     int fieldWidth{};
     int fieldHeight{};
     Cell **fieldVariable{};

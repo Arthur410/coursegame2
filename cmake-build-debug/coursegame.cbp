@@ -106,43 +106,25 @@
 		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Controller/Controller.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/FieldEvent/CellChangeToBuff/CellChangeToBuff.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellChangeToExit/CellChangeToExit.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/FieldEvent/CellChangeToMine/CellChangeToMine.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/FieldEvent/CellChangeToMine/CellChangeToMine.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellChangeToWall/CellChangeToWall.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/FieldEvent/CellChangeToWall/CellChangeToWall.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/FieldEvent/CellChangeToWall/CellChangeToWall.h">
-			<Option target="coursegame"/>
-		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/FieldEvent/FieldEvent.cpp">
-			<Option target="coursegame"/>
-		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/FieldEvent/FieldEvent.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.h">
 			<Option target="coursegame"/>
 		</Unit>
 		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h">
-			<Option target="coursegame"/>
-		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/HpDecrease/HpDecrease.cpp">
-			<Option target="coursegame"/>
-		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/HpDecrease/HpDecrease.h">
-			<Option target="coursegame"/>
-		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/HpIncrease/HpIncrease.cpp">
-			<Option target="coursegame"/>
-		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/HpIncrease/HpIncrease.h">
 			<Option target="coursegame"/>
 		</Unit>
 		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.cpp">
@@ -151,10 +133,16 @@
 		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/StatsIncrease/StatsIncrease.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/medicalEvent/MedicalEvent.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/StatsIncrease/StatsIncrease.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/medicalEvent/MedicalEvent.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/mineEvent/MineEvent.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/mineEvent/MineEvent.h">
 			<Option target="coursegame"/>
 		</Unit>
 		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Field/Field.cpp">

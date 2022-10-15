@@ -24,5 +24,7 @@ void CellView::cellView() {
         std::cout << "+";
     } else if (currentType == Cell::MINE) {
         std::cout << "x";
+    } else if (currentType == Cell::EXIT) {
+        std:: cout << "H";
     }
 }

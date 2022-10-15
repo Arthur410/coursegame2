@@ -3,7 +3,11 @@
 //
 
 #include "Field.h"
-#include <iostream>
+#include "../Event/PlayerEvent/medicalEvent/MedicalEvent.h"
+#include "../Event/PlayerEvent/mineEvent/MineEvent.h"
+#include "../Event/CellEvent/CellChangeToWall/CellChangeToWall.h"
+#include "../Event/CellEvent/CellChangeToExit/CellChangeToExit.h"
+#include <thread>
 using namespace std;
 
 // конструктор с параметрами
@@ -12,6 +16,17 @@ Field::Field(pair<int, int> playerPos, int width, int height, Player *currentPla
     player(currentPlayer),
     fieldWidth(width),
     fieldHeight(height) {
+    healPosition.first = 2;
+    healPosition.second = 2;
+
+    minePosition.first = 3;
+    minePosition.second = 2;
+
+    wallPosition.first = 5;
+    wallPosition.second = 5;
+
+    exitPosition.first = fieldWidth - 2;
+    exitPosition.second = fieldHeight - 2;
 
     fieldVariable = new Cell*[fieldWidth];
     for (int i = 0; i < fieldHeight; i++) {
@@ -77,18 +92,108 @@ Field& Field::operator=(Field&& filedObj) noexcept {
 
 void Field::fieldUpdate() {
     std::pair<int, int> playerPos = getPlayerPosition();
-    if (fieldVariable) {
-        for (int i = 0; i < fieldWidth; i++) {
-            for (int j = 0; j < fieldHeight; j++) {
-                if (i == 0 || i == fieldWidth - 1 || j == 0 || j == fieldHeight - 1) {
-                    fieldVariable[i][j].setCellContent(Cell::CellType::WALL);
-                }  else {
-                    fieldVariable[i][j].setCellContent(Cell::CellType::EMPTY);
-                }
+    if (playerPos == exitPosition) {
+        cout << "Congratulation! You've entered exit!";
+        std::chrono::milliseconds timespan(2000);
+        std::this_thread::sleep_for(timespan);
+        exit(0);
+    } else if (player->getHp() < 0) {
+        cout << "Oops! You've died\n"
+                "____________$$$$$$$\n"
+                "_________$$$$$$$$$$$$$\n"
+                "________$$$$$$$$$$$$$$$\n"
+                "_______$$$$$$$$$$$$$$$$$\n"
+                "_______$$$$$$$$$$$$$$$$$\n"
+                "_______$$$$$$$$$$$$$$$$$\n"
+                "_______$$$$$$$$$$$$$$$$$\n"
+                "_______$$$$$__$$$__$$$$$\n"
+                "_______$$$$$__$$$__$$$$$\n"
+                "________$$$$$$$$$$$$$$$\n"
+                "_________$$$$$$$$$$$$$\n"
+                "_________$$$$$$$$$$$$$\n"
+                "___________$$$$$$$$$\n"
+                "___________$$$$$$$$$\n"
+                "____$$$_____$$$$$$$_____$$$\n"
+                "____$$$$$____$$$$$____$$$$$\n"
+                "____$$$$$$$_________$$$$$$$\n"
+                "___$$$$$$$$$$$$_$$$$$$$$$$$$\n"
+                "___$$$$$$$$$$$$$$$$$$$$$$$$$\n"
+                "___________$$$$$$$$\n"
+                "_________$$$$$$$$$$$$$\n"
+                "_____$$$$$$$$$$_$$$$$$$$$$\n"
+                "___$$$$$$$$$$_____$$$$$$$$$$\n"
+                "___$$$$$$$$_________$$$$$$$$\n"
+                "___$$$$$$$___________$$$$$$$\n"
+                "______$$$_____________$$$";
+        std::chrono::milliseconds timespan(2000);
+        std::this_thread::sleep_for(timespan);
+        exit(0);
+    }
+    increaseStepsCounter();
+    PlayerEvent* currentPlayerEvent = fieldVariable[playerPos.first][playerPos.second].getPlayerEvent();
+
+    if (currentPlayerEvent) {
+        int eventId = currentPlayerEvent->getEventId();
+        currentPlayerEvent->changePlayerStat(player);
+        switch (eventId){
+            // Medical
+            case 0:
+                fieldVariable[healPosition.first][healPosition.second].setCellContent(Cell::Cell::EMPTY);
+                fieldVariable[healPosition.first][healPosition.second].setNewPlayerEvent(nullptr);
+                medical = false;
+                break;
+            // Mine
+            case 1:
+                fieldVariable[minePosition.first][minePosition.second].setCellContent(Cell::Cell::EMPTY);
+                fieldVariable[minePosition.first][minePosition.second].setNewPlayerEvent(nullptr);
+                mine = false;
+                break;
+            default:
+                cout <<"oh no cringe";
+        }
+    }
+    for (int i = 0; i < fieldWidth; i++) {
+        for (int j = 0; j < fieldHeight; j++) {
+            if (i == 0 || i == fieldWidth - 1 || j == 0 || j == fieldHeight - 1) {
+                fieldVariable[i][j].setCellContent(Cell::CellType::WALL);
+            } else {
+                fieldVariable[i][j].setCellContent(Cell::CellType::EMPTY);
             }
         }
-        fieldVariable[playerPos.first][playerPos.second].setCellContent(Cell::CellType::PLAYER);
     }
+
+    // Событие хилки
+    if (medical) {
+        PlayerEvent *healEvent = new MedicalEvent();
+        fieldVariable[healPosition.first][healPosition.second].setCellContent(Cell::Cell::MEDICAL);
+        fieldVariable[healPosition.first][healPosition.second].setNewPlayerEvent(healEvent);
+    }
+
+    // событие мины
+    if (mine) {
+        PlayerEvent *mineEvent = new MineEvent();
+        fieldVariable[minePosition.first][minePosition.second].setCellContent(Cell::Cell::MINE);
+        fieldVariable[minePosition.first][minePosition.second].setNewPlayerEvent(mineEvent);
+    }
+
+    // Рандомная стена (пока что не рандомная)
+    CellEvent *wallEvent = new CellChangeToWall();
+    fieldVariable[wallPosition.first][wallPosition.second].setNewCellEvent(wallEvent);
+    CellEvent *randomWall = fieldVariable[wallPosition.first][wallPosition.second].getCellEvent();
+    randomWall->changeCellType(&fieldVariable[wallPosition.first][wallPosition.second]);
+
+    // Рандомный выход (пока что не рандомный)
+    CellEvent *exitEvent = new CellChangeToExit();
+    fieldVariable[exitPosition.first][exitPosition.second].setNewCellEvent(exitEvent);
+    CellEvent *randomExit = fieldVariable[exitPosition.first][exitPosition.second].getCellEvent();
+    randomExit->changeCellType(&fieldVariable[exitPosition.first][exitPosition.second]);
+
+    if (getStepsCounter() % 100 == 0) {
+        medical = true;
+        mine = true;
+    }
+
+    fieldVariable[playerPos.first][playerPos.second].setCellContent(Cell::Cell::PLAYER);
 }
 
 
@@ -105,4 +210,16 @@ Cell Field::getCell(int x, int y) {
         return fieldVariable[x][y];
     }
     return Cell(Cell::CellType::EMPTY);
+}
+
+void Field::setPlayerPosition(std::pair<int, int> currentPos) {
+    playerPosition = currentPos;
+}
+
+int Field::getStepsCounter() const {
+    return stepsCounter;
+}
+
+void Field::increaseStepsCounter() {
+    stepsCounter += 1;
 }

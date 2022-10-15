@@ -4,10 +4,11 @@
 
 #ifndef COURSEGAME_CELLCHANGETOWALL_H
 #define COURSEGAME_CELLCHANGETOWALL_H
-#include "../FieldEvent.h"
+#include "../CellEvent.h"
 
-class CellChangeToWall: public FieldEvent {
-    void execute() override;
+class CellChangeToWall: public CellEvent {
+    int getEventId() override;
+    void changeCellType(Cell *cell) override;
 };
 
 

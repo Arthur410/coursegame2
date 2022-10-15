@@ -8,7 +8,7 @@
 
 class IEvent {
 public:
-    virtual void execute() = 0;
+    virtual int getEventId() = 0;
     virtual ~IEvent() = default;
 };
 

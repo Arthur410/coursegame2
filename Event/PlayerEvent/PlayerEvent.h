@@ -9,8 +9,8 @@
 
 class PlayerEvent: public IEvent {
 public:
-    void execute() override = 0;
-    Player *player;
+    int eventGroupId = 1;
+    virtual void changePlayerStat(Player *player) = 0;
 };
 
 

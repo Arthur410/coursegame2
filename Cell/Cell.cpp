@@ -14,6 +14,22 @@ void Cell::setCellContent(CellType newType) {
     type = newType;
 }
 
-Cell::CellType Cell::getCellType() {
+Cell::CellType Cell::getCellType() const {
     return type;
 };
+
+void Cell::setNewCellEvent(CellEvent *e) {
+    cellEvent = e;
+}
+
+void Cell::setNewPlayerEvent(PlayerEvent *e) {
+    playerEvent = e;
+}
+
+class PlayerEvent* Cell::getPlayerEvent() {
+    return playerEvent;
+}
+
+class CellEvent *Cell::getCellEvent() {
+    return cellEvent;
+}

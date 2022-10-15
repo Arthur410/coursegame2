@@ -5,10 +5,12 @@
 #ifndef INC_2COURSEGAME_CELL_H
 #define INC_2COURSEGAME_CELL_H
 #include "../Event/IEvent.h"
+#include "../Event/PlayerEvent/PlayerEvent.h"
+#include "../Event/CellEvent/CellEvent.h"
 
 class Cell {
 public:
-    enum CellType {WALL, EMPTY, PLAYER, ENEMY, POWER, MEDICAL, MINE};
+    enum CellType {WALL, EMPTY, PLAYER, ENEMY, POWER, MEDICAL, MINE, EXIT};
 
     explicit Cell(CellType type);
 
@@ -16,14 +18,19 @@ public:
 
     void setCellContent(CellType newType);
 
-    CellType getCellType();
+    CellType getCellType() const;
 
-    void setNewEvent(IEvent *e) {
-        event = e;
-    }
+    class PlayerEvent* getPlayerEvent();
+
+    class CellEvent* getCellEvent();
+
+    void setNewPlayerEvent(PlayerEvent *e);
+
+    void setNewCellEvent(CellEvent *e);
 
 private:
-    IEvent *event;
+    PlayerEvent *playerEvent;
+    CellEvent *cellEvent;
     CellType type;
 };
 
