@@ -9,8 +9,6 @@
 
 class CellEvent: public IEvent {
 public:
-    int eventGroupId = 0;
-    virtual void changeCellType(class Cell *cell) = 0;
 };
 
 

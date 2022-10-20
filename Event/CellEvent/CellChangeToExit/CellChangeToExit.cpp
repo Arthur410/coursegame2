@@ -4,10 +4,12 @@
 
 #include "CellChangeToExit.h"
 
-void CellChangeToExit::changeCellType(Cell *cell) {
+int CellChangeToExit::getEventId() {
+    return 2;
+}
+
+void CellChangeToExit::interact() {
     cell->setCellContent(Cell::EXIT);
 }
 
-int CellChangeToExit::getEventId() {
-    return 4;
-}
+CellChangeToExit::CellChangeToExit(Cell *instance): cell(instance) {};

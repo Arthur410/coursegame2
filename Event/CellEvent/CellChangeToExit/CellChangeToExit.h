@@ -8,8 +8,11 @@
 class CellEvent;
 
 class CellChangeToExit: public CellEvent {
+public:
+    Cell *cell;
+    explicit CellChangeToExit(Cell *instance);
+    void interact() override;
     int getEventId() override;
-    void changeCellType(Cell *cell) override;
 };
 
 

@@ -9,22 +9,20 @@ CellView::CellView(Cell instance) {
 }
 
 void CellView::cellView() {
-    Cell::CellType currentType = cell_instance.getCellType();
-    if (currentType == Cell::WALL) {
-        std::cout << "#";
-    } else if (currentType == Cell::EMPTY) {
-        std::cout << " ";
-    } else if (currentType == Cell::PLAYER) {
+    IEvent* currentEvent = cell_instance.getEvent();
+    if (cell_instance.isPlayerIn) {
         std::cout << "0";
-    } else if (currentType == Cell::ENEMY) {
-        std::cout << "E";
-    } else if (currentType == Cell::POWER) {
-        std::cout << "P";
-    } else if (currentType == Cell::MEDICAL) {
-        std::cout << "+";
-    } else if (currentType == Cell::MINE) {
-        std::cout << "x";
-    } else if (currentType == Cell::EXIT) {
-        std:: cout << "H";
+    } else {
+        if (!currentEvent) {
+            std::cout << " ";
+        } else if (currentEvent->getEventId() == 0) {
+            std::cout << "+";
+        } else if (currentEvent->getEventId() == 1) {
+            std::cout << "x";
+        } else if (currentEvent->getEventId() == 2) {
+            std::cout << "H";
+        } else if (currentEvent->getEventId() == 3) {
+            std::cout << "#";
+        }
     }
 }

@@ -8,9 +8,11 @@
 
 class MedicalEvent: public PlayerEvent {
 public:
-    int eventId = 0;
+    Player *player;
+    Cell *cell;
+    explicit MedicalEvent(Player *player, Cell *cell);
+    void interact() override;
     int getEventId() override;
-    void changePlayerStat(Player *player) override;
 };
 
 

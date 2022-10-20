@@ -14,11 +14,10 @@
 class Field{
 
 public:
-    bool medical = true, mine = true;
+    bool medicalFlag = true, mineFlag = true, exitFlag = false, wallFlag = true;
     Player *player{};
 
     explicit Field(std::pair<int, int> playerPos, int width, int height, Player *currentPlayer);
-    // Написать конструктор перемещения и оператор, копирования и оператор, удаления, по умолчанию (без пар.)
 
     Field();
 
@@ -48,9 +47,9 @@ public:
 
     void setPlayerPosition(std::pair<int, int> currentPos);
 
-    int getStepsCounter() const;
+    int getFieldTicks() const;
 
-    void increaseStepsCounter();
+    void increaseFieldTick();
 
 
 private:
@@ -59,7 +58,7 @@ private:
     std::pair<int ,int> wallPosition;
     std::pair<int ,int> exitPosition;
     std::pair<int, int> playerPosition;
-    int stepsCounter = 0;
+    int tickCounter = 0;
     int fieldWidth{};
     int fieldHeight{};
     Cell **fieldVariable{};

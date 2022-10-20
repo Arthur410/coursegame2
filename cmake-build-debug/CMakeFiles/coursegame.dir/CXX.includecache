@@ -6,23 +6,9 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.cpp
-Cell.h
-C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
-
 C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
 ../Event/IEvent.h
 C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
-../Event/PlayerEvent/PlayerEvent.h
-C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.h
-../Event/CellEvent/CellEvent.h
-C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.h
-
-C:/Users/arthu/CLionProjects/coursegame/CellView/CellView.cpp
-CellView.h
-C:/Users/arthu/CLionProjects/coursegame/CellView/CellView.h
-../Cell/Cell.h
-C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
 
 C:/Users/arthu/CLionProjects/coursegame/CellView/CellView.h
 iostream
@@ -58,26 +44,12 @@ C:/Users/arthu/CLionProjects/coursegame/FieldView/FieldView.h
 ../CommandReader/CommandReader.h
 C:/Users/arthu/CLionProjects/coursegame/CommandReader/CommandReader.h
 
-C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp
-CellChangeToExit.h
-C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellChangeToExit/CellChangeToExit.h
-
 C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellChangeToExit/CellChangeToExit.h
 ../CellEvent.h
 C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.h
 
-C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp
-iostream
--
-CellChangeToWall.h
-C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellChangeToWall/CellChangeToWall.h
-
 C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellChangeToWall/CellChangeToWall.h
 ../CellEvent.h
-C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.h
-
-C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.cpp
-CellEvent.h
 C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.h
 
 C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.h
@@ -87,30 +59,18 @@ C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
 C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
 
 C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
-../Player/Player.h
-C:/Users/arthu/CLionProjects/coursegame/Player/Player.h
-
-C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.cpp
-PlayerEvent.h
-C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.h
 
 C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.h
 ../../Player/Player.h
 C:/Users/arthu/CLionProjects/coursegame/Player/Player.h
+../../Cell/Cell.h
+C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
 ../IEvent.h
 C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
-
-C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/medicalEvent/MedicalEvent.cpp
-MedicalEvent.h
-C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/medicalEvent/MedicalEvent.h
 
 C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/medicalEvent/MedicalEvent.h
 ../PlayerEvent.h
 C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.h
-
-C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/mineEvent/MineEvent.cpp
-MineEvent.h
-C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/mineEvent/MineEvent.h
 
 C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/mineEvent/MineEvent.h
 ../PlayerEvent.h

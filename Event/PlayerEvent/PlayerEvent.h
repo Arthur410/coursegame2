@@ -5,12 +5,11 @@
 #ifndef COURSEGAME_PLAYEREVENT_H
 #define COURSEGAME_PLAYEREVENT_H
 #include "../../Player/Player.h"
+#include "../../Cell/Cell.h"
 #include "../IEvent.h"
 
 class PlayerEvent: public IEvent {
 public:
-    int eventGroupId = 1;
-    virtual void changePlayerStat(Player *player) = 0;
 };
 
 

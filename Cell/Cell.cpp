@@ -18,18 +18,10 @@ Cell::CellType Cell::getCellType() const {
     return type;
 };
 
-void Cell::setNewCellEvent(CellEvent *e) {
-    cellEvent = e;
+void Cell::setNewEvent(IEvent *e) {
+    event = e;
 }
 
-void Cell::setNewPlayerEvent(PlayerEvent *e) {
-    playerEvent = e;
-}
-
-class PlayerEvent* Cell::getPlayerEvent() {
-    return playerEvent;
-}
-
-class CellEvent *Cell::getCellEvent() {
-    return cellEvent;
+IEvent* Cell::getEvent() {
+    return event;
 }

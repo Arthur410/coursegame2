@@ -6,11 +6,14 @@
 #define COURSEGAME_MINEEVENT_H
 #include "../PlayerEvent.h"
 
+
 class MineEvent: public PlayerEvent {
 public:
-    int eventId = 1;
+    Player *player;
+    Cell *cell;
+    explicit MineEvent(Player *playerInstance, Cell *cellInstance);
+    void interact() override;
     int getEventId() override;
-    void changePlayerStat(Player *player) override;
 };
 
 

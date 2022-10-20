@@ -4,25 +4,17 @@
 CMakeFiles/coursegame.dir/Cell/Cell.cpp.obj
  C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.cpp
  C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
- C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
- C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.h
- C:/Users/arthu/CLionProjects/coursegame/Player/Player.h
 CMakeFiles/coursegame.dir/CellView/CellView.cpp.obj
  C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
  C:/Users/arthu/CLionProjects/coursegame/CellView/CellView.cpp
  C:/Users/arthu/CLionProjects/coursegame/CellView/CellView.h
- C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
- C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.h
- C:/Users/arthu/CLionProjects/coursegame/Player/Player.h
 CMakeFiles/coursegame.dir/CommandReader/CommandReader.cpp.obj
  C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
  C:/Users/arthu/CLionProjects/coursegame/CommandReader/CommandReader.cpp
  C:/Users/arthu/CLionProjects/coursegame/CommandReader/CommandReader.h
- C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
- C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Field/Field.h
  C:/Users/arthu/CLionProjects/coursegame/Player/Player.h
 CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj
@@ -30,9 +22,7 @@ CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj
  C:/Users/arthu/CLionProjects/coursegame/CommandReader/CommandReader.h
  C:/Users/arthu/CLionProjects/coursegame/Controller/Controller.cpp
  C:/Users/arthu/CLionProjects/coursegame/Controller/Controller.h
- C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
- C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Field/Field.h
  C:/Users/arthu/CLionProjects/coursegame/FieldView/FieldView.h
  C:/Users/arthu/CLionProjects/coursegame/Player/Player.h
@@ -42,35 +32,32 @@ CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp.
  C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellChangeToExit/CellChangeToExit.h
  C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
- C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.h
- C:/Users/arthu/CLionProjects/coursegame/Player/Player.h
 CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp.obj
  C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
  C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp
  C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellChangeToWall/CellChangeToWall.h
  C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
- C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.h
- C:/Users/arthu/CLionProjects/coursegame/Player/Player.h
 CMakeFiles/coursegame.dir/Event/CellEvent/CellEvent.cpp.obj
  C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
  C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.cpp
  C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
- C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.h
- C:/Users/arthu/CLionProjects/coursegame/Player/Player.h
 CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.obj
+ C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
  C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.cpp
  C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Player/Player.h
 CMakeFiles/coursegame.dir/Event/PlayerEvent/medicalEvent/MedicalEvent.cpp.obj
+ C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
  C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/medicalEvent/MedicalEvent.cpp
  C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/medicalEvent/MedicalEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Player/Player.h
 CMakeFiles/coursegame.dir/Event/PlayerEvent/mineEvent/MineEvent.cpp.obj
+ C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
  C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/mineEvent/MineEvent.cpp
@@ -91,9 +78,7 @@ CMakeFiles/coursegame.dir/Field/Field.cpp.obj
 CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.obj
  C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
  C:/Users/arthu/CLionProjects/coursegame/CellView/CellView.h
- C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
- C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Field/Field.h
  C:/Users/arthu/CLionProjects/coursegame/FieldView/FieldView.cpp
  C:/Users/arthu/CLionProjects/coursegame/FieldView/FieldView.h
@@ -106,9 +91,7 @@ CMakeFiles/coursegame.dir/main.cpp.obj
  C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
  C:/Users/arthu/CLionProjects/coursegame/CommandReader/CommandReader.h
  C:/Users/arthu/CLionProjects/coursegame/Controller/Controller.h
- C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
- C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Field/Field.h
  C:/Users/arthu/CLionProjects/coursegame/FieldView/FieldView.h
  C:/Users/arthu/CLionProjects/coursegame/Player/Player.h

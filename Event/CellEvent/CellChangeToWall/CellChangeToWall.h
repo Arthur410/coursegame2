@@ -7,8 +7,11 @@
 #include "../CellEvent.h"
 
 class CellChangeToWall: public CellEvent {
+public:
+    Cell *cell;
+    explicit CellChangeToWall(Cell *instance);
+    void interact() override;
     int getEventId() override;
-    void changeCellType(Cell *cell) override;
 };
 
 
