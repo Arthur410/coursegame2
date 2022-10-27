@@ -13,7 +13,6 @@ public:
     Cell *cell;
     explicit MineEvent(Player *playerInstance, Cell *cellInstance);
     void interact() override;
-    int getEventId() override;
 };
 
 

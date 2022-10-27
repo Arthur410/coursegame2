@@ -14,7 +14,7 @@
 class Field{
 
 public:
-    bool medicalFlag = true, mineFlag = true, exitFlag = false, wallFlag = true;
+    bool medicalFlag = true, mineFlag = true, exitFlag = false, wallFlag = false;
     Player *player{};
 
     explicit Field(std::pair<int, int> playerPos, int width, int height, Player *currentPlayer);

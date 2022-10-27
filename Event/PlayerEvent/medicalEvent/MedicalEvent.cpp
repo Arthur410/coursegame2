@@ -3,16 +3,14 @@
 //
 #include "MedicalEvent.h"
 
-int MedicalEvent::getEventId() {
-    return 0;
-}
-
 void MedicalEvent::interact() {
-    if (player->getHp() < 100) {
-        cell->setCellContent(Cell::MEDICAL);
+    if (cell->isPlayerIn && player->getHp() < 100) {
         player->setHp(player->getHp() + 1);
+    } else {
+        cell->setCellContent(Cell::MEDICAL);
     }
 }
+
 
 MedicalEvent::MedicalEvent(Player *playerInstance, Cell *cellInstance): player(playerInstance), cell(cellInstance) {};
 

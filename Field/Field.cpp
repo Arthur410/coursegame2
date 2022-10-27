@@ -107,38 +107,15 @@ void Field::fieldUpdate() {
     }
 
     increaseFieldTick();
-    IEvent* currentEvent = fieldVariable[playerPos.first][playerPos.second].getEvent();
 
     for (int i = 0; i < fieldWidth; i++) {
         for (int j = 0; j < fieldHeight; j++) {
             if (i == 0 || i == fieldWidth - 1 || j == 0 || j == fieldHeight - 1) {
-                fieldVariable[i][j].setNewEvent(new CellChangeToWall(reinterpret_cast<Cell *>(&fieldVariable[wallPosition.first][wallPosition.second])));
+                fieldVariable[i][j].setNewEvent(new CellChangeToWall(&fieldVariable[i][j]));
             } else {
                 fieldVariable[i][j].setNewEvent(nullptr);
             }
             fieldVariable[i][j].isPlayerIn = false;
-        }
-    }
-
-    if (currentEvent) {
-        currentEvent->interact();
-        switch (currentEvent->getEventId()) {
-            case 0:
-                fieldVariable[healPosition.first][healPosition.second].setNewEvent(nullptr);
-                medicalFlag = false;
-                break;
-            case 1:
-                fieldVariable[minePosition.first][minePosition.second].setNewEvent(nullptr);
-                mineFlag = false;
-                break;
-            case 2:
-                fieldVariable[exitPosition.first][exitPosition.second].setNewEvent(nullptr);
-                exitFlag = false;
-                break;
-            case 3:
-                fieldVariable[wallPosition.first][wallPosition.second].setNewEvent(nullptr);
-                wallFlag = false;
-                break;
         }
     }
 
@@ -151,23 +128,52 @@ void Field::fieldUpdate() {
         exitFlag = true;
     }
 
+    if (wallFlag) {
+        fieldVariable[wallPosition.first][wallPosition.second].setNewEvent(new CellChangeToWall(&fieldVariable[wallPosition.first][wallPosition.second]));
+    }
+
     if (medicalFlag) {
-        fieldVariable[healPosition.first][healPosition.second].setNewEvent(new MedicalEvent(player, reinterpret_cast<Cell *>(&fieldVariable[healPosition.first][healPosition.second])));
+        fieldVariable[healPosition.first][healPosition.second].setNewEvent(new MedicalEvent(player, &fieldVariable[healPosition.first][healPosition.second]));
     }
 
     if (mineFlag) {
-        fieldVariable[minePosition.first][minePosition.second].setNewEvent(new MineEvent(player, reinterpret_cast<Cell *>(&fieldVariable[minePosition.first][minePosition.second])));
+        fieldVariable[minePosition.first][minePosition.second].setNewEvent(new MineEvent(player, &fieldVariable[minePosition.first][minePosition.second]));
     }
 
     if (exitFlag) {
-        fieldVariable[exitPosition.first][exitPosition.second].setNewEvent(new CellChangeToExit(reinterpret_cast<Cell *>(&fieldVariable[exitPosition.first][exitPosition.second])));
+        fieldVariable[exitPosition.first][exitPosition.second].setNewEvent(new CellChangeToExit(&fieldVariable[exitPosition.first][exitPosition.second]));
     }
 
-    if (wallFlag) {
-        fieldVariable[wallPosition.first][wallPosition.second].setNewEvent(new CellChangeToWall(reinterpret_cast<Cell *>(&fieldVariable[wallPosition.first][wallPosition.second])));
-    }
 
     fieldVariable[playerPos.first][playerPos.second].isPlayerIn = true;
+    for (int i = 0; i < fieldWidth; i++) {
+        for (int j = 0; j < fieldHeight; j++) {
+            if (fieldVariable[i][j].getEvent()) {
+                if (playerPos.first == i && playerPos.second == j) {
+                    Cell cellWithPlayer = fieldVariable[i][j];
+                    IEvent* currentEvent = cellWithPlayer.getEvent();
+                    if (currentEvent) {
+                        currentEvent->interact();
+                        if (cellWithPlayer.getCellType() == Cell::MEDICAL) {
+                            cellWithPlayer.setNewEvent(nullptr);
+                            medicalFlag = false;
+                        } else if (cellWithPlayer.getCellType() == Cell::MINE) {
+                            cellWithPlayer.setNewEvent(nullptr);
+                            mineFlag = false;
+                        } else if (cellWithPlayer.getCellType() == Cell::EXIT) {
+                            cellWithPlayer.setNewEvent(nullptr);
+                            exitFlag = false;
+                        } else if (cellWithPlayer.getCellType() == Cell::WALL) {
+                            cellWithPlayer.setNewEvent(nullptr);
+                            wallFlag = false;
+                        }
+                    }
+                } else {
+                    fieldVariable[i][j].getEvent()->interact();
+                }
+            }
+        }
+    }
 }
 
 

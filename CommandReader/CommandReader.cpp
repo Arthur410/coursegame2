@@ -68,7 +68,7 @@ void CommandReader::move(Field *field_instance, std::pair<int, int> curPos, Dire
         }
     }
     if (field_instance->getCell(newPos.first, newPos.second).getEvent()) {
-        if (field_instance->getCell(newPos.first, newPos.second).getEvent()->getEventId() != 3) {
+        if (field_instance->getCell(newPos.first, newPos.second).getCellType() != Cell::WALL) {
             field_instance->setPlayerPosition(newPos);
         }
     } else {

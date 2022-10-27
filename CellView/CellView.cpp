@@ -15,13 +15,13 @@ void CellView::cellView() {
     } else {
         if (!currentEvent) {
             std::cout << " ";
-        } else if (currentEvent->getEventId() == 0) {
+        } else if (cell_instance.getCellType() == Cell::MEDICAL) {
             std::cout << "+";
-        } else if (currentEvent->getEventId() == 1) {
+        } else if (cell_instance.getCellType() == Cell::MINE) {
             std::cout << "x";
-        } else if (currentEvent->getEventId() == 2) {
+        } else if (cell_instance.getCellType() == Cell::EXIT) {
             std::cout << "H";
-        } else if (currentEvent->getEventId() == 3) {
+        } else if (cell_instance.getCellType() == Cell::WALL) {
             std::cout << "#";
         }
     }

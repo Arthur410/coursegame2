@@ -3,13 +3,12 @@
 //
 #include "MineEvent.h"
 
-int MineEvent::getEventId() {
-    return 1;
-}
-
 void MineEvent::interact() {
-    cell->setCellContent(Cell::MINE);
-    player->setHp(player->getHp() - 1);
+    if (cell->isPlayerIn) {
+        player->setHp(player->getHp() - 1);
+    } else {
+        cell->setCellContent(Cell::MINE);
+    }
 }
 
 MineEvent::MineEvent(Player *playerInstance, Cell *cellInstance): player(playerInstance), cell(cellInstance) {};

@@ -9,9 +9,8 @@
 class CellChangeToWall: public CellEvent {
 public:
     Cell *cell;
-    explicit CellChangeToWall(Cell *instance);
+    explicit CellChangeToWall(Cell *cellInstance);
     void interact() override;
-    int getEventId() override;
 };
 
 

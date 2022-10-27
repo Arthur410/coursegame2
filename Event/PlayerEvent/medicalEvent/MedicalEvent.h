@@ -10,9 +10,8 @@ class MedicalEvent: public PlayerEvent {
 public:
     Player *player;
     Cell *cell;
-    explicit MedicalEvent(Player *player, Cell *cell);
+    explicit MedicalEvent(Player *playerInstance, Cell *cellInstance);
     void interact() override;
-    int getEventId() override;
 };
 
 

@@ -8,7 +8,6 @@
 class IEvent {
 public:
     virtual void interact() = 0;
-    virtual int getEventId() = 0;
     virtual ~IEvent() = default;
 };
 
