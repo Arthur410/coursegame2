@@ -38,6 +38,8 @@ CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp.
  C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellChangeToWall/CellChangeToWall.h
  C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
+ C:/Users/arthu/CLionProjects/coursegame/Field/Field.h
+ C:/Users/arthu/CLionProjects/coursegame/Player/Player.h
 CMakeFiles/coursegame.dir/Event/CellEvent/CellEvent.cpp.obj
  C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
  C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.cpp

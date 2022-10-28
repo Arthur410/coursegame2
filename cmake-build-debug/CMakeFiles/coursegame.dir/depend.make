@@ -37,7 +37,9 @@ CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp.
  ../Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp \
  ../Event/CellEvent/CellChangeToWall/CellChangeToWall.h \
  ../Event/CellEvent/CellEvent.h \
- ../Event/IEvent.h
+ ../Event/IEvent.h \
+ ../Field/Field.h \
+ ../Player/Player.h
 CMakeFiles/coursegame.dir/Event/CellEvent/CellEvent.cpp.obj: \
  ../Cell/Cell.h \
  ../Event/CellEvent/CellEvent.cpp \

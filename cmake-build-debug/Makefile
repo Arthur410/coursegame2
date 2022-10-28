@@ -416,6 +416,222 @@ FieldView/FieldView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.s
 .PHONY : FieldView/FieldView.cpp.s
 
+Logs/LogType/ErrorLog/ErrorLog.obj: Logs/LogType/ErrorLog/ErrorLog.cpp.obj
+.PHONY : Logs/LogType/ErrorLog/ErrorLog.obj
+
+# target to build an object file
+Logs/LogType/ErrorLog/ErrorLog.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LogType/ErrorLog/ErrorLog.cpp.obj
+.PHONY : Logs/LogType/ErrorLog/ErrorLog.cpp.obj
+
+Logs/LogType/ErrorLog/ErrorLog.i: Logs/LogType/ErrorLog/ErrorLog.cpp.i
+.PHONY : Logs/LogType/ErrorLog/ErrorLog.i
+
+# target to preprocess a source file
+Logs/LogType/ErrorLog/ErrorLog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LogType/ErrorLog/ErrorLog.cpp.i
+.PHONY : Logs/LogType/ErrorLog/ErrorLog.cpp.i
+
+Logs/LogType/ErrorLog/ErrorLog.s: Logs/LogType/ErrorLog/ErrorLog.cpp.s
+.PHONY : Logs/LogType/ErrorLog/ErrorLog.s
+
+# target to generate assembly for a file
+Logs/LogType/ErrorLog/ErrorLog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LogType/ErrorLog/ErrorLog.cpp.s
+.PHONY : Logs/LogType/ErrorLog/ErrorLog.cpp.s
+
+Logs/LogType/GameLog/GameLog.obj: Logs/LogType/GameLog/GameLog.cpp.obj
+.PHONY : Logs/LogType/GameLog/GameLog.obj
+
+# target to build an object file
+Logs/LogType/GameLog/GameLog.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LogType/GameLog/GameLog.cpp.obj
+.PHONY : Logs/LogType/GameLog/GameLog.cpp.obj
+
+Logs/LogType/GameLog/GameLog.i: Logs/LogType/GameLog/GameLog.cpp.i
+.PHONY : Logs/LogType/GameLog/GameLog.i
+
+# target to preprocess a source file
+Logs/LogType/GameLog/GameLog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LogType/GameLog/GameLog.cpp.i
+.PHONY : Logs/LogType/GameLog/GameLog.cpp.i
+
+Logs/LogType/GameLog/GameLog.s: Logs/LogType/GameLog/GameLog.cpp.s
+.PHONY : Logs/LogType/GameLog/GameLog.s
+
+# target to generate assembly for a file
+Logs/LogType/GameLog/GameLog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LogType/GameLog/GameLog.cpp.s
+.PHONY : Logs/LogType/GameLog/GameLog.cpp.s
+
+Logs/LogType/InfoLog/InfoLog.obj: Logs/LogType/InfoLog/InfoLog.cpp.obj
+.PHONY : Logs/LogType/InfoLog/InfoLog.obj
+
+# target to build an object file
+Logs/LogType/InfoLog/InfoLog.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LogType/InfoLog/InfoLog.cpp.obj
+.PHONY : Logs/LogType/InfoLog/InfoLog.cpp.obj
+
+Logs/LogType/InfoLog/InfoLog.i: Logs/LogType/InfoLog/InfoLog.cpp.i
+.PHONY : Logs/LogType/InfoLog/InfoLog.i
+
+# target to preprocess a source file
+Logs/LogType/InfoLog/InfoLog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LogType/InfoLog/InfoLog.cpp.i
+.PHONY : Logs/LogType/InfoLog/InfoLog.cpp.i
+
+Logs/LogType/InfoLog/InfoLog.s: Logs/LogType/InfoLog/InfoLog.cpp.s
+.PHONY : Logs/LogType/InfoLog/InfoLog.s
+
+# target to generate assembly for a file
+Logs/LogType/InfoLog/InfoLog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LogType/InfoLog/InfoLog.cpp.s
+.PHONY : Logs/LogType/InfoLog/InfoLog.cpp.s
+
+Logs/Logger/ConsoleLog/ConsoleLog.obj: Logs/Logger/ConsoleLog/ConsoleLog.cpp.obj
+.PHONY : Logs/Logger/ConsoleLog/ConsoleLog.obj
+
+# target to build an object file
+Logs/Logger/ConsoleLog/ConsoleLog.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.obj
+.PHONY : Logs/Logger/ConsoleLog/ConsoleLog.cpp.obj
+
+Logs/Logger/ConsoleLog/ConsoleLog.i: Logs/Logger/ConsoleLog/ConsoleLog.cpp.i
+.PHONY : Logs/Logger/ConsoleLog/ConsoleLog.i
+
+# target to preprocess a source file
+Logs/Logger/ConsoleLog/ConsoleLog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.i
+.PHONY : Logs/Logger/ConsoleLog/ConsoleLog.cpp.i
+
+Logs/Logger/ConsoleLog/ConsoleLog.s: Logs/Logger/ConsoleLog/ConsoleLog.cpp.s
+.PHONY : Logs/Logger/ConsoleLog/ConsoleLog.s
+
+# target to generate assembly for a file
+Logs/Logger/ConsoleLog/ConsoleLog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.s
+.PHONY : Logs/Logger/ConsoleLog/ConsoleLog.cpp.s
+
+Logs/Logger/FileLog/FileLog.obj: Logs/Logger/FileLog/FileLog.cpp.obj
+.PHONY : Logs/Logger/FileLog/FileLog.obj
+
+# target to build an object file
+Logs/Logger/FileLog/FileLog.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.obj
+.PHONY : Logs/Logger/FileLog/FileLog.cpp.obj
+
+Logs/Logger/FileLog/FileLog.i: Logs/Logger/FileLog/FileLog.cpp.i
+.PHONY : Logs/Logger/FileLog/FileLog.i
+
+# target to preprocess a source file
+Logs/Logger/FileLog/FileLog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.i
+.PHONY : Logs/Logger/FileLog/FileLog.cpp.i
+
+Logs/Logger/FileLog/FileLog.s: Logs/Logger/FileLog/FileLog.cpp.s
+.PHONY : Logs/Logger/FileLog/FileLog.s
+
+# target to generate assembly for a file
+Logs/Logger/FileLog/FileLog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.s
+.PHONY : Logs/Logger/FileLog/FileLog.cpp.s
+
+Logs/LoggerPool/LoggerPool.obj: Logs/LoggerPool/LoggerPool.cpp.obj
+.PHONY : Logs/LoggerPool/LoggerPool.obj
+
+# target to build an object file
+Logs/LoggerPool/LoggerPool.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.obj
+.PHONY : Logs/LoggerPool/LoggerPool.cpp.obj
+
+Logs/LoggerPool/LoggerPool.i: Logs/LoggerPool/LoggerPool.cpp.i
+.PHONY : Logs/LoggerPool/LoggerPool.i
+
+# target to preprocess a source file
+Logs/LoggerPool/LoggerPool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.i
+.PHONY : Logs/LoggerPool/LoggerPool.cpp.i
+
+Logs/LoggerPool/LoggerPool.s: Logs/LoggerPool/LoggerPool.cpp.s
+.PHONY : Logs/LoggerPool/LoggerPool.s
+
+# target to generate assembly for a file
+Logs/LoggerPool/LoggerPool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.s
+.PHONY : Logs/LoggerPool/LoggerPool.cpp.s
+
+Logs/Message/ErrorMessage/ErrorMessage.obj: Logs/Message/ErrorMessage/ErrorMessage.cpp.obj
+.PHONY : Logs/Message/ErrorMessage/ErrorMessage.obj
+
+# target to build an object file
+Logs/Message/ErrorMessage/ErrorMessage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.obj
+.PHONY : Logs/Message/ErrorMessage/ErrorMessage.cpp.obj
+
+Logs/Message/ErrorMessage/ErrorMessage.i: Logs/Message/ErrorMessage/ErrorMessage.cpp.i
+.PHONY : Logs/Message/ErrorMessage/ErrorMessage.i
+
+# target to preprocess a source file
+Logs/Message/ErrorMessage/ErrorMessage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.i
+.PHONY : Logs/Message/ErrorMessage/ErrorMessage.cpp.i
+
+Logs/Message/ErrorMessage/ErrorMessage.s: Logs/Message/ErrorMessage/ErrorMessage.cpp.s
+.PHONY : Logs/Message/ErrorMessage/ErrorMessage.s
+
+# target to generate assembly for a file
+Logs/Message/ErrorMessage/ErrorMessage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.s
+.PHONY : Logs/Message/ErrorMessage/ErrorMessage.cpp.s
+
+Logs/Message/GameMessage/GameMessage.obj: Logs/Message/GameMessage/GameMessage.cpp.obj
+.PHONY : Logs/Message/GameMessage/GameMessage.obj
+
+# target to build an object file
+Logs/Message/GameMessage/GameMessage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.obj
+.PHONY : Logs/Message/GameMessage/GameMessage.cpp.obj
+
+Logs/Message/GameMessage/GameMessage.i: Logs/Message/GameMessage/GameMessage.cpp.i
+.PHONY : Logs/Message/GameMessage/GameMessage.i
+
+# target to preprocess a source file
+Logs/Message/GameMessage/GameMessage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.i
+.PHONY : Logs/Message/GameMessage/GameMessage.cpp.i
+
+Logs/Message/GameMessage/GameMessage.s: Logs/Message/GameMessage/GameMessage.cpp.s
+.PHONY : Logs/Message/GameMessage/GameMessage.s
+
+# target to generate assembly for a file
+Logs/Message/GameMessage/GameMessage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.s
+.PHONY : Logs/Message/GameMessage/GameMessage.cpp.s
+
+Logs/Message/InfoMessage/InfoMessage.obj: Logs/Message/InfoMessage/InfoMessage.cpp.obj
+.PHONY : Logs/Message/InfoMessage/InfoMessage.obj
+
+# target to build an object file
+Logs/Message/InfoMessage/InfoMessage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.obj
+.PHONY : Logs/Message/InfoMessage/InfoMessage.cpp.obj
+
+Logs/Message/InfoMessage/InfoMessage.i: Logs/Message/InfoMessage/InfoMessage.cpp.i
+.PHONY : Logs/Message/InfoMessage/InfoMessage.i
+
+# target to preprocess a source file
+Logs/Message/InfoMessage/InfoMessage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.i
+.PHONY : Logs/Message/InfoMessage/InfoMessage.cpp.i
+
+Logs/Message/InfoMessage/InfoMessage.s: Logs/Message/InfoMessage/InfoMessage.cpp.s
+.PHONY : Logs/Message/InfoMessage/InfoMessage.s
+
+# target to generate assembly for a file
+Logs/Message/InfoMessage/InfoMessage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.s
+.PHONY : Logs/Message/InfoMessage/InfoMessage.cpp.s
+
 Player/Player.obj: Player/Player.cpp.obj
 .PHONY : Player/Player.obj
 
@@ -509,6 +725,33 @@ help:
 	@echo ... FieldView/FieldView.obj
 	@echo ... FieldView/FieldView.i
 	@echo ... FieldView/FieldView.s
+	@echo ... Logs/LogType/ErrorLog/ErrorLog.obj
+	@echo ... Logs/LogType/ErrorLog/ErrorLog.i
+	@echo ... Logs/LogType/ErrorLog/ErrorLog.s
+	@echo ... Logs/LogType/GameLog/GameLog.obj
+	@echo ... Logs/LogType/GameLog/GameLog.i
+	@echo ... Logs/LogType/GameLog/GameLog.s
+	@echo ... Logs/LogType/InfoLog/InfoLog.obj
+	@echo ... Logs/LogType/InfoLog/InfoLog.i
+	@echo ... Logs/LogType/InfoLog/InfoLog.s
+	@echo ... Logs/Logger/ConsoleLog/ConsoleLog.obj
+	@echo ... Logs/Logger/ConsoleLog/ConsoleLog.i
+	@echo ... Logs/Logger/ConsoleLog/ConsoleLog.s
+	@echo ... Logs/Logger/FileLog/FileLog.obj
+	@echo ... Logs/Logger/FileLog/FileLog.i
+	@echo ... Logs/Logger/FileLog/FileLog.s
+	@echo ... Logs/LoggerPool/LoggerPool.obj
+	@echo ... Logs/LoggerPool/LoggerPool.i
+	@echo ... Logs/LoggerPool/LoggerPool.s
+	@echo ... Logs/Message/ErrorMessage/ErrorMessage.obj
+	@echo ... Logs/Message/ErrorMessage/ErrorMessage.i
+	@echo ... Logs/Message/ErrorMessage/ErrorMessage.s
+	@echo ... Logs/Message/GameMessage/GameMessage.obj
+	@echo ... Logs/Message/GameMessage/GameMessage.i
+	@echo ... Logs/Message/GameMessage/GameMessage.s
+	@echo ... Logs/Message/InfoMessage/InfoMessage.obj
+	@echo ... Logs/Message/InfoMessage/InfoMessage.i
+	@echo ... Logs/Message/InfoMessage/InfoMessage.s
 	@echo ... Player/Player.obj
 	@echo ... Player/Player.i
 	@echo ... Player/Player.s

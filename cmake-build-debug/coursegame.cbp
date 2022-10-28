@@ -157,6 +157,69 @@
 		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldView/FieldView.h">
 			<Option target="coursegame"/>
 		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/LogType/ErrorLog/ErrorLog.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/LogType/ErrorLog/ErrorLog.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/LogType/GameLog/GameLog.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/LogType/GameLog/GameLog.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/LogType/InfoLog/InfoLog.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/LogType/InfoLog/InfoLog.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/LogType/LogType.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/ConsoleLog/ConsoleLog.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/ConsoleLog/ConsoleLog.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/FileLog/FileLog.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/FileLog/FileLog.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/Logger.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/LoggerPool/LoggerPool.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/LoggerPool/LoggerPool.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Message/ErrorMessage/ErrorMessage.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Message/ErrorMessage/ErrorMessage.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Message/GameMessage/GameMessage.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Message/GameMessage/GameMessage.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Message/InfoMessage/InfoMessage.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Message/InfoMessage/InfoMessage.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Message/Message.h">
+			<Option target="coursegame"/>
+		</Unit>
 		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Player/Player.cpp">
 			<Option target="coursegame"/>
 		</Unit>
