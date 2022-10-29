@@ -247,22 +247,9 @@ CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Event\CellEvent\CellChangeToExit\CellChangeToExit.cpp -o CMakeFiles\coursegame.dir\Event\CellEvent\CellChangeToExit\CellChangeToExit.cpp.s
 
-CMakeFiles/coursegame.dir/Logs/LogType/GameLog/GameLog.cpp.obj: CMakeFiles/coursegame.dir/flags.make
-CMakeFiles/coursegame.dir/Logs/LogType/GameLog/GameLog.cpp.obj: ../Logs/LogType/GameLog/GameLog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/coursegame.dir/Logs/LogType/GameLog/GameLog.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\LogType\GameLog\GameLog.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Logs\LogType\GameLog\GameLog.cpp
-
-CMakeFiles/coursegame.dir/Logs/LogType/GameLog/GameLog.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Logs/LogType/GameLog/GameLog.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Logs\LogType\GameLog\GameLog.cpp > CMakeFiles\coursegame.dir\Logs\LogType\GameLog\GameLog.cpp.i
-
-CMakeFiles/coursegame.dir/Logs/LogType/GameLog/GameLog.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Logs/LogType/GameLog/GameLog.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Logs\LogType\GameLog\GameLog.cpp -o CMakeFiles\coursegame.dir\Logs\LogType\GameLog\GameLog.cpp.s
-
 CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.obj: ../Logs/Logger/FileLog/FileLog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\Logger\FileLog\FileLog.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Logs\Logger\FileLog\FileLog.cpp
 
 CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.i: cmake_force
@@ -275,7 +262,7 @@ CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.s: cmake_force
 
 CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.obj: ../Logs/Logger/ConsoleLog/ConsoleLog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\Logger\ConsoleLog\ConsoleLog.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Logs\Logger\ConsoleLog\ConsoleLog.cpp
 
 CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.i: cmake_force
@@ -288,7 +275,7 @@ CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.s: cmake_force
 
 CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.obj: ../Logs/Message/ErrorMessage/ErrorMessage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\Message\ErrorMessage\ErrorMessage.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Logs\Message\ErrorMessage\ErrorMessage.cpp
 
 CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.i: cmake_force
@@ -301,7 +288,7 @@ CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.s: cmake_fo
 
 CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.obj: ../Logs/Message/GameMessage/GameMessage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\Message\GameMessage\GameMessage.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Logs\Message\GameMessage\GameMessage.cpp
 
 CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.i: cmake_force
@@ -314,7 +301,7 @@ CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.s: cmake_forc
 
 CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.obj: ../Logs/Message/InfoMessage/InfoMessage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\Message\InfoMessage\InfoMessage.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Logs\Message\InfoMessage\InfoMessage.cpp
 
 CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.i: cmake_force
@@ -325,35 +312,9 @@ CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Logs\Message\InfoMessage\InfoMessage.cpp -o CMakeFiles\coursegame.dir\Logs\Message\InfoMessage\InfoMessage.cpp.s
 
-CMakeFiles/coursegame.dir/Logs/LogType/ErrorLog/ErrorLog.cpp.obj: CMakeFiles/coursegame.dir/flags.make
-CMakeFiles/coursegame.dir/Logs/LogType/ErrorLog/ErrorLog.cpp.obj: ../Logs/LogType/ErrorLog/ErrorLog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/coursegame.dir/Logs/LogType/ErrorLog/ErrorLog.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\LogType\ErrorLog\ErrorLog.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Logs\LogType\ErrorLog\ErrorLog.cpp
-
-CMakeFiles/coursegame.dir/Logs/LogType/ErrorLog/ErrorLog.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Logs/LogType/ErrorLog/ErrorLog.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Logs\LogType\ErrorLog\ErrorLog.cpp > CMakeFiles\coursegame.dir\Logs\LogType\ErrorLog\ErrorLog.cpp.i
-
-CMakeFiles/coursegame.dir/Logs/LogType/ErrorLog/ErrorLog.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Logs/LogType/ErrorLog/ErrorLog.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Logs\LogType\ErrorLog\ErrorLog.cpp -o CMakeFiles\coursegame.dir\Logs\LogType\ErrorLog\ErrorLog.cpp.s
-
-CMakeFiles/coursegame.dir/Logs/LogType/InfoLog/InfoLog.cpp.obj: CMakeFiles/coursegame.dir/flags.make
-CMakeFiles/coursegame.dir/Logs/LogType/InfoLog/InfoLog.cpp.obj: ../Logs/LogType/InfoLog/InfoLog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/coursegame.dir/Logs/LogType/InfoLog/InfoLog.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\LogType\InfoLog\InfoLog.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Logs\LogType\InfoLog\InfoLog.cpp
-
-CMakeFiles/coursegame.dir/Logs/LogType/InfoLog/InfoLog.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Logs/LogType/InfoLog/InfoLog.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Logs\LogType\InfoLog\InfoLog.cpp > CMakeFiles\coursegame.dir\Logs\LogType\InfoLog\InfoLog.cpp.i
-
-CMakeFiles/coursegame.dir/Logs/LogType/InfoLog/InfoLog.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Logs/LogType/InfoLog/InfoLog.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Logs\LogType\InfoLog\InfoLog.cpp -o CMakeFiles\coursegame.dir\Logs\LogType\InfoLog\InfoLog.cpp.s
-
 CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.obj: ../Logs/LoggerPool/LoggerPool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\LoggerPool\LoggerPool.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Logs\LoggerPool\LoggerPool.cpp
 
 CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.i: cmake_force
@@ -380,14 +341,11 @@ coursegame_OBJECTS = \
 "CMakeFiles/coursegame.dir/Event/CellEvent/CellEvent.cpp.obj" \
 "CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp.obj" \
 "CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp.obj" \
-"CMakeFiles/coursegame.dir/Logs/LogType/GameLog/GameLog.cpp.obj" \
 "CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.obj" \
 "CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.obj" \
 "CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.obj" \
 "CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.obj" \
 "CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.obj" \
-"CMakeFiles/coursegame.dir/Logs/LogType/ErrorLog/ErrorLog.cpp.obj" \
-"CMakeFiles/coursegame.dir/Logs/LogType/InfoLog/InfoLog.cpp.obj" \
 "CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.obj"
 
 # External object files for target coursegame
@@ -407,20 +365,17 @@ coursegame.exe: CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/Event/CellEvent/CellEvent.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp.obj
-coursegame.exe: CMakeFiles/coursegame.dir/Logs/LogType/GameLog/GameLog.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.obj
-coursegame.exe: CMakeFiles/coursegame.dir/Logs/LogType/ErrorLog/ErrorLog.cpp.obj
-coursegame.exe: CMakeFiles/coursegame.dir/Logs/LogType/InfoLog/InfoLog.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/build.make
 coursegame.exe: CMakeFiles/coursegame.dir/linklibs.rsp
 coursegame.exe: CMakeFiles/coursegame.dir/objects1.rsp
 coursegame.exe: CMakeFiles/coursegame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable coursegame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable coursegame.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\coursegame.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

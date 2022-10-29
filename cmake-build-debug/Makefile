@@ -416,78 +416,6 @@ FieldView/FieldView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.s
 .PHONY : FieldView/FieldView.cpp.s
 
-Logs/LogType/ErrorLog/ErrorLog.obj: Logs/LogType/ErrorLog/ErrorLog.cpp.obj
-.PHONY : Logs/LogType/ErrorLog/ErrorLog.obj
-
-# target to build an object file
-Logs/LogType/ErrorLog/ErrorLog.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LogType/ErrorLog/ErrorLog.cpp.obj
-.PHONY : Logs/LogType/ErrorLog/ErrorLog.cpp.obj
-
-Logs/LogType/ErrorLog/ErrorLog.i: Logs/LogType/ErrorLog/ErrorLog.cpp.i
-.PHONY : Logs/LogType/ErrorLog/ErrorLog.i
-
-# target to preprocess a source file
-Logs/LogType/ErrorLog/ErrorLog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LogType/ErrorLog/ErrorLog.cpp.i
-.PHONY : Logs/LogType/ErrorLog/ErrorLog.cpp.i
-
-Logs/LogType/ErrorLog/ErrorLog.s: Logs/LogType/ErrorLog/ErrorLog.cpp.s
-.PHONY : Logs/LogType/ErrorLog/ErrorLog.s
-
-# target to generate assembly for a file
-Logs/LogType/ErrorLog/ErrorLog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LogType/ErrorLog/ErrorLog.cpp.s
-.PHONY : Logs/LogType/ErrorLog/ErrorLog.cpp.s
-
-Logs/LogType/GameLog/GameLog.obj: Logs/LogType/GameLog/GameLog.cpp.obj
-.PHONY : Logs/LogType/GameLog/GameLog.obj
-
-# target to build an object file
-Logs/LogType/GameLog/GameLog.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LogType/GameLog/GameLog.cpp.obj
-.PHONY : Logs/LogType/GameLog/GameLog.cpp.obj
-
-Logs/LogType/GameLog/GameLog.i: Logs/LogType/GameLog/GameLog.cpp.i
-.PHONY : Logs/LogType/GameLog/GameLog.i
-
-# target to preprocess a source file
-Logs/LogType/GameLog/GameLog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LogType/GameLog/GameLog.cpp.i
-.PHONY : Logs/LogType/GameLog/GameLog.cpp.i
-
-Logs/LogType/GameLog/GameLog.s: Logs/LogType/GameLog/GameLog.cpp.s
-.PHONY : Logs/LogType/GameLog/GameLog.s
-
-# target to generate assembly for a file
-Logs/LogType/GameLog/GameLog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LogType/GameLog/GameLog.cpp.s
-.PHONY : Logs/LogType/GameLog/GameLog.cpp.s
-
-Logs/LogType/InfoLog/InfoLog.obj: Logs/LogType/InfoLog/InfoLog.cpp.obj
-.PHONY : Logs/LogType/InfoLog/InfoLog.obj
-
-# target to build an object file
-Logs/LogType/InfoLog/InfoLog.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LogType/InfoLog/InfoLog.cpp.obj
-.PHONY : Logs/LogType/InfoLog/InfoLog.cpp.obj
-
-Logs/LogType/InfoLog/InfoLog.i: Logs/LogType/InfoLog/InfoLog.cpp.i
-.PHONY : Logs/LogType/InfoLog/InfoLog.i
-
-# target to preprocess a source file
-Logs/LogType/InfoLog/InfoLog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LogType/InfoLog/InfoLog.cpp.i
-.PHONY : Logs/LogType/InfoLog/InfoLog.cpp.i
-
-Logs/LogType/InfoLog/InfoLog.s: Logs/LogType/InfoLog/InfoLog.cpp.s
-.PHONY : Logs/LogType/InfoLog/InfoLog.s
-
-# target to generate assembly for a file
-Logs/LogType/InfoLog/InfoLog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/LogType/InfoLog/InfoLog.cpp.s
-.PHONY : Logs/LogType/InfoLog/InfoLog.cpp.s
-
 Logs/Logger/ConsoleLog/ConsoleLog.obj: Logs/Logger/ConsoleLog/ConsoleLog.cpp.obj
 .PHONY : Logs/Logger/ConsoleLog/ConsoleLog.obj
 
@@ -725,15 +653,6 @@ help:
 	@echo ... FieldView/FieldView.obj
 	@echo ... FieldView/FieldView.i
 	@echo ... FieldView/FieldView.s
-	@echo ... Logs/LogType/ErrorLog/ErrorLog.obj
-	@echo ... Logs/LogType/ErrorLog/ErrorLog.i
-	@echo ... Logs/LogType/ErrorLog/ErrorLog.s
-	@echo ... Logs/LogType/GameLog/GameLog.obj
-	@echo ... Logs/LogType/GameLog/GameLog.i
-	@echo ... Logs/LogType/GameLog/GameLog.s
-	@echo ... Logs/LogType/InfoLog/InfoLog.obj
-	@echo ... Logs/LogType/InfoLog/InfoLog.i
-	@echo ... Logs/LogType/InfoLog/InfoLog.s
 	@echo ... Logs/Logger/ConsoleLog/ConsoleLog.obj
 	@echo ... Logs/Logger/ConsoleLog/ConsoleLog.i
 	@echo ... Logs/Logger/ConsoleLog/ConsoleLog.s

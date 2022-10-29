@@ -7,7 +7,14 @@
 #include "../Message.h"
 
 class GameMessage: public Message {
+public:
+    enum InfoMessageTypes {HEAL_TAKEN, MINE_TAKEN, EXIT_TAKEN};
 
+    explicit GameMessage(InfoMessageTypes type);
+    Message::LogTypes getLogType() override;
+    string getLogMessage() override;
+private:
+    InfoMessageTypes currentType;
 };
 
 

@@ -3,7 +3,8 @@
 //
 
 #include "ConsoleLog.h"
+#include <iostream>
 
-void ConsoleLog::print() {
-
+void ConsoleLog::print(string output) {
+    std::cout << output << endl;
 }

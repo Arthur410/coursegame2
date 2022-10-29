@@ -7,7 +7,16 @@
 #include "../Message.h"
 
 class InfoMessage: public Message {
+public:
+    enum InfoMessageTypes {START, END};
 
+    explicit InfoMessage(InfoMessageTypes type);
+
+    Message::LogTypes getLogType() override;
+    string getLogMessage() override;
+
+private:
+    InfoMessageTypes currentType;
 };
 
 

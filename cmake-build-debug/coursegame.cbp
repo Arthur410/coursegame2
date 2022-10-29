@@ -157,27 +157,6 @@
 		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldView/FieldView.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/LogType/ErrorLog/ErrorLog.cpp">
-			<Option target="coursegame"/>
-		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/LogType/ErrorLog/ErrorLog.h">
-			<Option target="coursegame"/>
-		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/LogType/GameLog/GameLog.cpp">
-			<Option target="coursegame"/>
-		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/LogType/GameLog/GameLog.h">
-			<Option target="coursegame"/>
-		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/LogType/InfoLog/InfoLog.cpp">
-			<Option target="coursegame"/>
-		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/LogType/InfoLog/InfoLog.h">
-			<Option target="coursegame"/>
-		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/LogType/LogType.h">
-			<Option target="coursegame"/>
-		</Unit>
 		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/ConsoleLog/ConsoleLog.cpp">
 			<Option target="coursegame"/>
 		</Unit>

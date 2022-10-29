@@ -7,17 +7,29 @@
 #ifndef INC_2COURSEGAME_FIELD_H
 #define INC_2COURSEGAME_FIELD_H
 #include <iostream>
+
 #include "../Player/Player.h"
 #include "../Cell/Cell.h"
+
+#include "../Logs/LoggerPool/LoggerPool.h"
+#include "../Logs/Logger/ConsoleLog/ConsoleLog.h"
+#include "../Logs/Logger/FileLog/FileLog.h"
+
+#include "../Logs/Message/Message.h"
+#include "../Logs/Message/ErrorMessage/ErrorMessage.h"
+#include "../Logs/Message/InfoMessage/InfoMessage.h"
+#include "../Logs/Message/GameMessage/GameMessage.h"
+#include "../Logs/Logger/Logger.h"
+
 #include <utility>
 
 class Field{
 
 public:
-    bool medicalFlag = true, mineFlag = true, exitFlag = false, wallFlag = false;
+    bool medicalFlag = true, mineFlag = true, exitFlag = false, wallFlag = true;
     Player *player{};
 
-    explicit Field(std::pair<int, int> playerPos, int width, int height, Player *currentPlayer);
+    explicit Field(std::pair<int, int> playerPos, int width, int height, Player *currentPlayer, int logType);
 
     Field();
 
@@ -51,6 +63,13 @@ public:
 
     void increaseFieldTick();
 
+    void setNewMessage(Message * newMsg);
+
+    int getLoggerPoolCount() const;
+
+    LoggerPool getLoggerPool();
+
+    Message *getCurrentMessage();
 
 private:
     std::pair<int ,int> healPosition;
@@ -62,6 +81,10 @@ private:
     int fieldWidth{};
     int fieldHeight{};
     Cell **fieldVariable{};
+    LoggerPool loggerPool;
+    std::vector<Logger *> loggers;
+    int loggerPoolCount;
+    Message *currentMessage;
 };
 
 

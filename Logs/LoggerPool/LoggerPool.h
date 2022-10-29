@@ -4,12 +4,18 @@
 
 #ifndef COURSEGAME_LOGGERPOOL_H
 #define COURSEGAME_LOGGERPOOL_H
-#include "../LogType/LogType.h"
 #include "../Logger/Logger.h"
+#include <iostream>
+#include <vector>
 
 class LoggerPool {
-    LogType *logType;
-    Logger *logger;
+public:
+    LoggerPool();
+    explicit LoggerPool(std::vector<Logger *> ls);
+    std::vector<Logger *> getLoggers();
+    void changeLogger(std::vector<Logger *> anotherLogger);
+private:
+    std::vector<Logger *> loggers = {};
 };
 
 

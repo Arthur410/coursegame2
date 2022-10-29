@@ -7,7 +7,8 @@
 #include "../Logger.h"
 
 class FileLog: public Logger {
-    void print() override;
+public:
+    void print(string output) override;
 };
 
 

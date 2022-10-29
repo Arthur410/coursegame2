@@ -70,6 +70,11 @@ void CommandReader::move(Field *field_instance, std::pair<int, int> curPos, Dire
     if (field_instance->getCell(newPos.first, newPos.second).getEvent()) {
         if (field_instance->getCell(newPos.first, newPos.second).getCellType() != Cell::WALL) {
             field_instance->setPlayerPosition(newPos);
+        } else {
+            field_instance->setNewMessage(new ErrorMessage(ErrorMessage::CANT_GO));
+            for (int i = 0; i < field_instance->getLoggerPoolCount(); i++) {
+                field_instance->getLoggerPool().getLoggers()[i]->print(field_instance->getCurrentMessage()->getLogMessage());
+            }
         }
     } else {
         field_instance->setPlayerPosition(newPos);

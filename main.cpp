@@ -19,8 +19,12 @@ int main() {
     cout << "Enter field width and height" << endl;
     cin >> width >> height;
 
+    int logType;
+    cout << "Enter also log type (0 - don't need, 1 - in console, 2 - in file, 3 - in console and file)" << endl;
+    cin >> logType;
+
     Player currentPlayer = Player(playerBaseStrength, playerBaseSpeed, playerBaseHP);
-    Field gameField = Field(playerStartPosition, width, height, &currentPlayer);
+    Field gameField = Field(playerStartPosition, width, height, &currentPlayer, logType);
     FieldView gameFieldView = FieldView(&gameField);
     CommandReader reader = CommandReader();
     Controller controller = Controller(&currentPlayer, &gameField, gameFieldView, reader);

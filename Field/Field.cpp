@@ -3,19 +3,28 @@
 //
 
 #include "Field.h"
+
 #include "../Event/PlayerEvent/medicalEvent/MedicalEvent.h"
 #include "../Event/PlayerEvent/mineEvent/MineEvent.h"
+
 #include "../Event/CellEvent/CellChangeToWall/CellChangeToWall.h"
 #include "../Event/CellEvent/CellChangeToExit/CellChangeToExit.h"
 #include <thread>
+#include <iostream>
+#ifdef _WIN32
+#include <Windows.h>
+#else
+#include <unistd.h>
+#endif
 using namespace std;
 
 // конструктор с параметрами
-Field::Field(pair<int, int> playerPos, int width, int height, Player *currentPlayer):
+Field::Field(pair<int, int> playerPos, int width, int height, Player *currentPlayer, int logType):
     playerPosition(std::move(playerPos)),
     player(currentPlayer),
     fieldWidth(width),
     fieldHeight(height) {
+
     healPosition.first = 2;
     healPosition.second = 2;
 
@@ -28,10 +37,52 @@ Field::Field(pair<int, int> playerPos, int width, int height, Player *currentPla
     exitPosition.first = fieldWidth - 2;
     exitPosition.second = fieldHeight - 2;
 
+    switch (logType) {
+        case 0:
+            loggerPoolCount = 0;
+            break;
+        case 1:
+            loggerPoolCount = 1;
+            loggers.push_back(new ConsoleLog());
+            loggerPool = LoggerPool(loggers);
+            break;
+        case 2:
+            loggerPoolCount = 1;
+            loggers.push_back(new FileLog());
+            loggerPool = LoggerPool(loggers);
+            break;
+        case 3:
+            loggers.push_back(new ConsoleLog());
+            loggers.push_back(new FileLog());
+            loggerPoolCount = 2;
+            loggerPool = LoggerPool(loggers);
+            break;
+        default:
+            cout << "...";
+    }
+
+    if (fieldWidth <= 0 || fieldHeight <= 0) {
+        system("cls");
+        currentMessage = new ErrorMessage(ErrorMessage(ErrorMessage::FIELD_ERROR));
+        for (int i = 0; i < loggerPoolCount; i++) {
+            loggerPool.getLoggers()[i]->print(currentMessage->getLogMessage());
+        }
+        Sleep(500);
+        exit(0);
+    }
+
     fieldVariable = new Cell*[fieldWidth];
     for (int i = 0; i < fieldHeight; i++) {
         fieldVariable[i] = new Cell[fieldHeight];
     }
+
+    system("cls");
+    currentMessage = new InfoMessage(InfoMessage::START);
+    for (int i = 0; i < loggerPoolCount; i++) {
+        loggerPool.getLoggers()[i]->print(currentMessage->getLogMessage());
+    }
+    currentMessage = nullptr;
+    Sleep(500);
 }
 
 // конструктор с дефолтными параметрами
@@ -47,6 +98,14 @@ Field::Field() {
     for (int i = 0; i < fieldHeight; i++) {
         fieldVariable[i] = new Cell[fieldHeight];
     }
+
+    system("cls");
+    currentMessage = new InfoMessage(InfoMessage::START);
+    for (int i = 0; i < 2; i++) {
+        loggerPool.getLoggers()[i]->print(currentMessage->getLogMessage());
+    }
+    currentMessage = nullptr;
+    Sleep(500);
 }
 
 
@@ -144,6 +203,11 @@ void Field::fieldUpdate() {
         fieldVariable[exitPosition.first][exitPosition.second].setNewEvent(new CellChangeToExit(&fieldVariable[exitPosition.first][exitPosition.second]));
     }
 
+    if (currentMessage) {
+        for (int i = 0; i < loggerPoolCount; i++) {
+            loggerPool.getLoggers()[i]->print(currentMessage->getLogMessage());
+        }
+    }
 
     fieldVariable[playerPos.first][playerPos.second].isPlayerIn = true;
     for (int i = 0; i < fieldWidth; i++) {
@@ -155,17 +219,20 @@ void Field::fieldUpdate() {
                     if (currentEvent) {
                         currentEvent->interact();
                         if (cellWithPlayer.getCellType() == Cell::MEDICAL) {
+                            currentMessage = new GameMessage(GameMessage::HEAL_TAKEN);
+
                             cellWithPlayer.setNewEvent(nullptr);
                             medicalFlag = false;
                         } else if (cellWithPlayer.getCellType() == Cell::MINE) {
+                            currentMessage = new GameMessage(GameMessage::MINE_TAKEN);
+
                             cellWithPlayer.setNewEvent(nullptr);
                             mineFlag = false;
                         } else if (cellWithPlayer.getCellType() == Cell::EXIT) {
+                            currentMessage = new GameMessage(GameMessage::EXIT_TAKEN);
+
                             cellWithPlayer.setNewEvent(nullptr);
                             exitFlag = false;
-                        } else if (cellWithPlayer.getCellType() == Cell::WALL) {
-                            cellWithPlayer.setNewEvent(nullptr);
-                            wallFlag = false;
                         }
                     }
                 } else {
@@ -202,4 +269,20 @@ int Field::getFieldTicks() const {
 
 void Field::increaseFieldTick() {
     tickCounter += 1;
+}
+
+void Field::setNewMessage(Message * newMsg) {
+    currentMessage = newMsg;
+}
+
+int Field::getLoggerPoolCount() const {
+    return loggerPoolCount;
+}
+
+LoggerPool Field::getLoggerPool() {
+    return loggerPool;
+}
+
+Message *Field::getCurrentMessage() {
+    return currentMessage;
 }
