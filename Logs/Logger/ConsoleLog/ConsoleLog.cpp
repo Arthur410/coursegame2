@@ -6,6 +6,6 @@
 #include <iostream>
 
 void ConsoleLog::print(Message *message) {
-    std::cout << message->getLogMessage() << endl;
+    std::cout << message << endl;
 }
 

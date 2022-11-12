@@ -30,6 +30,5 @@ public:
     }
 };
 
-std::ostream& operator << (std::ostream out, Message *message);
 
 #endif //COURSEGAME_LOGGER_H
