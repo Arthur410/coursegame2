@@ -8,15 +8,15 @@
 
 class ErrorMessage: public Message {
 public:
-    enum InfoMessageTypes {FIELD_ERROR, CANT_GO};
+    enum messageTypes {FIELD_ERROR, CANT_GO};
 
-    explicit ErrorMessage(InfoMessageTypes type);
+    explicit ErrorMessage(messageTypes type);
 
     Message::LogTypes getLogType() override;
     string getLogMessage() override;
 
 private:
-    InfoMessageTypes currentType;
+    messageTypes currentType;
 };
 
 

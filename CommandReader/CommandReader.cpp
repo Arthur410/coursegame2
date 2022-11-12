@@ -18,6 +18,7 @@ void CommandReader::commandReading(Field *field_instance) {
                     rageSteps += 1;
                 }
                 field_instance->player->rage();
+                field_instance->setNewMessage(new GameMessage(GameMessage::RAGE));
                 std::cout << field_instance->player->isRage;
                 break;
             case 'w':
@@ -73,7 +74,7 @@ void CommandReader::move(Field *field_instance, std::pair<int, int> curPos, Dire
         } else {
             field_instance->setNewMessage(new ErrorMessage(ErrorMessage::CANT_GO));
             for (int i = 0; i < field_instance->getLoggerPoolCount(); i++) {
-                field_instance->getLoggerPool().getLoggers()[i]->print(field_instance->getCurrentMessage()->getLogMessage());
+                field_instance->getLoggerPool().getLoggers()[i]->print(field_instance->getCurrentMessage());
             }
         }
     } else {

@@ -44,31 +44,26 @@ Field::Field(pair<int, int> playerPos, int width, int height, Player *currentPla
         case 1:
             loggerPoolCount = 1;
             loggers.push_back(new ConsoleLog());
-            loggerPool = LoggerPool(loggers);
+            loggerPool = LoggerPool(loggers, loggerPoolCount);
             break;
         case 2:
             loggerPoolCount = 1;
             loggers.push_back(new FileLog());
-            loggerPool = LoggerPool(loggers);
+            loggerPool = LoggerPool(loggers, loggerPoolCount);
             break;
         case 3:
             loggers.push_back(new ConsoleLog());
             loggers.push_back(new FileLog());
             loggerPoolCount = 2;
-            loggerPool = LoggerPool(loggers);
+            loggerPool = LoggerPool(loggers, loggerPoolCount);
             break;
         default:
             cout << "...";
     }
 
     if (fieldWidth <= 0 || fieldHeight <= 0) {
-        system("cls");
         currentMessage = new ErrorMessage(ErrorMessage(ErrorMessage::FIELD_ERROR));
-        for (int i = 0; i < loggerPoolCount; i++) {
-            loggerPool.getLoggers()[i]->print(currentMessage->getLogMessage());
-        }
-        Sleep(500);
-        exit(0);
+        loggerPool.notify(currentMessage, true, true);
     }
 
     fieldVariable = new Cell*[fieldWidth];
@@ -76,13 +71,9 @@ Field::Field(pair<int, int> playerPos, int width, int height, Player *currentPla
         fieldVariable[i] = new Cell[fieldHeight];
     }
 
-    system("cls");
     currentMessage = new InfoMessage(InfoMessage::START);
-    for (int i = 0; i < loggerPoolCount; i++) {
-        loggerPool.getLoggers()[i]->print(currentMessage->getLogMessage());
-    }
+    loggerPool.notify(currentMessage,false, true);
     currentMessage = nullptr;
-    Sleep(500);
 }
 
 // конструктор с дефолтными параметрами
@@ -99,13 +90,9 @@ Field::Field() {
         fieldVariable[i] = new Cell[fieldHeight];
     }
 
-    system("cls");
     currentMessage = new InfoMessage(InfoMessage::START);
-    for (int i = 0; i < 2; i++) {
-        loggerPool.getLoggers()[i]->print(currentMessage->getLogMessage());
-    }
+    loggerPool.notify(currentMessage, false, true);
     currentMessage = nullptr;
-    Sleep(500);
 }
 
 
@@ -153,16 +140,13 @@ void Field::fieldUpdate() {
     std::pair<int, int> playerPos = getPlayerPosition();
 
     if (playerPos == exitPosition && exitFlag) {
-        cout << "Congratulation! You've entered exit!";
-        std::chrono::milliseconds timespan(2000);
-        std::this_thread::sleep_for(timespan);
-        exit(0);
-
+        currentMessage = new InfoMessage(InfoMessage::END);
+        loggerPool.notify(currentMessage, true, true);
+        currentMessage = nullptr;
     } else if (player->getHp() < 0) {
-        cout << "Oops! You've died\n";
-        std::chrono::milliseconds timespan(2000);
-        std::this_thread::sleep_for(timespan);
-        exit(0);
+        currentMessage = new GameMessage(GameMessage::PLAYER_DIED);
+        loggerPool.notify(currentMessage, true, true);
+        currentMessage = nullptr;
     }
 
     increaseFieldTick();
@@ -204,9 +188,7 @@ void Field::fieldUpdate() {
     }
 
     if (currentMessage) {
-        for (int i = 0; i < loggerPoolCount; i++) {
-            loggerPool.getLoggers()[i]->print(currentMessage->getLogMessage());
-        }
+        loggerPool.notify(currentMessage, false, false);
     }
 
     fieldVariable[playerPos.first][playerPos.second].isPlayerIn = true;

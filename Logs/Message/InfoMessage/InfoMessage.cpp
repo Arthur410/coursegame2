@@ -10,14 +10,14 @@ Message::LogTypes InfoMessage::getLogType() {
 
 string InfoMessage::getLogMessage() {
     string text;
-    if (currentType == InfoMessageTypes::START) {
-        text = "   ____    _    __  __ _____   ____ _____  _    ____ _____ _____ ____  \n"
+    if (currentType == messageTypes::START) {
+        text =  "   ____    _    __  __ _____   ____ _____  _    ____ _____ _____ ____  \n"
                "  / ___|  / \\  |  \\/  | ____| / ___|_   _|/ \\  |  _ \\_   _| ____|  _ \\ \n"
                " | |  _  / _ \\ | |\\/| |  _|   \\___ \\ | | / _ \\ | |_) || | |  _| | | | |\n"
                " | |_| |/ ___ \\| |  | | |___   ___) || |/ ___ \\|  _ < | | | |___| |_| |\n"
                "  \\____/_/   \\_\\_|  |_|_____| |____/ |_/_/   \\_\\_| \\_\\|_| |_____|____/ \n"
                "                                                                       ";
-    } else if (currentType == InfoMessageTypes::END) {
+    } else if (currentType == messageTypes::END) {
         text = "                                                             \n"
                ",--------.,--.  ,--.,------.    ,------.,--.  ,--.,------.   \n"
                "'--.  .--'|  '--'  ||  .---'    |  .---'|  ,'.|  ||  .-.  \\  \n"
@@ -29,4 +29,4 @@ string InfoMessage::getLogMessage() {
     return text;
 }
 
-InfoMessage::InfoMessage(InfoMessage::InfoMessageTypes type): currentType(type) {}
+InfoMessage::InfoMessage(InfoMessage::messageTypes type): currentType(type) {}

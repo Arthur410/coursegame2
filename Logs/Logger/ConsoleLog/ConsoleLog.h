@@ -5,10 +5,12 @@
 #ifndef COURSEGAME_CONSOLELOG_H
 #define COURSEGAME_CONSOLELOG_H
 #include "../Logger.h"
+#include "../../Message/Message.h"
 
 class ConsoleLog: public Logger {
 public:
-    void print(string output) override;
+    ~ConsoleLog();
+    void print(Message *message) override;
 };
 
 

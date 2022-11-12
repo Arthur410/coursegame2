@@ -10,12 +10,12 @@ Message::LogTypes ErrorMessage::getLogType() {
 
 string ErrorMessage::getLogMessage() {
     string text;
-    if (currentType == InfoMessageTypes::FIELD_ERROR) {
+    if (currentType == messageTypes::FIELD_ERROR) {
         text = "YOU ENTERED SOMETHING WRONG IN THE FIELD WIDTH AND HEIGHT PARAMETERS :(";
-    } else if (currentType == InfoMessageTypes::CANT_GO) {
+    } else if (currentType == messageTypes::CANT_GO) {
         text = "SOMETHING BLOCKING ME!!!";
     }
     return text;
 }
 
-ErrorMessage::ErrorMessage(ErrorMessage::InfoMessageTypes type): currentType(type) {}
+ErrorMessage::ErrorMessage(ErrorMessage::messageTypes type): currentType(type) {}

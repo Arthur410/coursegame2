@@ -5,6 +5,8 @@
 #include "ConsoleLog.h"
 #include <iostream>
 
-void ConsoleLog::print(string output) {
-    std::cout << output << endl;
+void ConsoleLog::print(Message *message) {
+    std::cout << message->getLogMessage() << endl;
 }
+
+ConsoleLog::~ConsoleLog() = default;

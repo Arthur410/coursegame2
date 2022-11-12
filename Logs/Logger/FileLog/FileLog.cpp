@@ -3,13 +3,12 @@
 //
 
 #include "FileLog.h"
-#include <iostream>
-#include <fstream>
+FileLog::FileLog():fl(std::ofstream("gamelogs.txt")){}
 
-void FileLog::print(string output) {
-    std::ofstream out;
-    out.open("./gamelogs.txt", std::ios::app);
-    if (out.is_open()) {
-        out << output << std::endl;
-    }
+FileLog::~FileLog() {
+    fl.close();
+}
+
+void FileLog::print(Message *message) {
+    fl << message->getLogMessage() << std::endl;
 }

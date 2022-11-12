@@ -169,6 +169,9 @@
 		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/FileLog/FileLog.h">
 			<Option target="coursegame"/>
 		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/Logger.cpp">
+			<Option target="coursegame"/>
+		</Unit>
 		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/Logger.h">
 			<Option target="coursegame"/>
 		</Unit>

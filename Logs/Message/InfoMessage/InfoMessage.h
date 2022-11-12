@@ -8,15 +8,15 @@
 
 class InfoMessage: public Message {
 public:
-    enum InfoMessageTypes {START, END};
+    enum messageTypes {START, END};
 
-    explicit InfoMessage(InfoMessageTypes type);
+    explicit InfoMessage(messageTypes type);
 
     Message::LogTypes getLogType() override;
     string getLogMessage() override;
 
 private:
-    InfoMessageTypes currentType;
+    messageTypes currentType;
 };
 
 

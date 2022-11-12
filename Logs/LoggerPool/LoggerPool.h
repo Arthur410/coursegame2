@@ -5,16 +5,20 @@
 #ifndef COURSEGAME_LOGGERPOOL_H
 #define COURSEGAME_LOGGERPOOL_H
 #include "../Logger/Logger.h"
+#include "../Message/Message.h"
 #include <iostream>
 #include <vector>
 
 class LoggerPool {
 public:
     LoggerPool();
-    explicit LoggerPool(std::vector<Logger *> ls);
+    explicit LoggerPool(std::vector<Logger *> ls, int counter);
+    void notify(Message* printMessage, int exitFlag, int delayFlag);
+
     std::vector<Logger *> getLoggers();
-    void changeLogger(std::vector<Logger *> anotherLogger);
+    int getCounter() const;
 private:
+    int counter;
     std::vector<Logger *> loggers = {};
 };
 

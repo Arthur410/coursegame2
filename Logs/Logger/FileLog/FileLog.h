@@ -5,10 +5,16 @@
 #ifndef COURSEGAME_FILELOG_H
 #define COURSEGAME_FILELOG_H
 #include "../Logger.h"
+#include <fstream>
+#include <iostream>
+
 
 class FileLog: public Logger {
+    std::ofstream fl;
 public:
-    void print(string output) override;
+    FileLog();
+    ~FileLog();
+    void print(Message *message) override;
 };
 
 

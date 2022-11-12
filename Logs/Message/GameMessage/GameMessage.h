@@ -8,13 +8,13 @@
 
 class GameMessage: public Message {
 public:
-    enum InfoMessageTypes {HEAL_TAKEN, MINE_TAKEN, EXIT_TAKEN};
+    enum messageTypes {HEAL_TAKEN, MINE_TAKEN, EXIT_TAKEN, PLAYER_DIED, RAGE};
 
-    explicit GameMessage(InfoMessageTypes type);
+    explicit GameMessage(messageTypes type);
     Message::LogTypes getLogType() override;
     string getLogMessage() override;
 private:
-    InfoMessageTypes currentType;
+    messageTypes currentType;
 };
 
 

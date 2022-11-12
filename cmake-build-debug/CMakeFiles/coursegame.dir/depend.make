@@ -128,15 +128,22 @@ CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.obj: \
 CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.obj: \
  ../Logs/Logger/ConsoleLog/ConsoleLog.cpp \
  ../Logs/Logger/ConsoleLog/ConsoleLog.h \
- ../Logs/Logger/Logger.h
+ ../Logs/Logger/Logger.h \
+ ../Logs/Message/Message.h
 CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.obj: \
  ../Logs/Logger/FileLog/FileLog.cpp \
  ../Logs/Logger/FileLog/FileLog.h \
- ../Logs/Logger/Logger.h
+ ../Logs/Logger/Logger.h \
+ ../Logs/Message/Message.h
+CMakeFiles/coursegame.dir/Logs/Logger/Logger.cpp.obj: \
+ ../Logs/Logger/Logger.cpp \
+ ../Logs/Logger/Logger.h \
+ ../Logs/Message/Message.h
 CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.obj: \
  ../Logs/Logger/Logger.h \
  ../Logs/LoggerPool/LoggerPool.cpp \
- ../Logs/LoggerPool/LoggerPool.h
+ ../Logs/LoggerPool/LoggerPool.h \
+ ../Logs/Message/Message.h
 CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.obj: \
  ../Logs/Message/ErrorMessage/ErrorMessage.cpp \
  ../Logs/Message/ErrorMessage/ErrorMessage.h \
