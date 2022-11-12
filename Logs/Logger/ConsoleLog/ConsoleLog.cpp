@@ -9,4 +9,3 @@ void ConsoleLog::print(Message *message) {
     std::cout << message->getLogMessage() << endl;
 }
 
-ConsoleLog::~ConsoleLog() = default;

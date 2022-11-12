@@ -464,30 +464,6 @@ Logs/Logger/FileLog/FileLog.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.s
 .PHONY : Logs/Logger/FileLog/FileLog.cpp.s
 
-Logs/Logger/Logger.obj: Logs/Logger/Logger.cpp.obj
-.PHONY : Logs/Logger/Logger.obj
-
-# target to build an object file
-Logs/Logger/Logger.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Logger/Logger.cpp.obj
-.PHONY : Logs/Logger/Logger.cpp.obj
-
-Logs/Logger/Logger.i: Logs/Logger/Logger.cpp.i
-.PHONY : Logs/Logger/Logger.i
-
-# target to preprocess a source file
-Logs/Logger/Logger.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Logger/Logger.cpp.i
-.PHONY : Logs/Logger/Logger.cpp.i
-
-Logs/Logger/Logger.s: Logs/Logger/Logger.cpp.s
-.PHONY : Logs/Logger/Logger.s
-
-# target to generate assembly for a file
-Logs/Logger/Logger.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Logger/Logger.cpp.s
-.PHONY : Logs/Logger/Logger.cpp.s
-
 Logs/LoggerPool/LoggerPool.obj: Logs/LoggerPool/LoggerPool.cpp.obj
 .PHONY : Logs/LoggerPool/LoggerPool.obj
 
@@ -683,9 +659,6 @@ help:
 	@echo ... Logs/Logger/FileLog/FileLog.obj
 	@echo ... Logs/Logger/FileLog/FileLog.i
 	@echo ... Logs/Logger/FileLog/FileLog.s
-	@echo ... Logs/Logger/Logger.obj
-	@echo ... Logs/Logger/Logger.i
-	@echo ... Logs/Logger/Logger.s
 	@echo ... Logs/LoggerPool/LoggerPool.obj
 	@echo ... Logs/LoggerPool/LoggerPool.i
 	@echo ... Logs/LoggerPool/LoggerPool.s

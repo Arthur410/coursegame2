@@ -13,7 +13,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.obj"
   "CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.obj"
   "CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.obj"
-  "CMakeFiles/coursegame.dir/Logs/Logger/Logger.cpp.obj"
   "CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.obj"
   "CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.obj"
   "CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.obj"

@@ -9,7 +9,6 @@
 
 class ConsoleLog: public Logger {
 public:
-    ~ConsoleLog();
     void print(Message *message) override;
 };
 

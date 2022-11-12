@@ -9,22 +9,22 @@ Message::LogTypes GameMessage::getLogType() {
 }
 
 string GameMessage::getLogMessage() {
-    string text;
+    string text = "[GAME]";
     if (currentType == messageTypes::MINE_TAKEN) {
-        text = "OUCH! I STEPPED ON THE MINE";
+        text += "OUCH! I STEPPED ON THE MINE";
     } else if (currentType == messageTypes::HEAL_TAKEN) {
-        text = "NICE! +1 HP ADDED";
+        text += "NICE! +1 HP ADDED";
     }  else if (currentType == messageTypes::EXIT_TAKEN) {
-        text = "WOOHOOO! THE EXIT";
+        text += "WOOHOOO! THE EXIT";
     } else if (currentType == messageTypes::PLAYER_DIED) {
-        text =" __        ___    ____ _____ _____ ____  \n"
+        text +=" __        ___    ____ _____ _____ ____  \n"
                " \\ \\      / / \\  / ___|_   _| ____|  _ \\ \n"
                "  \\ \\ /\\ / / _ \\ \\___ \\ | | |  _| | | | |\n"
                "   \\ V  V / ___ \\ ___) || | | |___| |_| |\n"
                "    \\_/\\_/_/   \\_\\____/ |_| |_____|____/ \n"
                "                                         ";
     } else if (currentType == messageTypes::RAGE) {
-        text = "ARRAHGHGHRHHGH";
+        text += "ARRAHGHGHRHHGH";
     }
     return text;
 }

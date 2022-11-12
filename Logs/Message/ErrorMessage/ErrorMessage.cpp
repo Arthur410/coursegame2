@@ -9,11 +9,11 @@ Message::LogTypes ErrorMessage::getLogType() {
 }
 
 string ErrorMessage::getLogMessage() {
-    string text;
+    string text = "[ERROR]";
     if (currentType == messageTypes::FIELD_ERROR) {
-        text = "YOU ENTERED SOMETHING WRONG IN THE FIELD WIDTH AND HEIGHT PARAMETERS :(";
+        text += "YOU ENTERED SOMETHING WRONG IN THE FIELD WIDTH AND HEIGHT PARAMETERS :(";
     } else if (currentType == messageTypes::CANT_GO) {
-        text = "SOMETHING BLOCKING ME!!!";
+        text += "SOMETHING BLOCKING ME!!!";
     }
     return text;
 }

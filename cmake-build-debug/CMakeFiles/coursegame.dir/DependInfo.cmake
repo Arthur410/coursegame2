@@ -22,7 +22,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/arthu/CLionProjects/coursegame/FieldView/FieldView.cpp" "C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.obj"
   "C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/ConsoleLog/ConsoleLog.cpp" "C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.obj"
   "C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/FileLog/FileLog.cpp" "C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.obj"
-  "C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/Logger.cpp" "C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/CMakeFiles/coursegame.dir/Logs/Logger/Logger.cpp.obj"
   "C:/Users/arthu/CLionProjects/coursegame/Logs/LoggerPool/LoggerPool.cpp" "C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.obj"
   "C:/Users/arthu/CLionProjects/coursegame/Logs/Message/ErrorMessage/ErrorMessage.cpp" "C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.obj"
   "C:/Users/arthu/CLionProjects/coursegame/Logs/Message/GameMessage/GameMessage.cpp" "C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.obj"

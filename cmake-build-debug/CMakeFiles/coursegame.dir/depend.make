@@ -135,10 +135,6 @@ CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.obj: \
  ../Logs/Logger/FileLog/FileLog.h \
  ../Logs/Logger/Logger.h \
  ../Logs/Message/Message.h
-CMakeFiles/coursegame.dir/Logs/Logger/Logger.cpp.obj: \
- ../Logs/Logger/Logger.cpp \
- ../Logs/Logger/Logger.h \
- ../Logs/Message/Message.h
 CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.obj: \
  ../Logs/Logger/Logger.h \
  ../Logs/LoggerPool/LoggerPool.cpp \
