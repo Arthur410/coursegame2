@@ -94,10 +94,19 @@
 		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CellView/CellView.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CommandReader/CommandReader.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CommandReader/CommandReader.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CommandReader/CommandReader.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-console/CommandReader-console.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-console/CommandReader-console.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-file/CommandReader-file.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-file/CommandReader-file.h">
 			<Option target="coursegame"/>
 		</Unit>
 		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Controller/Controller.cpp">

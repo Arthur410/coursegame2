@@ -2,14 +2,15 @@
 // Created by arthu on 24.09.2022.
 //
 
-#include "CommandReader.h"
+#include "CommandReader-console.h"
 
-void CommandReader::commandReading(Field *field_instance) {
+void CommandReaderConsole::commandReading(Field *field_instance, FieldView *field_view) {
     // Переменная для rage
     char lastCommand;
     currentPosition = field_instance->getPlayerPosition();
     int rageSteps = 0;
     if (_kbhit()) {
+        field_view->fieldView();
         switch(_getch()) {
             case 'r':
                 field_instance->player->rage();
@@ -20,26 +21,32 @@ void CommandReader::commandReading(Field *field_instance) {
                 field_instance->player->rage();
                 field_instance->setNewMessage(new GameMessage(GameMessage::RAGE));
                 std::cout << field_instance->player->isRage;
+                field_view->fieldView();
                 break;
             case 'w':
                 move(field_instance, currentPosition, UP);
+                field_view->fieldView();
                 break;
             case 'a':
                 move(field_instance, currentPosition, LEFT);
+                field_view->fieldView();
                 break;
             case 's':
                 move(field_instance, currentPosition, DOWN);
+                field_view->fieldView();
                 break;
             case 'd':
                 move(field_instance, currentPosition, RIGHT);
+                field_view->fieldView();
                 break;
             case 'x':
                 exit(0);
         }
+        field_view->fieldView();
     }
 }
 
-void CommandReader::move(Field *field_instance, std::pair<int, int> curPos, Direction nextDir) {
+void CommandReaderConsole::move(Field *field_instance, std::pair<int, int> curPos, Direction nextDir) {
     lastDirection = nextDir;
     std::pair<int, int> newPos;
     newPos = curPos;

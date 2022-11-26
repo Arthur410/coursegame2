@@ -10,12 +10,31 @@ CMakeFiles/coursegame.dir/CellView/CellView.cpp.obj
  C:/Users/arthu/CLionProjects/coursegame/CellView/CellView.cpp
  C:/Users/arthu/CLionProjects/coursegame/CellView/CellView.h
  C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
-CMakeFiles/coursegame.dir/CommandReader/CommandReader.cpp.obj
+CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-console.cpp.obj
  C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
- C:/Users/arthu/CLionProjects/coursegame/CommandReader/CommandReader.cpp
  C:/Users/arthu/CLionProjects/coursegame/CommandReader/CommandReader.h
+ C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-console/CommandReader-console.cpp
+ C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-console/CommandReader-console.h
  C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Field/Field.h
+ C:/Users/arthu/CLionProjects/coursegame/FieldView/FieldView.h
+ C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/ConsoleLog/ConsoleLog.h
+ C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/FileLog/FileLog.h
+ C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/Logger.h
+ C:/Users/arthu/CLionProjects/coursegame/Logs/LoggerPool/LoggerPool.h
+ C:/Users/arthu/CLionProjects/coursegame/Logs/Message/ErrorMessage/ErrorMessage.h
+ C:/Users/arthu/CLionProjects/coursegame/Logs/Message/GameMessage/GameMessage.h
+ C:/Users/arthu/CLionProjects/coursegame/Logs/Message/InfoMessage/InfoMessage.h
+ C:/Users/arthu/CLionProjects/coursegame/Logs/Message/Message.h
+ C:/Users/arthu/CLionProjects/coursegame/Player/Player.h
+CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReader-file.cpp.obj
+ C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
+ C:/Users/arthu/CLionProjects/coursegame/CommandReader/CommandReader.h
+ C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-file/CommandReader-file.cpp
+ C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-file/CommandReader-file.h
+ C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
+ C:/Users/arthu/CLionProjects/coursegame/Field/Field.h
+ C:/Users/arthu/CLionProjects/coursegame/FieldView/FieldView.h
  C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/ConsoleLog/ConsoleLog.h
  C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/FileLog/FileLog.h
  C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/Logger.h
@@ -28,6 +47,7 @@ CMakeFiles/coursegame.dir/CommandReader/CommandReader.cpp.obj
 CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj
  C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
  C:/Users/arthu/CLionProjects/coursegame/CommandReader/CommandReader.h
+ C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-console/CommandReader-console.h
  C:/Users/arthu/CLionProjects/coursegame/Controller/Controller.cpp
  C:/Users/arthu/CLionProjects/coursegame/Controller/Controller.h
  C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
@@ -159,6 +179,8 @@ CMakeFiles/coursegame.dir/Player/Player.cpp.obj
 CMakeFiles/coursegame.dir/main.cpp.obj
  C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
  C:/Users/arthu/CLionProjects/coursegame/CommandReader/CommandReader.h
+ C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-console/CommandReader-console.h
+ C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-file/CommandReader-file.h
  C:/Users/arthu/CLionProjects/coursegame/Controller/Controller.h
  C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
  C:/Users/arthu/CLionProjects/coursegame/Field/Field.h

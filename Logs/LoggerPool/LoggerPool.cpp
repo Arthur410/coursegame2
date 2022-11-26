@@ -9,7 +9,6 @@
 #else
 #include <unistd.h>
 #endif
-#include <utility>
 
 LoggerPool::LoggerPool() = default;
 
@@ -34,9 +33,10 @@ void LoggerPool::notify(Message *printMessage, int exitFlag, int delayFlag) {
             loggers[i]->print(printMessage);
         }
         Sleep(500);
-    }
-    for (int i = 0; i < counter; i++) {
-        loggers[i]->print(printMessage);
+    } else {
+        for (int i = 0; i < counter; i++) {
+            loggers[i]->print(printMessage);
+        }
     }
 }
 

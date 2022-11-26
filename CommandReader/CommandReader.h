@@ -1,24 +1,15 @@
 //
-// Created by arthu on 24.09.2022.
+// Created by arthu on 26.11.2022.
 //
+#pragma once
+#ifndef COURSEGAME_COMMANDREADER_H
+#define COURSEGAME_COMMANDREADER_H
+#include "../FieldView/FieldView.h"
 
-
-#ifndef INC_2COURSEGAME_COMMANDREADER_H
-#define INC_2COURSEGAME_COMMANDREADER_H
-#include <iostream>
-#include <conio.h>
-#include "../Player/Player.h"
-#include "../Field/Field.h"
-
+#endif //COURSEGAME_COMMANDREADER_H
 class CommandReader {
 public:
-    std::pair<int, int> currentPosition;
     enum Direction {UP, DOWN, RIGHT, LEFT};
-    void commandReading(Field *field_instance);
-
-    void move(Field *field_instance, std::pair<int, int> curPos, Direction nextDir);
-private:
-    Direction lastDirection = DOWN;
+    virtual void commandReading(Field *field_instance, FieldView *field_view) = 0;
+    virtual void move(Field *field_instance, std::pair<int, int> curPos, Direction nextDir) = 0;
 };
-
-#endif //INC_2COURSEGAME_COMMANDREADER_H

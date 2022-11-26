@@ -176,29 +176,53 @@ CellView/CellView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/CellView/CellView.cpp.s
 .PHONY : CellView/CellView.cpp.s
 
-CommandReader/CommandReader.obj: CommandReader/CommandReader.cpp.obj
-.PHONY : CommandReader/CommandReader.obj
+CommandReader/command-reader-console/CommandReader-console.obj: CommandReader/command-reader-console/CommandReader-console.cpp.obj
+.PHONY : CommandReader/command-reader-console/CommandReader-console.obj
 
 # target to build an object file
-CommandReader/CommandReader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/CommandReader/CommandReader.cpp.obj
-.PHONY : CommandReader/CommandReader.cpp.obj
+CommandReader/command-reader-console/CommandReader-console.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-console.cpp.obj
+.PHONY : CommandReader/command-reader-console/CommandReader-console.cpp.obj
 
-CommandReader/CommandReader.i: CommandReader/CommandReader.cpp.i
-.PHONY : CommandReader/CommandReader.i
+CommandReader/command-reader-console/CommandReader-console.i: CommandReader/command-reader-console/CommandReader-console.cpp.i
+.PHONY : CommandReader/command-reader-console/CommandReader-console.i
 
 # target to preprocess a source file
-CommandReader/CommandReader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/CommandReader/CommandReader.cpp.i
-.PHONY : CommandReader/CommandReader.cpp.i
+CommandReader/command-reader-console/CommandReader-console.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-console.cpp.i
+.PHONY : CommandReader/command-reader-console/CommandReader-console.cpp.i
 
-CommandReader/CommandReader.s: CommandReader/CommandReader.cpp.s
-.PHONY : CommandReader/CommandReader.s
+CommandReader/command-reader-console/CommandReader-console.s: CommandReader/command-reader-console/CommandReader-console.cpp.s
+.PHONY : CommandReader/command-reader-console/CommandReader-console.s
 
 # target to generate assembly for a file
-CommandReader/CommandReader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/CommandReader/CommandReader.cpp.s
-.PHONY : CommandReader/CommandReader.cpp.s
+CommandReader/command-reader-console/CommandReader-console.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-console.cpp.s
+.PHONY : CommandReader/command-reader-console/CommandReader-console.cpp.s
+
+CommandReader/command-reader-file/CommandReader-file.obj: CommandReader/command-reader-file/CommandReader-file.cpp.obj
+.PHONY : CommandReader/command-reader-file/CommandReader-file.obj
+
+# target to build an object file
+CommandReader/command-reader-file/CommandReader-file.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReader-file.cpp.obj
+.PHONY : CommandReader/command-reader-file/CommandReader-file.cpp.obj
+
+CommandReader/command-reader-file/CommandReader-file.i: CommandReader/command-reader-file/CommandReader-file.cpp.i
+.PHONY : CommandReader/command-reader-file/CommandReader-file.i
+
+# target to preprocess a source file
+CommandReader/command-reader-file/CommandReader-file.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReader-file.cpp.i
+.PHONY : CommandReader/command-reader-file/CommandReader-file.cpp.i
+
+CommandReader/command-reader-file/CommandReader-file.s: CommandReader/command-reader-file/CommandReader-file.cpp.s
+.PHONY : CommandReader/command-reader-file/CommandReader-file.s
+
+# target to generate assembly for a file
+CommandReader/command-reader-file/CommandReader-file.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReader-file.cpp.s
+.PHONY : CommandReader/command-reader-file/CommandReader-file.cpp.s
 
 Controller/Controller.obj: Controller/Controller.cpp.obj
 .PHONY : Controller/Controller.obj
@@ -623,9 +647,12 @@ help:
 	@echo ... CellView/CellView.obj
 	@echo ... CellView/CellView.i
 	@echo ... CellView/CellView.s
-	@echo ... CommandReader/CommandReader.obj
-	@echo ... CommandReader/CommandReader.i
-	@echo ... CommandReader/CommandReader.s
+	@echo ... CommandReader/command-reader-console/CommandReader-console.obj
+	@echo ... CommandReader/command-reader-console/CommandReader-console.i
+	@echo ... CommandReader/command-reader-console/CommandReader-console.s
+	@echo ... CommandReader/command-reader-file/CommandReader-file.obj
+	@echo ... CommandReader/command-reader-file/CommandReader-file.i
+	@echo ... CommandReader/command-reader-file/CommandReader-file.s
 	@echo ... Controller/Controller.obj
 	@echo ... Controller/Controller.i
 	@echo ... Controller/Controller.s

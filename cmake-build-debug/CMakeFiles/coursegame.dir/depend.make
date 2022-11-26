@@ -10,12 +10,31 @@ CMakeFiles/coursegame.dir/CellView/CellView.cpp.obj: \
  ../CellView/CellView.cpp \
  ../CellView/CellView.h \
  ../Event/IEvent.h
-CMakeFiles/coursegame.dir/CommandReader/CommandReader.cpp.obj: \
+CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-console.cpp.obj: \
  ../Cell/Cell.h \
- ../CommandReader/CommandReader.cpp \
  ../CommandReader/CommandReader.h \
+ ../CommandReader/command-reader-console/CommandReader-console.cpp \
+ ../CommandReader/command-reader-console/CommandReader-console.h \
  ../Event/IEvent.h \
  ../Field/Field.h \
+ ../FieldView/FieldView.h \
+ ../Logs/Logger/ConsoleLog/ConsoleLog.h \
+ ../Logs/Logger/FileLog/FileLog.h \
+ ../Logs/Logger/Logger.h \
+ ../Logs/LoggerPool/LoggerPool.h \
+ ../Logs/Message/ErrorMessage/ErrorMessage.h \
+ ../Logs/Message/GameMessage/GameMessage.h \
+ ../Logs/Message/InfoMessage/InfoMessage.h \
+ ../Logs/Message/Message.h \
+ ../Player/Player.h
+CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReader-file.cpp.obj: \
+ ../Cell/Cell.h \
+ ../CommandReader/CommandReader.h \
+ ../CommandReader/command-reader-file/CommandReader-file.cpp \
+ ../CommandReader/command-reader-file/CommandReader-file.h \
+ ../Event/IEvent.h \
+ ../Field/Field.h \
+ ../FieldView/FieldView.h \
  ../Logs/Logger/ConsoleLog/ConsoleLog.h \
  ../Logs/Logger/FileLog/FileLog.h \
  ../Logs/Logger/Logger.h \
@@ -28,6 +47,7 @@ CMakeFiles/coursegame.dir/CommandReader/CommandReader.cpp.obj: \
 CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj: \
  ../Cell/Cell.h \
  ../CommandReader/CommandReader.h \
+ ../CommandReader/command-reader-console/CommandReader-console.h \
  ../Controller/Controller.cpp \
  ../Controller/Controller.h \
  ../Event/IEvent.h \
@@ -159,6 +179,8 @@ CMakeFiles/coursegame.dir/Player/Player.cpp.obj: \
 CMakeFiles/coursegame.dir/main.cpp.obj: \
  ../Cell/Cell.h \
  ../CommandReader/CommandReader.h \
+ ../CommandReader/command-reader-console/CommandReader-console.h \
+ ../CommandReader/command-reader-file/CommandReader-file.h \
  ../Controller/Controller.h \
  ../Event/IEvent.h \
  ../Field/Field.h \

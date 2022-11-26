@@ -9,18 +9,19 @@
 #include "../Player/Player.h"
 #include "../Field/Field.h"
 #include "../FieldView/FieldView.h"
-#include "../CommandReader/CommandReader.h"
+#include "../CommandReader/command-reader-console/CommandReader-console.h"
 
 class Controller {
 public:
-    Controller(Player *playerInstance, Field *fieldInstance, FieldView gameFieldView, CommandReader commandReader);
+    Controller(Player *playerInstance, Field *fieldInstance, FieldView gameFieldView, CommandReader *commandReader, bool inf);
 
     void run();
 private:
     Player *currentPlayer;
     Field *gameField;
     FieldView gameFieldView;
-    CommandReader reader;
+    CommandReader* reader;
+    bool infinity;
 };
 
 

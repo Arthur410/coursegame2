@@ -5,7 +5,7 @@
 #include "ErrorMessage.h"
 
 Message::LogTypes ErrorMessage::getLogType() {
-    return Message::ERROR;
+    return Message::ERR;
 }
 
 string ErrorMessage::getLogMessage() {

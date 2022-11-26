@@ -5,7 +5,7 @@
 #include "../../Message/Message.h"
 #include "FileLog.h"
 
-FileLog::FileLog():fl(std::ofstream("gamelogs.txt")){}
+FileLog::FileLog() : fl(std::ofstream("gamelogs.txt")) {}
 
 FileLog::~FileLog() {
     fl.close();
