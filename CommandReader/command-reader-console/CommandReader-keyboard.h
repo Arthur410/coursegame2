@@ -12,12 +12,10 @@
 #include "../CommandReader.h"
 class CommandReaderConsole: public CommandReader {
 public:
+    CommandReaderConsole();
+    CommandReader::Action lastAction = Action::DOWN;
     std::pair<int, int> currentPosition;
-    void commandReading(Field *field_instance, FieldView *field_view) override;
-
-    void move(Field *field_instance, std::pair<int, int> curPos, Direction nextDir) override;
-private:
-    Direction lastDirection = DOWN;
+    Action commandReading(Field *field_instance, FieldView *field_view) override;
 };
 
 #endif //INC_2COURSEGAME_COMMANDREADER_H
