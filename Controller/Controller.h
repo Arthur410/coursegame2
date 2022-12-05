@@ -9,19 +9,20 @@
 #include "../Player/Player.h"
 #include "../Field/Field.h"
 #include "../FieldView/FieldView.h"
-#include "../CommandReader/command-reader-console/CommandReader-console.h"
+#include "../CommandReader/command-reader-console/CommandReader-keyboard.h"
 
 class Controller {
 public:
-    Controller(Player *playerInstance, Field *fieldInstance, FieldView gameFieldView, CommandReader *commandReader, bool inf);
+    Controller(Player *playerInstance, Field *fieldInstance, FieldView *gameFieldView, CommandReader *commandReader);
 
+    void doAction(Field *field_instance, std::pair<int, int> curPos, CommandReader::Action nextDir);
     void run();
 private:
     Player *currentPlayer;
+    CommandReader::Action lastAction = CommandReader::Action::DOWN;
     Field *gameField;
-    FieldView gameFieldView;
+    FieldView *gameFieldView;
     CommandReader* reader;
-    bool infinity;
 };
 
 

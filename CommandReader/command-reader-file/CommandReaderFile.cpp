@@ -2,7 +2,7 @@
 // Created by arthu on 24.09.2022.
 //
 
-#include "CommandReader-file.h"
+#include "CommandReaderFile.h"
 
 CommandReaderFile::Action CommandReaderFile::commandReading(Field *field_instance, FieldView *field_view) {
     if (_kbhit()) {
@@ -28,7 +28,7 @@ CommandReaderFile::CommandReaderFile() {
     string line;
     int counter = 0;
     std::ifstream in;
-    in.open(R"(C:\Users\arthu\CLionProjects\coursegame\CommandReader\command-reader-console\controls.txt)"); // окрываем файл для чтения
+    in.open(R"(C:\Users\arthu\CLionProjects\coursegame\CommandReader\command-reader-file\controls.txt)"); // окрываем файл для чтения
     if (in.is_open())
     {
         while (getline(in, line)) {

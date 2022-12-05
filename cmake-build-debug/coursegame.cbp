@@ -97,10 +97,16 @@
 		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CommandReader/CommandReader.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-console/CommandReader-file.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-console/CommandReader-keyboard.cpp">
 			<Option target="coursegame"/>
 		</Unit>
 		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-console/CommandReader-keyboard.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-file/CommandReaderFile.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-file/CommandReaderFile.h">
 			<Option target="coursegame"/>
 		</Unit>
 		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Controller/Controller.cpp">

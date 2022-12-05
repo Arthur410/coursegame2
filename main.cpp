@@ -5,8 +5,9 @@ using namespace std;
 #include "Field/Field.h"
 #include "FieldView/FieldView.h"
 #include "Controller/Controller.h"
-#include "CommandReader/command-reader-console/CommandReader-console.h"
-#include "CommandReader/command-reader-file/CommandReader-file.h"
+
+#include "CommandReader/command-reader-file/CommandReaderFile.h"
+#include "CommandReader/command-reader-console/CommandReader-keyboard.h"
 
 int main() {
     int playerX = 1, playerY = 1, playerBaseStrength = 0, playerBaseSpeed = 0 , playerBaseHP = 0;
@@ -23,25 +24,28 @@ int main() {
     int logType;
     cout << "Enter also log type (0 - don't need, 1 - in console, 2 - in file, 3 - in console and file)" << endl;
     cin >> logType;
+    std::ofstream out;          // поток для записи
+    int controlsFlag;
+    cout << "Do you want to change controls? (0 or 1)\n";
+    cin >> controlsFlag;
 
-    int commandReaderType;
-    cout << "Enter command reader type (0 - you can play with keyboard or 1 - write commands in file)" << endl;
-    cin >> commandReaderType;
+    CommandReader *reader;
+    if (controlsFlag) {
+        int controlsTypeFlag;
+        cout << "How do you want to change your contorls (in console or you can write your control keyboards in file named controls.txt (0 or 1)\n";
+        cin >> controlsTypeFlag;
+        if (controlsTypeFlag) {
+            reader = new CommandReaderFile();
+        } else {
+            reader = new CommandReaderConsole(0);
+        }
+    } else {
+        reader = new CommandReaderConsole(1);
+    }
 
     Player currentPlayer = Player(playerBaseStrength, playerBaseSpeed, playerBaseHP);
     Field gameField = Field(playerStartPosition, width, height, &currentPlayer, logType);
     FieldView gameFieldView = FieldView(&gameField);
-    CommandReader *reader;
-    switch(commandReaderType) {
-        case 0:
-            reader = new CommandReaderConsole();
-            break;
-        case 1:
-            reader = new CommandReaderFile();
-            break;
-        default:
-            reader = new CommandReaderConsole();
-    }
-    Controller controller = Controller(&currentPlayer, &gameField, gameFieldView, reader, !commandReaderType);
+    Controller controller = Controller(&currentPlayer, &gameField, &gameFieldView, reader);
     controller.run();
 }

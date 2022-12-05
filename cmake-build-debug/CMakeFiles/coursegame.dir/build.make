@@ -143,18 +143,18 @@ CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\FieldView\FieldView.cpp -o CMakeFiles\coursegame.dir\FieldView\FieldView.cpp.s
 
-CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-file.cpp.obj: CMakeFiles/coursegame.dir/flags.make
-CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-file.cpp.obj: ../CommandReader/command-reader-console/CommandReader-file.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-file.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\CommandReader\command-reader-console\CommandReader-file.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\CommandReader\command-reader-console\CommandReader-file.cpp
+CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-keyboard.cpp.obj: CMakeFiles/coursegame.dir/flags.make
+CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-keyboard.cpp.obj: ../CommandReader/command-reader-console/CommandReader-keyboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-keyboard.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\CommandReader\command-reader-console\CommandReader-keyboard.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\CommandReader\command-reader-console\CommandReader-keyboard.cpp
 
-CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-file.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-file.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\CommandReader\command-reader-console\CommandReader-file.cpp > CMakeFiles\coursegame.dir\CommandReader\command-reader-console\CommandReader-file.cpp.i
+CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-keyboard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-keyboard.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\CommandReader\command-reader-console\CommandReader-keyboard.cpp > CMakeFiles\coursegame.dir\CommandReader\command-reader-console\CommandReader-keyboard.cpp.i
 
-CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-file.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-file.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\CommandReader\command-reader-console\CommandReader-file.cpp -o CMakeFiles\coursegame.dir\CommandReader\command-reader-console\CommandReader-file.cpp.s
+CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-keyboard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-keyboard.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\CommandReader\command-reader-console\CommandReader-keyboard.cpp -o CMakeFiles\coursegame.dir\CommandReader\command-reader-console\CommandReader-keyboard.cpp.s
 
 CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj: ../Controller/Controller.cpp
@@ -325,6 +325,19 @@ CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Logs\LoggerPool\LoggerPool.cpp -o CMakeFiles\coursegame.dir\Logs\LoggerPool\LoggerPool.cpp.s
 
+CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cpp.obj: CMakeFiles/coursegame.dir/flags.make
+CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cpp.obj: ../CommandReader/command-reader-file/CommandReaderFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\CommandReader\command-reader-file\CommandReaderFile.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\CommandReader\command-reader-file\CommandReaderFile.cpp
+
+CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\CommandReader\command-reader-file\CommandReaderFile.cpp > CMakeFiles\coursegame.dir\CommandReader\command-reader-file\CommandReaderFile.cpp.i
+
+CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\CommandReader\command-reader-file\CommandReaderFile.cpp -o CMakeFiles\coursegame.dir\CommandReader\command-reader-file\CommandReaderFile.cpp.s
+
 # Object files for target coursegame
 coursegame_OBJECTS = \
 "CMakeFiles/coursegame.dir/main.cpp.obj" \
@@ -333,7 +346,7 @@ coursegame_OBJECTS = \
 "CMakeFiles/coursegame.dir/Player/Player.cpp.obj" \
 "CMakeFiles/coursegame.dir/Field/Field.cpp.obj" \
 "CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.obj" \
-"CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-file.cpp.obj" \
+"CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-keyboard.cpp.obj" \
 "CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj" \
 "CMakeFiles/coursegame.dir/Event/PlayerEvent/medicalEvent/MedicalEvent.cpp.obj" \
 "CMakeFiles/coursegame.dir/Event/PlayerEvent/mineEvent/MineEvent.cpp.obj" \
@@ -346,7 +359,8 @@ coursegame_OBJECTS = \
 "CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.obj" \
 "CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.obj" \
 "CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.obj" \
-"CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.obj"
+"CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.obj" \
+"CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cpp.obj"
 
 # External object files for target coursegame
 coursegame_EXTERNAL_OBJECTS =
@@ -357,7 +371,7 @@ coursegame.exe: CMakeFiles/coursegame.dir/CellView/CellView.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/Player/Player.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/Field/Field.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.obj
-coursegame.exe: CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-file.cpp.obj
+coursegame.exe: CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-keyboard.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/Event/PlayerEvent/medicalEvent/MedicalEvent.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/Event/PlayerEvent/mineEvent/MineEvent.cpp.obj
@@ -371,11 +385,12 @@ coursegame.exe: CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage
 coursegame.exe: CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.obj
+coursegame.exe: CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/build.make
 coursegame.exe: CMakeFiles/coursegame.dir/linklibs.rsp
 coursegame.exe: CMakeFiles/coursegame.dir/objects1.rsp
 coursegame.exe: CMakeFiles/coursegame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable coursegame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable coursegame.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\coursegame.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

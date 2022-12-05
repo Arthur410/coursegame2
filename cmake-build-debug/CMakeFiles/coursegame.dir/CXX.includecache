@@ -16,7 +16,11 @@ C:/Users/arthu/CLionProjects/coursegame/FieldView/FieldView.h
 iostream
 -
 
-C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-console/CommandReader-keyboard.h
+C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-file/CommandReaderFile.cpp
+CommandReaderFile.h
+C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-file/CommandReaderFile.h
+
+C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-file/CommandReaderFile.h
 iostream
 -
 conio.h
@@ -27,28 +31,6 @@ C:/Users/arthu/CLionProjects/coursegame/Player/Player.h
 C:/Users/arthu/CLionProjects/coursegame/Field/Field.h
 ../CommandReader.h
 C:/Users/arthu/CLionProjects/coursegame/CommandReader/CommandReader.h
-
-C:/Users/arthu/CLionProjects/coursegame/CommandReader/commandReaderFile/CommandReader-file.h
-iostream
--
-conio.h
--
-../../Player/Player.h
-C:/Users/arthu/CLionProjects/coursegame/Player/Player.h
-../../Field/Field.h
-C:/Users/arthu/CLionProjects/coursegame/Field/Field.h
-../CommandReader.h
-C:/Users/arthu/CLionProjects/coursegame/CommandReader/CommandReader.h
-
-C:/Users/arthu/CLionProjects/coursegame/Controller/Controller.h
-../Player/Player.h
-C:/Users/arthu/CLionProjects/coursegame/Player/Player.h
-../Field/Field.h
-C:/Users/arthu/CLionProjects/coursegame/Field/Field.h
-../FieldView/FieldView.h
-C:/Users/arthu/CLionProjects/coursegame/FieldView/FieldView.h
-../CommandReader/command-reader-console/CommandReader-keyboard.h
-C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-console/CommandReader-keyboard.h
 
 C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
 
@@ -137,22 +119,4 @@ map
 C:/Users/arthu/CLionProjects/coursegame/Player/Player.h
 ../Event/IEvent.h
 C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h
-
-C:/Users/arthu/CLionProjects/coursegame/main.cpp
-iostream
--
-Cell/Cell.h
-C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h
-Player/Player.h
-C:/Users/arthu/CLionProjects/coursegame/Player/Player.h
-Field/Field.h
-C:/Users/arthu/CLionProjects/coursegame/Field/Field.h
-FieldView/FieldView.h
-C:/Users/arthu/CLionProjects/coursegame/FieldView/FieldView.h
-Controller/Controller.h
-C:/Users/arthu/CLionProjects/coursegame/Controller/Controller.h
-CommandReader/command-reader-console/CommandReader-keyboard.h
-C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-console/CommandReader-keyboard.h
-CommandReader/commandReaderFile/CommandReader-file.h
-C:/Users/arthu/CLionProjects/coursegame/CommandReader/commandReaderFile/CommandReader-file.h
 

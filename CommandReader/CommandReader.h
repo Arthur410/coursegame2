@@ -7,9 +7,11 @@
 #include "../FieldView/FieldView.h"
 
 #endif //COURSEGAME_COMMANDREADER_H
+#include <iostream>
+
 class CommandReader {
 public:
-    enum Direction {UP, DOWN, RIGHT, LEFT};
-    virtual void commandReading(Field *field_instance, FieldView *field_view) = 0;
-    virtual void move(Field *field_instance, std::pair<int, int> curPos, Direction nextDir) = 0;
+    enum Action {UP, DOWN, RIGHT, LEFT, NONE};
+    std::map<string, Action> control;
+    virtual Action commandReading(Field *field_instance, FieldView *field_view) = 0;
 };

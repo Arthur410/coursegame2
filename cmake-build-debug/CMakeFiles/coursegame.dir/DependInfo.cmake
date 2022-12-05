@@ -10,7 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.cpp" "C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/CMakeFiles/coursegame.dir/Cell/Cell.cpp.obj"
   "C:/Users/arthu/CLionProjects/coursegame/CellView/CellView.cpp" "C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/CMakeFiles/coursegame.dir/CellView/CellView.cpp.obj"
-  "C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-console/CommandReader-file.cpp" "C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-file.cpp.obj"
+  "C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-console/CommandReader-keyboard.cpp" "C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-keyboard.cpp.obj"
+  "C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-file/CommandReaderFile.cpp" "C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cpp.obj"
   "C:/Users/arthu/CLionProjects/coursegame/Controller/Controller.cpp" "C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj"
   "C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp" "C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp.obj"
   "C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp" "C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp.obj"
