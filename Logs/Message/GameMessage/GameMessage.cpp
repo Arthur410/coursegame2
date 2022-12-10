@@ -25,6 +25,10 @@ string GameMessage::getLogMessage() {
                "                                         ";
     } else if (currentType == messageTypes::RAGE) {
         text = "ARRAHGHGHRHHGH";
+    } else if (currentType == messageTypes::STRENGTH_TAKEN) {
+        text = "I BECAME STRONGER!";
+    } else if (currentType == messageTypes::QUICKNESS_TAKEN) {
+        text = "I BECAME FASTER";
     }
     return text;
 }

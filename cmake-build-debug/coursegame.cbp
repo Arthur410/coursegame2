@@ -154,10 +154,67 @@
 		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/mineEvent/MineEvent.h">
 			<Option target="coursegame"/>
 		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/speedEvent/SpeedEvent.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/speedEvent/SpeedEvent.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/strengthEvent/StrengthEvent.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/strengthEvent/StrengthEvent.h">
+			<Option target="coursegame"/>
+		</Unit>
 		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Field/Field.cpp">
 			<Option target="coursegame"/>
 		</Unit>
 		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Field/Field.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGeneration.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGeneration.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/GenerationRule.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.h">
 			<Option target="coursegame"/>
 		</Unit>
 		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldView/FieldView.cpp">

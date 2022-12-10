@@ -9,7 +9,7 @@
 class Cell {
 public:
     bool isPlayerIn = false;
-    enum CellType {WALL, EMPTY, MEDICAL, MINE, EXIT};
+    enum CellType {WALL, EMPTY, MEDICAL, MINE, EXIT, STRENGTH, QUICKNESS};
 
     explicit Cell(CellType type);
 

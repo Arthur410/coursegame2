@@ -8,7 +8,7 @@
 
 class GameMessage: public Message {
 public:
-    enum messageTypes {HEAL_TAKEN, MINE_TAKEN, EXIT_TAKEN, PLAYER_DIED, RAGE};
+    enum messageTypes {HEAL_TAKEN, MINE_TAKEN, EXIT_TAKEN, PLAYER_DIED, RAGE, STRENGTH_TAKEN, QUICKNESS_TAKEN};
 
     explicit GameMessage(messageTypes type);
     Message::LogTypes getLogType() override;

@@ -10,6 +10,8 @@
 
 #include "../Player/Player.h"
 #include "../Cell/Cell.h"
+#include "../FieldGeneration/FieldGeneration.h"
+#include "../FieldGeneration/FieldGenerationRules/GenerationRule.h"
 
 #include "../Logs/LoggerPool/LoggerPool.h"
 #include "../Logs/Logger/ConsoleLog/ConsoleLog.h"
@@ -26,10 +28,10 @@
 class Field{
 
 public:
-    bool medicalFlag = true, mineFlag = true, exitFlag = false, wallFlag = true;
+    bool exitFlag = false;
     Player *player{};
 
-    explicit Field(std::pair<int, int> playerPos, int width, int height, Player *currentPlayer, int logType);
+    explicit Field(std::pair<int, int> playerPos, int width, int height, Player *currentPlayer, int logType, int difficulty);
 
     Field();
 
@@ -72,19 +74,17 @@ public:
     Message *getCurrentMessage();
 
 private:
-    std::pair<int ,int> healPosition;
-    std::pair<int ,int> minePosition;
-    std::pair<int ,int> wallPosition;
-    std::pair<int ,int> exitPosition;
     std::pair<int, int> playerPosition;
     int tickCounter = 0;
     int fieldWidth{};
     int fieldHeight{};
+    int gameDifficulty;
     Cell **fieldVariable{};
     LoggerPool loggerPool;
     std::vector<Logger *> loggers;
     int loggerPoolCount;
     Message *currentMessage;
+
 };
 
 

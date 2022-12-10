@@ -23,6 +23,10 @@ void CellView::cellView() {
             std::cout << "H";
         } else if (cell_instance.getCellType() == Cell::WALL) {
             std::cout << "#";
+        } else if (cell_instance.getCellType() == Cell::STRENGTH) {
+            std::cout << "S";
+        } else if (cell_instance.getCellType() == Cell::QUICKNESS) {
+            std::cout << "Q";
         }
     }
 }

@@ -16,7 +16,12 @@ CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-key
  ../CommandReader/command-reader-console/CommandReader-keyboard.cpp \
  ../CommandReader/command-reader-console/CommandReader-keyboard.h \
  ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Event/PlayerEvent/medicalEvent/MedicalEvent.h \
  ../Field/Field.h \
+ ../FieldGeneration/FieldGeneration.h \
+ ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
+ ../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h \
  ../FieldView/FieldView.h \
  ../Logs/Logger/ConsoleLog/ConsoleLog.h \
  ../Logs/Logger/FileLog/FileLog.h \
@@ -33,7 +38,12 @@ CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cp
  ../CommandReader/command-reader-file/CommandReaderFile.cpp \
  ../CommandReader/command-reader-file/CommandReaderFile.h \
  ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Event/PlayerEvent/medicalEvent/MedicalEvent.h \
  ../Field/Field.h \
+ ../FieldGeneration/FieldGeneration.h \
+ ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
+ ../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h \
  ../FieldView/FieldView.h \
  ../Logs/Logger/ConsoleLog/ConsoleLog.h \
  ../Logs/Logger/FileLog/FileLog.h \
@@ -51,7 +61,12 @@ CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj: \
  ../Controller/Controller.cpp \
  ../Controller/Controller.h \
  ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Event/PlayerEvent/medicalEvent/MedicalEvent.h \
  ../Field/Field.h \
+ ../FieldGeneration/FieldGeneration.h \
+ ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
+ ../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h \
  ../FieldView/FieldView.h \
  ../Logs/Logger/ConsoleLog/ConsoleLog.h \
  ../Logs/Logger/FileLog/FileLog.h \
@@ -74,7 +89,12 @@ CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp.
  ../Event/CellEvent/CellChangeToWall/CellChangeToWall.h \
  ../Event/CellEvent/CellEvent.h \
  ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Event/PlayerEvent/medicalEvent/MedicalEvent.h \
  ../Field/Field.h \
+ ../FieldGeneration/FieldGeneration.h \
+ ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
+ ../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h \
  ../Logs/Logger/ConsoleLog/ConsoleLog.h \
  ../Logs/Logger/FileLog/FileLog.h \
  ../Logs/Logger/Logger.h \
@@ -109,6 +129,20 @@ CMakeFiles/coursegame.dir/Event/PlayerEvent/mineEvent/MineEvent.cpp.obj: \
  ../Event/PlayerEvent/mineEvent/MineEvent.cpp \
  ../Event/PlayerEvent/mineEvent/MineEvent.h \
  ../Player/Player.h
+CMakeFiles/coursegame.dir/Event/PlayerEvent/speedEvent/SpeedEvent.cpp.obj: \
+ ../Cell/Cell.h \
+ ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Event/PlayerEvent/speedEvent/SpeedEvent.cpp \
+ ../Event/PlayerEvent/speedEvent/SpeedEvent.h \
+ ../Player/Player.h
+CMakeFiles/coursegame.dir/Event/PlayerEvent/strengthEvent/StrengthEvent.cpp.obj: \
+ ../Cell/Cell.h \
+ ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Event/PlayerEvent/strengthEvent/StrengthEvent.cpp \
+ ../Event/PlayerEvent/strengthEvent/StrengthEvent.h \
+ ../Player/Player.h
 CMakeFiles/coursegame.dir/Field/Field.cpp.obj: \
  ../Cell/Cell.h \
  ../Event/CellEvent/CellChangeToExit/CellChangeToExit.h \
@@ -118,8 +152,17 @@ CMakeFiles/coursegame.dir/Field/Field.cpp.obj: \
  ../Event/PlayerEvent/PlayerEvent.h \
  ../Event/PlayerEvent/medicalEvent/MedicalEvent.h \
  ../Event/PlayerEvent/mineEvent/MineEvent.h \
+ ../Event/PlayerEvent/speedEvent/SpeedEvent.h \
+ ../Event/PlayerEvent/strengthEvent/StrengthEvent.h \
  ../Field/Field.cpp \
  ../Field/Field.h \
+ ../FieldGeneration/FieldGeneration.h \
+ ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
+ ../FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.h \
+ ../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h \
+ ../FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.h \
+ ../FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.h \
+ ../FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.h \
  ../Logs/Logger/ConsoleLog/ConsoleLog.h \
  ../Logs/Logger/FileLog/FileLog.h \
  ../Logs/Logger/Logger.h \
@@ -129,11 +172,74 @@ CMakeFiles/coursegame.dir/Field/Field.cpp.obj: \
  ../Logs/Message/InfoMessage/InfoMessage.h \
  ../Logs/Message/Message.h \
  ../Player/Player.h
+CMakeFiles/coursegame.dir/FieldGeneration/FieldGeneration.cpp.obj: \
+ ../Cell/Cell.h \
+ ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Event/PlayerEvent/medicalEvent/MedicalEvent.h \
+ ../FieldGeneration/FieldGeneration.cpp \
+ ../FieldGeneration/FieldGeneration.h \
+ ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
+ ../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h \
+ ../Player/Player.h
+CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.cpp.obj: \
+ ../Cell/Cell.h \
+ ../Event/CellEvent/CellChangeToExit/CellChangeToExit.h \
+ ../Event/CellEvent/CellEvent.h \
+ ../Event/IEvent.h \
+ ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
+ ../FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.cpp \
+ ../FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.h \
+ ../Player/Player.h
+CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.cpp.obj: \
+ ../Cell/Cell.h \
+ ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Event/PlayerEvent/medicalEvent/MedicalEvent.h \
+ ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
+ ../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.cpp \
+ ../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h \
+ ../Player/Player.h
+CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.cpp.obj: \
+ ../Cell/Cell.h \
+ ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Event/PlayerEvent/mineEvent/MineEvent.h \
+ ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
+ ../FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.cpp \
+ ../FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.h \
+ ../Player/Player.h
+CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.cpp.obj: \
+ ../FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.cpp \
+ ../FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.h
+CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.cpp.obj: \
+ ../Cell/Cell.h \
+ ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Event/PlayerEvent/speedEvent/SpeedEvent.h \
+ ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
+ ../FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.cpp \
+ ../FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.h \
+ ../Player/Player.h
+CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.cpp.obj: \
+ ../Cell/Cell.h \
+ ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Event/PlayerEvent/strengthEvent/StrengthEvent.h \
+ ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
+ ../FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.cpp \
+ ../FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.h \
+ ../Player/Player.h
 CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.obj: \
  ../Cell/Cell.h \
  ../CellView/CellView.h \
  ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Event/PlayerEvent/medicalEvent/MedicalEvent.h \
  ../Field/Field.h \
+ ../FieldGeneration/FieldGeneration.h \
+ ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
+ ../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h \
  ../FieldView/FieldView.cpp \
  ../FieldView/FieldView.h \
  ../Logs/Logger/ConsoleLog/ConsoleLog.h \
@@ -183,7 +289,12 @@ CMakeFiles/coursegame.dir/main.cpp.obj: \
  ../CommandReader/command-reader-file/CommandReaderFile.h \
  ../Controller/Controller.h \
  ../Event/IEvent.h \
+ ../Event/PlayerEvent/PlayerEvent.h \
+ ../Event/PlayerEvent/medicalEvent/MedicalEvent.h \
  ../Field/Field.h \
+ ../FieldGeneration/FieldGeneration.h \
+ ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
+ ../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h \
  ../FieldView/FieldView.h \
  ../Logs/Logger/ConsoleLog/ConsoleLog.h \
  ../Logs/Logger/FileLog/FileLog.h \

@@ -7,7 +7,7 @@ Cell::Cell(Cell::CellType currentType) {
     type = currentType;
 }
 Cell::Cell() {
-    type = MINE;
+    type = WALL;
 }
 
 void Cell::setCellContent(CellType newType) {

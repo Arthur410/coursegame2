@@ -6,9 +6,17 @@
 
 #include "../Event/PlayerEvent/medicalEvent/MedicalEvent.h"
 #include "../Event/PlayerEvent/mineEvent/MineEvent.h"
+#include "../Event/PlayerEvent/strengthEvent/StrengthEvent.h"
+#include "../Event/PlayerEvent/speedEvent/SpeedEvent.h"
 
 #include "../Event/CellEvent/CellChangeToWall/CellChangeToWall.h"
 #include "../Event/CellEvent/CellChangeToExit/CellChangeToExit.h"
+#include "../FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.h"
+#include "../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h"
+#include "../FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.h"
+#include "../FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.h"
+#include "../FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.h"
+
 #include <thread>
 #include <iostream>
 #ifdef _WIN32
@@ -19,23 +27,12 @@
 using namespace std;
 
 // конструктор с параметрами
-Field::Field(pair<int, int> playerPos, int width, int height, Player *currentPlayer, int logType):
+Field::Field(pair<int, int> playerPos, int width, int height, Player *currentPlayer, int logType, int difficulty):
     playerPosition(std::move(playerPos)),
     player(currentPlayer),
     fieldWidth(width),
-    fieldHeight(height) {
-
-    healPosition.first = 2;
-    healPosition.second = 2;
-
-    minePosition.first = 3;
-    minePosition.second = 2;
-
-    wallPosition.first = 5;
-    wallPosition.second = 5;
-
-    exitPosition.first = fieldWidth - 2;
-    exitPosition.second = fieldHeight - 2;
+    fieldHeight(height),
+    gameDifficulty(difficulty){
 
     switch (logType) {
         case 0:
@@ -139,7 +136,7 @@ Field& Field::operator=(Field&& filedObj) noexcept {
 void Field::fieldUpdate() {
     std::pair<int, int> playerPos = getPlayerPosition();
 
-    if (playerPos == exitPosition && exitFlag) {
+    if (exitFlag) {
         currentMessage = new InfoMessage(InfoMessage::END);
         loggerPool.notify(currentMessage, true, true);
         currentMessage = nullptr;
@@ -148,8 +145,6 @@ void Field::fieldUpdate() {
         loggerPool.notify(currentMessage, true, true);
         currentMessage = nullptr;
     }
-
-    increaseFieldTick();
 
     for (int i = 0; i < fieldWidth; i++) {
         for (int j = 0; j < fieldHeight; j++) {
@@ -162,30 +157,15 @@ void Field::fieldUpdate() {
         }
     }
 
-    if (getFieldTicks() % 100 == 0) {
-        medicalFlag = true;
-        mineFlag = true;
+    if (gameDifficulty == 0) {
+        FieldGeneration<RuleHeal *, RuleExit *, RuleSpeed *, RuleStrength *> gen = FieldGeneration<RuleHeal *, RuleExit *, RuleSpeed *, RuleStrength *>(player, fieldVariable, playerPos);
+        gen.rulesGeneration(new RuleHeal(), new RuleExit(), new RuleSpeed(), new RuleStrength());
+    } else {
+        FieldGeneration<RuleMine *, RuleHeal *, RuleExit *, RuleSpeed *, RuleStrength *> gen = FieldGeneration<RuleMine *, RuleHeal *, RuleExit *, RuleSpeed *, RuleStrength *>(player, fieldVariable, playerPos);
+        gen.rulesGeneration(new RuleMine(), new RuleHeal(), new RuleExit(), new RuleSpeed(), new RuleStrength());
     }
 
-    if ((getFieldTicks() + 1) % 200 == 0) {
-        exitFlag = true;
-    }
-
-    if (wallFlag) {
-        fieldVariable[wallPosition.first][wallPosition.second].setNewEvent(new CellChangeToWall(&fieldVariable[wallPosition.first][wallPosition.second]));
-    }
-
-    if (medicalFlag) {
-        fieldVariable[healPosition.first][healPosition.second].setNewEvent(new MedicalEvent(player, &fieldVariable[healPosition.first][healPosition.second]));
-    }
-
-    if (mineFlag) {
-        fieldVariable[minePosition.first][minePosition.second].setNewEvent(new MineEvent(player, &fieldVariable[minePosition.first][minePosition.second]));
-    }
-
-    if (exitFlag) {
-        fieldVariable[exitPosition.first][exitPosition.second].setNewEvent(new CellChangeToExit(&fieldVariable[exitPosition.first][exitPosition.second]));
-    }
+    increaseFieldTick();
 
     if (currentMessage) {
         loggerPool.notify(currentMessage, false, false);
@@ -204,17 +184,22 @@ void Field::fieldUpdate() {
                             currentMessage = new GameMessage(GameMessage::HEAL_TAKEN);
 
                             cellWithPlayer.setNewEvent(nullptr);
-                            medicalFlag = false;
                         } else if (cellWithPlayer.getCellType() == Cell::MINE) {
                             currentMessage = new GameMessage(GameMessage::MINE_TAKEN);
 
                             cellWithPlayer.setNewEvent(nullptr);
-                            mineFlag = false;
                         } else if (cellWithPlayer.getCellType() == Cell::EXIT) {
                             currentMessage = new GameMessage(GameMessage::EXIT_TAKEN);
+                            exitFlag = true;
+                            cellWithPlayer.setNewEvent(nullptr);
+                        } else if (cellWithPlayer.getCellType() == Cell::STRENGTH) {
+                            currentMessage = new GameMessage(GameMessage::STRENGTH_TAKEN);
 
                             cellWithPlayer.setNewEvent(nullptr);
-                            exitFlag = false;
+                        } else if (cellWithPlayer.getCellType() == Cell::QUICKNESS) {
+                            currentMessage = new GameMessage(GameMessage::QUICKNESS_TAKEN);
+
+                            cellWithPlayer.setNewEvent(nullptr);
                         }
                     }
                 } else {

@@ -21,6 +21,7 @@ void Controller::run() {
             while (rageSteps < 5) {
                 doAction(gameField, gameField->getPlayerPosition(), currentKey);
                 rageSteps++;
+                gameField->setNewMessage(new GameMessage(GameMessage::RAGE));
             }
             gameField->player->rage();
         } else {
