@@ -1,26 +1,20 @@
 //
 // Created by arthu on 24.09.2022.
 //
-
 #include "Field.h"
 
 #include "../Event/PlayerEvent/medicalEvent/MedicalEvent.h"
 #include "../Event/PlayerEvent/mineEvent/MineEvent.h"
 #include "../Event/PlayerEvent/strengthEvent/StrengthEvent.h"
 #include "../Event/PlayerEvent/speedEvent/SpeedEvent.h"
-
-#include "../Event/CellEvent/CellChangeToWall/CellChangeToWall.h"
-#include "../Event/CellEvent/CellChangeToExit/CellChangeToExit.h"
-#include "../FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.h"
-#include "../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h"
-#include "../FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.h"
-#include "../FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.h"
-#include "../FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.h"
+#include "../CellView/CellView.h"
 
 #include <thread>
 #include <iostream>
 #ifdef _WIN32
 #include <Windows.h>
+#include <sstream>
+#include <unordered_map>
 #else
 #include <unistd.h>
 #endif
@@ -37,6 +31,7 @@ Field::Field(pair<int, int> playerPos, int width, int height, Player *currentPla
     switch (logType) {
         case 0:
             loggerPoolCount = 0;
+            loggerPool = LoggerPool(loggers, loggerPoolCount);
             break;
         case 1:
             loggerPoolCount = 1;
@@ -55,12 +50,13 @@ Field::Field(pair<int, int> playerPos, int width, int height, Player *currentPla
             loggerPool = LoggerPool(loggers, loggerPoolCount);
             break;
         default:
-            cout << "...";
+            throw std::invalid_argument("Incorrect logType value");
     }
 
-    if (fieldWidth <= 0 || fieldHeight <= 0) {
+    if (fieldWidth < 15 || fieldHeight < 15 || fieldWidth > 50 || fieldHeight > 50 || fieldWidth != fieldHeight) {
         currentMessage = new ErrorMessage(ErrorMessage(ErrorMessage::FIELD_ERROR));
         loggerPool.notify(currentMessage, true, true);
+        throw std::invalid_argument("Incorrect field size");
     }
 
     fieldVariable = new Cell*[fieldWidth];
@@ -135,12 +131,7 @@ Field& Field::operator=(Field&& filedObj) noexcept {
 
 void Field::fieldUpdate() {
     std::pair<int, int> playerPos = getPlayerPosition();
-
-    if (exitFlag) {
-        currentMessage = new InfoMessage(InfoMessage::END);
-        loggerPool.notify(currentMessage, true, true);
-        currentMessage = nullptr;
-    } else if (player->getHp() < 0) {
+    if (player->getHp() < 0) {
         currentMessage = new GameMessage(GameMessage::PLAYER_DIED);
         loggerPool.notify(currentMessage, true, true);
         currentMessage = nullptr;
@@ -151,55 +142,52 @@ void Field::fieldUpdate() {
             if (i == 0 || i == fieldWidth - 1 || j == 0 || j == fieldHeight - 1) {
                 fieldVariable[i][j].setNewEvent(new CellChangeToWall(&fieldVariable[i][j]));
             } else {
-                fieldVariable[i][j].setNewEvent(nullptr);
+                if (!fieldVariable[i][j].getEvent() || getFieldTicks() % 100 == 0) {
+                    fieldVariable[i][j].setNewEvent(nullptr);
+                }
             }
             fieldVariable[i][j].isPlayerIn = false;
         }
     }
 
-    if (gameDifficulty == 0) {
-        FieldGeneration<RuleHeal *, RuleExit *, RuleSpeed *, RuleStrength *> gen = FieldGeneration<RuleHeal *, RuleExit *, RuleSpeed *, RuleStrength *>(player, fieldVariable, playerPos);
-        gen.rulesGeneration(new RuleHeal(), new RuleExit(), new RuleSpeed(), new RuleStrength());
-    } else {
-        FieldGeneration<RuleMine *, RuleHeal *, RuleExit *, RuleSpeed *, RuleStrength *> gen = FieldGeneration<RuleMine *, RuleHeal *, RuleExit *, RuleSpeed *, RuleStrength *>(player, fieldVariable, playerPos);
-        gen.rulesGeneration(new RuleMine(), new RuleHeal(), new RuleExit(), new RuleSpeed(), new RuleStrength());
+    if (getFieldTicks() % 100 == 0) {
+        if (gameDifficulty == 0) {
+            FieldGeneration<RuleHeal *, RuleExit *, RuleSpeed *, RuleStrength *> gen = FieldGeneration<RuleHeal *, RuleExit *, RuleSpeed *, RuleStrength *>(player, fieldVariable, playerPos);
+            gen.rulesGeneration(new RuleHeal(), new RuleExit(), new RuleSpeed(), new RuleStrength());
+        } else {
+            FieldGeneration<RuleMine *, RuleHeal *, RuleExit *, RuleSpeed *, RuleStrength *> gen = FieldGeneration<RuleMine *, RuleHeal *, RuleExit *, RuleSpeed *, RuleStrength *>(player, fieldVariable, playerPos);
+            gen.rulesGeneration(new RuleMine(), new RuleHeal(), new RuleExit(), new RuleSpeed(), new RuleStrength());
+        }
     }
 
     increaseFieldTick();
-
-    if (currentMessage) {
-        loggerPool.notify(currentMessage, false, false);
-    }
 
     fieldVariable[playerPos.first][playerPos.second].isPlayerIn = true;
     for (int i = 0; i < fieldWidth; i++) {
         for (int j = 0; j < fieldHeight; j++) {
             if (fieldVariable[i][j].getEvent()) {
                 if (playerPos.first == i && playerPos.second == j) {
-                    Cell cellWithPlayer = fieldVariable[i][j];
-                    IEvent* currentEvent = cellWithPlayer.getEvent();
+                    IEvent* currentEvent = fieldVariable[i][j].getEvent();
                     if (currentEvent) {
                         currentEvent->interact();
-                        if (cellWithPlayer.getCellType() == Cell::MEDICAL) {
+
+                        if (fieldVariable[i][j].getCellType() == Cell::MEDICAL) {
                             currentMessage = new GameMessage(GameMessage::HEAL_TAKEN);
-
-                            cellWithPlayer.setNewEvent(nullptr);
-                        } else if (cellWithPlayer.getCellType() == Cell::MINE) {
+                            fieldVariable[i][j].setNewEvent(nullptr);
+                        } else if (fieldVariable[i][j].getCellType() == Cell::MINE) {
                             currentMessage = new GameMessage(GameMessage::MINE_TAKEN);
-
-                            cellWithPlayer.setNewEvent(nullptr);
-                        } else if (cellWithPlayer.getCellType() == Cell::EXIT) {
-                            currentMessage = new GameMessage(GameMessage::EXIT_TAKEN);
-                            exitFlag = true;
-                            cellWithPlayer.setNewEvent(nullptr);
-                        } else if (cellWithPlayer.getCellType() == Cell::STRENGTH) {
+                            fieldVariable[i][j].setNewEvent(nullptr);
+                        } else if (fieldVariable[i][j].getCellType() == Cell::EXIT) {
+                            currentMessage = new InfoMessage(InfoMessage::END);
+                            loggerPool.notify(currentMessage, false, true);
+                            currentMessage = nullptr;
+                            exit(0);
+                        } else if (fieldVariable[i][j].getCellType() == Cell::STRENGTH) {
                             currentMessage = new GameMessage(GameMessage::STRENGTH_TAKEN);
-
-                            cellWithPlayer.setNewEvent(nullptr);
-                        } else if (cellWithPlayer.getCellType() == Cell::QUICKNESS) {
+                            fieldVariable[i][j].setNewEvent(nullptr);
+                        } else if (fieldVariable[i][j].getCellType() == Cell::QUICKNESS) {
                             currentMessage = new GameMessage(GameMessage::QUICKNESS_TAKEN);
-
-                            cellWithPlayer.setNewEvent(nullptr);
+                            fieldVariable[i][j].setNewEvent(nullptr);
                         }
                     }
                 } else {
@@ -207,6 +195,9 @@ void Field::fieldUpdate() {
                 }
             }
         }
+    }
+    if (currentMessage) {
+        loggerPool.notify(currentMessage, false, false);
     }
 }
 
@@ -220,10 +211,12 @@ int Field::getHeight() const {
 }
 
 Cell Field::getCell(int x, int y) {
-    if (fieldVariable) {
+    try {
         return fieldVariable[x][y];
     }
-    return Cell(Cell::CellType::EMPTY);
+    catch (...) {
+        throw std::invalid_argument("Incorrect cell coordinates");
+    }
 }
 
 void Field::setPlayerPosition(std::pair<int, int> currentPos) {
@@ -252,4 +245,155 @@ LoggerPool Field::getLoggerPool() {
 
 Message *Field::getCurrentMessage() {
     return currentMessage;
+}
+
+Memento Field::saveState() {
+    Memento fieldMemento;
+    std::string fieldState = createSaveState();
+    fieldMemento.saveState(fieldState, "field_save.txt");
+    return fieldMemento;
+}
+
+void Field::restoreState(Memento fieldMemento) {
+    std::string fieldStateHash = fieldMemento.restoreState("field_save.txt");
+    restoreData(fieldStateHash);
+}
+
+std::string Field::createSaveState() {
+    std::string fieldParameters = std::to_string(hash(fieldWidth, fieldHeight,  playerPosition, fieldVariable));
+    fieldParameters += "\n" + std::to_string(fieldWidth) + "\n" + std::to_string(fieldHeight);
+    fieldParameters += "\n" + std::to_string(playerPosition.first) + "\n" + std::to_string(playerPosition.second);
+    for (int i = 0; i < fieldWidth; i++) {
+        for (int j = 0; j < fieldHeight; j++) {
+            fieldParameters += "\n" + to_string(i) + " " + to_string(j);
+            if (fieldVariable[i][j].getEvent()) {
+                fieldParameters += "\n" + fieldVariable[i][j].getCellSymbol();
+            } else {
+                fieldParameters += "\nNone";
+            }
+        }
+    }
+    return fieldParameters;
+}
+
+void Field::restoreCorrectState() {
+    Cell **tempField = std::get<3>(restoredData);
+    int tempWidth = std::get<0>(restoredData);
+    int tempHeight = std::get<1>(restoredData);
+    fieldWidth = tempWidth;
+    fieldHeight = tempHeight;
+    fieldVariable = tempField;
+    setPlayerPosition(std::get<2>(restoredData));
+    Sleep(1000);
+}
+
+
+
+void Field::restoreData(const std::string &str) {
+    auto ss = std::stringstream{str};
+    std::vector<int> data;
+    std::string hashFromFile;
+    bool isReadHash = true;
+    int cntLine = 0;
+    int cntTotalLine = 1;
+    bool isCellType = true;
+    int width = 0;
+    int height = 0;
+    Cell **tmpField;
+    std::string tmpLine;
+    int onFirst = 1;
+    try {
+        for (std::string line; std::getline(ss, line, '\n');) {
+            tmpLine = line;
+            if (isReadHash) {
+                hashFromFile = line;
+                isReadHash = false;
+            } else {
+                if (cntLine < 4)
+                    data.push_back(std::stoi(line));
+                else {
+                    if (onFirst) {
+                        tmpField = new Cell*[data[0]];
+                        for (int i = 0; i < data[1]; i++) {
+                            tmpField[i] = new Cell[data[1]];
+                        }
+                        onFirst = 0;
+                    }
+                    if (isCellType) {
+                        //
+                    } else {
+                        if (line != "None") {
+                            if (line == "#") {
+                                tmpField[width][height].setNewEvent(new CellChangeToWall(&tmpField[width][height]));
+                            } else if (line == "+") {
+                                tmpField[width][height].setNewEvent(new MedicalEvent(player, &tmpField[width][height]));
+                                tmpField[width][height].setCellContent(Cell::MEDICAL);
+                            } else if (line == "S") {
+                                tmpField[width][height].setNewEvent(new StrengthEvent(player, &tmpField[width][height]));
+                                tmpField[width][height].setCellContent(Cell::STRENGTH);
+                            } else if (line == "Q") {
+                                tmpField[width][height].setNewEvent(new SpeedEvent(player, &tmpField[width][height]));
+                                tmpField[width][height].setCellContent(Cell::QUICKNESS);
+                            } else if (line == "H") {
+                                tmpField[width][height].setNewEvent(new CellChangeToExit(&tmpField[width][height]));
+                                tmpField[width][height].setCellContent(Cell::EXIT);
+                            } else if (line == "x") {
+                                tmpField[width][height].setNewEvent(new MineEvent(player, &tmpField[width][height]));
+                                tmpField[width][height].setCellContent(Cell::MINE);
+                            }
+                        } else {
+                            tmpField[width][height].setNewEvent(nullptr);
+                            tmpField[width][height].setCellContent(Cell::EMPTY);
+                        }
+                        ++width;
+                    }
+
+                    height += width / data[0];
+                    width %= data[0];
+                    isCellType = !isCellType;
+                }
+                ++cntLine;
+            }
+            ++cntTotalLine;
+        }
+    } catch (...) {
+        throw ExceptionOnOpenFile("Field file data incorrect at line " + std::to_string(cntTotalLine) + " >> " + tmpLine + "\n");
+    }
+    size_t fieldHash = hash(data[0], data[1], std::pair<int, int>(data[2], data[3]), tmpField);
+
+    if (std::to_string(fieldHash) != hashFromFile){
+        throw ExceptionOnStateRestore("Field file data has been changed. Hash of restored data " + std::to_string(fieldHash) + "not equal " + hashFromFile + "\n");
+    } else {
+        restoredData = std::make_tuple(data[0],
+                                       data[1],
+                                       std::pair<int, int>(data[2], data[3]),
+                                       tmpField);
+    }
+
+}
+
+long long hashTwoNumbers(int a, int b)
+{
+    auto A = (long long)(a >= 0 ? 2 * (long)a : -2 * (long)a - 1);
+    auto B = (long long)(b >= 0 ? 2 * (long)b : -2 * (long)b - 1);
+    auto C = (long long)((A >= B ? A * A + A + B : A + B * B) / 2);
+    return a < 0 && b < 0 || a >= 0 && b >= 0 ? C : -C - 1;
+}
+
+size_t Field::hash(int width, int height, std::pair<int,int> playerPos, Cell **field) {
+    size_t hashSize = std::hash<int>()(width) xor std::hash<int>()(height << 1);
+    size_t hashPlayerPosition = std::hash<int>()(playerPos.first) xor std::hash<int>()(playerPos.second << 1);
+    ::hash<string> eventHasher;
+    auto hashField = size_t(0);
+    for (int i = 0; i < width; i++){
+        for (int j = 0; j < height; j++){
+            hashField += hashTwoNumbers(i, j);
+            if (field[i][j].getEvent()) {
+                hashField += eventHasher(to_string(field[i][j].getCellType()));
+            }
+        }
+    }
+
+
+    return hashField xor ( (hashPlayerPosition << 1) xor (hashSize << 2));
 }

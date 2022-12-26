@@ -21,15 +21,26 @@
 #include "../Logs/Message/ErrorMessage/ErrorMessage.h"
 #include "../Logs/Message/InfoMessage/InfoMessage.h"
 #include "../Logs/Message/GameMessage/GameMessage.h"
+#include "../Logs/Message/StateMessage/StateMessage.h"
 #include "../Logs/Logger/Logger.h"
 
+#include "../Event/CellEvent/CellChangeToWall/CellChangeToWall.h"
+#include "../Event/CellEvent/CellChangeToExit/CellChangeToExit.h"
+#include "../FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.h"
+#include "../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h"
+#include "../FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.h"
+#include "../FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.h"
+#include "../FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.h"
+
+#include "../Save/Originator/Originator.h"
 #include <utility>
 
-class Field{
-
+class Field: public Originator{
 public:
     bool exitFlag = false;
     Player *player{};
+
+    std::tuple<int, int, std::pair<int, int>, Cell**> restoredData;
 
     explicit Field(std::pair<int, int> playerPos, int width, int height, Player *currentPlayer, int logType, int difficulty);
 
@@ -73,6 +84,18 @@ public:
 
     Message *getCurrentMessage();
 
+    Memento saveState() final;
+
+    void restoreState(Memento) final;
+
+    void restoreCorrectState() final;
+
+    std::string createSaveState();
+
+    void restoreData(const string &str);
+
+    static size_t hash(int width, int height, std::pair<int,int> playerPos, Cell **field) ;
+
 private:
     std::pair<int, int> playerPosition;
     int tickCounter = 0;
@@ -84,7 +107,6 @@ private:
     std::vector<Logger *> loggers;
     int loggerPoolCount;
     Message *currentMessage;
-
 };
 
 

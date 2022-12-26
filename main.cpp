@@ -43,14 +43,9 @@ int main() {
         reader = new CommandReaderConsole(1);
     }
 
-    cout << "Please, enter difficulty level (0 - easy, 1 - you can die!!!!)";
+    cout << "Please, enter difficulty level (0 - easy, 1 - you can die!!!!)\n";
     int difficultyFlag;
     cin >> difficultyFlag;
-    if (difficultyFlag) {
-        // hard
-    } else {
-        // easy without mines
-    }
     Player currentPlayer = Player(playerBaseStrength, playerBaseSpeed, playerBaseHP);
     Field gameField = Field(playerStartPosition, width, height, &currentPlayer, logType, difficultyFlag);
     FieldView gameFieldView = FieldView(&gameField);

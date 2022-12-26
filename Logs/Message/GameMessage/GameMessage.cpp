@@ -29,6 +29,8 @@ string GameMessage::getLogMessage() {
         text = "I BECAME STRONGER!";
     } else if (currentType == messageTypes::QUICKNESS_TAKEN) {
         text = "I BECAME FASTER";
+    } else if (currentType == messageTypes::NOTHING) {
+        text = "Nothing happens...";
     }
     return text;
 }

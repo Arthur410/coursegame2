@@ -11,7 +11,7 @@
 
 class CommandReader {
 public:
-    enum Action {UP, DOWN, RIGHT, LEFT, NONE};
+    enum Action {UP, DOWN, RIGHT, LEFT, NONE, SAVE, RESTORE};
     std::map<string, Action> control;
     virtual Action commandReading(Field *field_instance, FieldView *field_view) = 0;
 };

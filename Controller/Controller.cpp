@@ -58,6 +58,14 @@ void Controller::doAction(Field *field_instance, std::pair<int, int> curPos, Com
         } else {
             newPos.second = curPos.second - 1;
         }
+    } else if (nextAction == CommandReader::Action::SAVE) {
+        saveGame();
+        gameFieldView->fieldView();
+        return;
+    } else if (nextAction == CommandReader::Action::RESTORE) {
+        restoreGame();
+        gameFieldView->fieldView();
+        return;
     }
     if (field_instance->getCell(newPos.first, newPos.second).getEvent()) {
         if (field_instance->getCell(newPos.first, newPos.second).getCellType() != Cell::WALL) {
@@ -72,4 +80,34 @@ void Controller::doAction(Field *field_instance, std::pair<int, int> curPos, Com
         field_instance->setPlayerPosition(newPos);
     }
     gameFieldView->fieldView();
+}
+
+void Controller::saveGame() {
+    try {
+        currentPlayer->saveState();
+        gameField->saveState();
+        gameField->setNewMessage(new StateMessage(StateMessage::SAVED));
+    } catch (ExceptionOnSaveState& er) {
+        throw ExceptionOnSaveState(er.what());
+    } catch (...) {
+        gameField->setNewMessage(new ErrorMessage(ErrorMessage::UNKNOWN));
+    }
+}
+
+void Controller::restoreGame() {
+    Memento mementoSavedState;
+    try {
+        currentPlayer->restoreState(mementoSavedState);
+        gameField->restoreState(mementoSavedState);
+
+        currentPlayer->restoreCorrectState();
+        gameField->restoreCorrectState();
+        gameField->setNewMessage(new StateMessage(StateMessage::RESTORED));
+    } catch (ExceptionOnOpenFile& eoof){
+        cout << eoof.what();
+    } catch (ExceptionOnStateRestore& eosr){
+        cout << eosr.what();
+    } catch (...) {
+        gameField->setNewMessage(new ErrorMessage(ErrorMessage::UNKNOWN));
+    }
 }

@@ -8,7 +8,7 @@
 
 class InfoMessage: public Message {
 public:
-    enum messageTypes {START, END};
+    enum messageTypes {START, END, EXIT};
 
     explicit InfoMessage(messageTypes type);
 

@@ -27,7 +27,7 @@ template<typename T> map_init_helper<T> map_init(T& item)
 
 class Message {
 public:
-    enum LogTypes {GAME, INFO, ERR};
+    enum LogTypes {GAME, INFO, ERR, STATE};
     virtual string getLogMessage() = 0;
     virtual LogTypes getLogType() = 0;
 
@@ -39,6 +39,7 @@ public:
                 (Message::GAME, "[GAME]")
                 (Message::INFO, "[INFO]")
                 (Message::ERR, "[ERROR]")
+                (Message::STATE, "[STATE]")
                 ;
 
         os << MyMap[currentLogType]  << message->getLogMessage();

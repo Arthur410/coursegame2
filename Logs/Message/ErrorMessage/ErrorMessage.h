@@ -8,7 +8,7 @@
 
 class ErrorMessage: public Message {
 public:
-    enum messageTypes {FIELD_ERROR, CANT_GO};
+    enum messageTypes {FIELD_ERROR, CANT_GO, UNKNOWN};
 
     explicit ErrorMessage(messageTypes type);
 

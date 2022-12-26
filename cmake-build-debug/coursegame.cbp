@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug"/>
+				<Option working_dir="C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="coursegame">
-				<Option output="C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/coursegame.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug"/>
+				<Option output="C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/coursegame.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/Makefile&quot;  VERBOSE=1 coursegame"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/Makefile&quot;  VERBOSE=1 coursegame"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="coursegame/fast">
-				<Option output="C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/coursegame.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug"/>
+				<Option output="C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/coursegame.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,226 +55,268 @@
 					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/Makefile&quot;  VERBOSE=1 coursegame/fast"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/Makefile&quot;  VERBOSE=1 coursegame/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug"/>
+				<Option working_dir="C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug"/>
+				<Option working_dir="C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/arthu/CLionProjects/coursegame22/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Cell/Cell.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Cell/Cell.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Cell/Cell.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CellView/CellView.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/CellView/CellView.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CellView/CellView.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/CellView/CellView.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CommandReader/CommandReader.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/CommandReader/CommandReader.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-console/CommandReader-keyboard.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/CommandReader/command-reader-console/CommandReader-keyboard.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-console/CommandReader-keyboard.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/CommandReader/command-reader-console/CommandReader-keyboard.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-file/CommandReaderFile.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/CommandReader/command-reader-file/CommandReaderFile.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CommandReader/command-reader-file/CommandReaderFile.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/CommandReader/command-reader-file/CommandReaderFile.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Controller/Controller.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Controller/Controller.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Controller/Controller.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Controller/Controller.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellChangeToExit/CellChangeToExit.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Event/CellEvent/CellChangeToExit/CellChangeToExit.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellChangeToWall/CellChangeToWall.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Event/CellEvent/CellChangeToWall/CellChangeToWall.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Event/CellEvent/CellEvent.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/CellEvent/CellEvent.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Event/CellEvent/CellEvent.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/IEvent.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Event/IEvent.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/PlayerEvent.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/PlayerEvent.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/PlayerEvent.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/medicalEvent/MedicalEvent.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/medicalEvent/MedicalEvent.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/medicalEvent/MedicalEvent.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/medicalEvent/MedicalEvent.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/mineEvent/MineEvent.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/mineEvent/MineEvent.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/mineEvent/MineEvent.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/mineEvent/MineEvent.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/speedEvent/SpeedEvent.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/speedEvent/SpeedEvent.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/speedEvent/SpeedEvent.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/speedEvent/SpeedEvent.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/strengthEvent/StrengthEvent.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/strengthEvent/StrengthEvent.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Event/PlayerEvent/strengthEvent/StrengthEvent.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/strengthEvent/StrengthEvent.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Field/Field.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Exceptions/Exception.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Field/Field.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Exceptions/Exception.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGeneration.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGeneration.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/GenerationRule.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Field/Field.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Field/Field.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGeneration.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGeneration.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/GenerationRule.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldView/FieldView.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/FieldView/FieldView.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/ConsoleLog/ConsoleLog.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/ConsoleLog/ConsoleLog.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/FileLog/FileLog.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/FileLog/FileLog.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Logger/Logger.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/LoggerPool/LoggerPool.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/LoggerPool/LoggerPool.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/FieldView/FieldView.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Message/ErrorMessage/ErrorMessage.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/FieldView/FieldView.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Message/ErrorMessage/ErrorMessage.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Logs/Logger/ConsoleLog/ConsoleLog.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Message/GameMessage/GameMessage.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Logs/Logger/ConsoleLog/ConsoleLog.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Message/GameMessage/GameMessage.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Logs/Logger/FileLog/FileLog.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Message/InfoMessage/InfoMessage.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Logs/Logger/FileLog/FileLog.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Message/InfoMessage/InfoMessage.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Logs/Logger/Logger.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Logs/Message/Message.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Logs/LoggerPool/LoggerPool.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Player/Player.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Logs/LoggerPool/LoggerPool.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/Player/Player.h">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Logs/Message/ErrorMessage/ErrorMessage.cpp">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/main.cpp">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Logs/Message/ErrorMessage/ErrorMessage.h">
 			<Option target="coursegame"/>
 		</Unit>
-		<Unit filename="C:/Users/arthu/CLionProjects/coursegame/CMakeLists.txt">
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Logs/Message/GameMessage/GameMessage.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Logs/Message/GameMessage/GameMessage.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Logs/Message/InfoMessage/InfoMessage.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Logs/Message/InfoMessage/InfoMessage.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Logs/Message/Message.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Logs/Message/StateMessage/StateMessage.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Logs/Message/StateMessage/StateMessage.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Player/Player.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Player/Player.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Save/Memento/Memento.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Save/Memento/Memento.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Save/Originator/Originator.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/Save/Originator/Originator.h">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/main.cpp">
+			<Option target="coursegame"/>
+		</Unit>
+		<Unit filename="C:/Users/arthu/CLionProjects/coursegame22/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

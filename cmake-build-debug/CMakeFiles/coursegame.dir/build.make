@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\arthu\CLionProjects\coursegame
+CMAKE_SOURCE_DIR = C:\Users\arthu\CLionProjects\coursegame22
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/coursegame.dir/depend.make
@@ -67,393 +67,484 @@ include CMakeFiles/coursegame.dir/flags.make
 
 CMakeFiles/coursegame.dir/main.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/coursegame.dir/main.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\main.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/coursegame.dir/main.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\main.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\main.cpp
 
 CMakeFiles/coursegame.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/main.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\main.cpp > CMakeFiles\coursegame.dir\main.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\main.cpp > CMakeFiles\coursegame.dir\main.cpp.i
 
 CMakeFiles/coursegame.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/main.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\main.cpp -o CMakeFiles\coursegame.dir\main.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\main.cpp -o CMakeFiles\coursegame.dir\main.cpp.s
 
 CMakeFiles/coursegame.dir/Cell/Cell.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Cell/Cell.cpp.obj: ../Cell/Cell.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/coursegame.dir/Cell/Cell.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Cell\Cell.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Cell\Cell.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/coursegame.dir/Cell/Cell.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Cell\Cell.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Cell\Cell.cpp
 
 CMakeFiles/coursegame.dir/Cell/Cell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Cell/Cell.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Cell\Cell.cpp > CMakeFiles\coursegame.dir\Cell\Cell.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Cell\Cell.cpp > CMakeFiles\coursegame.dir\Cell\Cell.cpp.i
 
 CMakeFiles/coursegame.dir/Cell/Cell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Cell/Cell.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Cell\Cell.cpp -o CMakeFiles\coursegame.dir\Cell\Cell.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Cell\Cell.cpp -o CMakeFiles\coursegame.dir\Cell\Cell.cpp.s
 
 CMakeFiles/coursegame.dir/CellView/CellView.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/CellView/CellView.cpp.obj: ../CellView/CellView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/coursegame.dir/CellView/CellView.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\CellView\CellView.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\CellView\CellView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/coursegame.dir/CellView/CellView.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\CellView\CellView.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\CellView\CellView.cpp
 
 CMakeFiles/coursegame.dir/CellView/CellView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/CellView/CellView.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\CellView\CellView.cpp > CMakeFiles\coursegame.dir\CellView\CellView.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\CellView\CellView.cpp > CMakeFiles\coursegame.dir\CellView\CellView.cpp.i
 
 CMakeFiles/coursegame.dir/CellView/CellView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/CellView/CellView.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\CellView\CellView.cpp -o CMakeFiles\coursegame.dir\CellView\CellView.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\CellView\CellView.cpp -o CMakeFiles\coursegame.dir\CellView\CellView.cpp.s
 
 CMakeFiles/coursegame.dir/Player/Player.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Player/Player.cpp.obj: ../Player/Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/coursegame.dir/Player/Player.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Player\Player.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Player\Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/coursegame.dir/Player/Player.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Player\Player.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Player\Player.cpp
 
 CMakeFiles/coursegame.dir/Player/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Player/Player.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Player\Player.cpp > CMakeFiles\coursegame.dir\Player\Player.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Player\Player.cpp > CMakeFiles\coursegame.dir\Player\Player.cpp.i
 
 CMakeFiles/coursegame.dir/Player/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Player/Player.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Player\Player.cpp -o CMakeFiles\coursegame.dir\Player\Player.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Player\Player.cpp -o CMakeFiles\coursegame.dir\Player\Player.cpp.s
 
 CMakeFiles/coursegame.dir/Field/Field.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Field/Field.cpp.obj: ../Field/Field.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/coursegame.dir/Field/Field.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Field\Field.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Field\Field.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/coursegame.dir/Field/Field.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Field\Field.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Field\Field.cpp
 
 CMakeFiles/coursegame.dir/Field/Field.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Field/Field.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Field\Field.cpp > CMakeFiles\coursegame.dir\Field\Field.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Field\Field.cpp > CMakeFiles\coursegame.dir\Field\Field.cpp.i
 
 CMakeFiles/coursegame.dir/Field/Field.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Field/Field.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Field\Field.cpp -o CMakeFiles\coursegame.dir\Field\Field.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Field\Field.cpp -o CMakeFiles\coursegame.dir\Field\Field.cpp.s
 
 CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.obj: ../FieldView/FieldView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\FieldView\FieldView.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\FieldView\FieldView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\FieldView\FieldView.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\FieldView\FieldView.cpp
 
 CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\FieldView\FieldView.cpp > CMakeFiles\coursegame.dir\FieldView\FieldView.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\FieldView\FieldView.cpp > CMakeFiles\coursegame.dir\FieldView\FieldView.cpp.i
 
 CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\FieldView\FieldView.cpp -o CMakeFiles\coursegame.dir\FieldView\FieldView.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\FieldView\FieldView.cpp -o CMakeFiles\coursegame.dir\FieldView\FieldView.cpp.s
 
 CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-keyboard.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-keyboard.cpp.obj: ../CommandReader/command-reader-console/CommandReader-keyboard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-keyboard.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\CommandReader\command-reader-console\CommandReader-keyboard.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\CommandReader\command-reader-console\CommandReader-keyboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-keyboard.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\CommandReader\command-reader-console\CommandReader-keyboard.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\CommandReader\command-reader-console\CommandReader-keyboard.cpp
 
 CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-keyboard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-keyboard.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\CommandReader\command-reader-console\CommandReader-keyboard.cpp > CMakeFiles\coursegame.dir\CommandReader\command-reader-console\CommandReader-keyboard.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\CommandReader\command-reader-console\CommandReader-keyboard.cpp > CMakeFiles\coursegame.dir\CommandReader\command-reader-console\CommandReader-keyboard.cpp.i
 
 CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-keyboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-keyboard.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\CommandReader\command-reader-console\CommandReader-keyboard.cpp -o CMakeFiles\coursegame.dir\CommandReader\command-reader-console\CommandReader-keyboard.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\CommandReader\command-reader-console\CommandReader-keyboard.cpp -o CMakeFiles\coursegame.dir\CommandReader\command-reader-console\CommandReader-keyboard.cpp.s
 
 CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj: ../Controller/Controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Controller\Controller.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Controller\Controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Controller\Controller.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Controller\Controller.cpp
 
 CMakeFiles/coursegame.dir/Controller/Controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Controller/Controller.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Controller\Controller.cpp > CMakeFiles\coursegame.dir\Controller\Controller.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Controller\Controller.cpp > CMakeFiles\coursegame.dir\Controller\Controller.cpp.i
 
 CMakeFiles/coursegame.dir/Controller/Controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Controller/Controller.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Controller\Controller.cpp -o CMakeFiles\coursegame.dir\Controller\Controller.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Controller\Controller.cpp -o CMakeFiles\coursegame.dir\Controller\Controller.cpp.s
 
 CMakeFiles/coursegame.dir/Event/PlayerEvent/medicalEvent/MedicalEvent.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Event/PlayerEvent/medicalEvent/MedicalEvent.cpp.obj: ../Event/PlayerEvent/medicalEvent/MedicalEvent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/coursegame.dir/Event/PlayerEvent/medicalEvent/MedicalEvent.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\PlayerEvent\medicalEvent\MedicalEvent.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\medicalEvent\MedicalEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/coursegame.dir/Event/PlayerEvent/medicalEvent/MedicalEvent.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\PlayerEvent\medicalEvent\MedicalEvent.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Event\PlayerEvent\medicalEvent\MedicalEvent.cpp
 
 CMakeFiles/coursegame.dir/Event/PlayerEvent/medicalEvent/MedicalEvent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Event/PlayerEvent/medicalEvent/MedicalEvent.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\medicalEvent\MedicalEvent.cpp > CMakeFiles\coursegame.dir\Event\PlayerEvent\medicalEvent\MedicalEvent.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Event\PlayerEvent\medicalEvent\MedicalEvent.cpp > CMakeFiles\coursegame.dir\Event\PlayerEvent\medicalEvent\MedicalEvent.cpp.i
 
 CMakeFiles/coursegame.dir/Event/PlayerEvent/medicalEvent/MedicalEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Event/PlayerEvent/medicalEvent/MedicalEvent.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\medicalEvent\MedicalEvent.cpp -o CMakeFiles\coursegame.dir\Event\PlayerEvent\medicalEvent\MedicalEvent.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Event\PlayerEvent\medicalEvent\MedicalEvent.cpp -o CMakeFiles\coursegame.dir\Event\PlayerEvent\medicalEvent\MedicalEvent.cpp.s
 
 CMakeFiles/coursegame.dir/Event/PlayerEvent/mineEvent/MineEvent.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Event/PlayerEvent/mineEvent/MineEvent.cpp.obj: ../Event/PlayerEvent/mineEvent/MineEvent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/coursegame.dir/Event/PlayerEvent/mineEvent/MineEvent.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\PlayerEvent\mineEvent\MineEvent.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\mineEvent\MineEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/coursegame.dir/Event/PlayerEvent/mineEvent/MineEvent.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\PlayerEvent\mineEvent\MineEvent.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Event\PlayerEvent\mineEvent\MineEvent.cpp
 
 CMakeFiles/coursegame.dir/Event/PlayerEvent/mineEvent/MineEvent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Event/PlayerEvent/mineEvent/MineEvent.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\mineEvent\MineEvent.cpp > CMakeFiles\coursegame.dir\Event\PlayerEvent\mineEvent\MineEvent.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Event\PlayerEvent\mineEvent\MineEvent.cpp > CMakeFiles\coursegame.dir\Event\PlayerEvent\mineEvent\MineEvent.cpp.i
 
 CMakeFiles/coursegame.dir/Event/PlayerEvent/mineEvent/MineEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Event/PlayerEvent/mineEvent/MineEvent.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\mineEvent\MineEvent.cpp -o CMakeFiles\coursegame.dir\Event\PlayerEvent\mineEvent\MineEvent.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Event\PlayerEvent\mineEvent\MineEvent.cpp -o CMakeFiles\coursegame.dir\Event\PlayerEvent\mineEvent\MineEvent.cpp.s
 
 CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.obj: ../Event/PlayerEvent/PlayerEvent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\PlayerEvent\PlayerEvent.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\PlayerEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\PlayerEvent\PlayerEvent.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Event\PlayerEvent\PlayerEvent.cpp
 
 CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\PlayerEvent.cpp > CMakeFiles\coursegame.dir\Event\PlayerEvent\PlayerEvent.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Event\PlayerEvent\PlayerEvent.cpp > CMakeFiles\coursegame.dir\Event\PlayerEvent\PlayerEvent.cpp.i
 
 CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\PlayerEvent.cpp -o CMakeFiles\coursegame.dir\Event\PlayerEvent\PlayerEvent.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Event\PlayerEvent\PlayerEvent.cpp -o CMakeFiles\coursegame.dir\Event\PlayerEvent\PlayerEvent.cpp.s
 
 CMakeFiles/coursegame.dir/Event/CellEvent/CellEvent.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Event/CellEvent/CellEvent.cpp.obj: ../Event/CellEvent/CellEvent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/coursegame.dir/Event/CellEvent/CellEvent.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\CellEvent\CellEvent.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Event\CellEvent\CellEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/coursegame.dir/Event/CellEvent/CellEvent.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\CellEvent\CellEvent.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Event\CellEvent\CellEvent.cpp
 
 CMakeFiles/coursegame.dir/Event/CellEvent/CellEvent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Event/CellEvent/CellEvent.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Event\CellEvent\CellEvent.cpp > CMakeFiles\coursegame.dir\Event\CellEvent\CellEvent.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Event\CellEvent\CellEvent.cpp > CMakeFiles\coursegame.dir\Event\CellEvent\CellEvent.cpp.i
 
 CMakeFiles/coursegame.dir/Event/CellEvent/CellEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Event/CellEvent/CellEvent.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Event\CellEvent\CellEvent.cpp -o CMakeFiles\coursegame.dir\Event\CellEvent\CellEvent.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Event\CellEvent\CellEvent.cpp -o CMakeFiles\coursegame.dir\Event\CellEvent\CellEvent.cpp.s
 
 CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp.obj: ../Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\CellEvent\CellChangeToWall\CellChangeToWall.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Event\CellEvent\CellChangeToWall\CellChangeToWall.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\CellEvent\CellChangeToWall\CellChangeToWall.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Event\CellEvent\CellChangeToWall\CellChangeToWall.cpp
 
 CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Event\CellEvent\CellChangeToWall\CellChangeToWall.cpp > CMakeFiles\coursegame.dir\Event\CellEvent\CellChangeToWall\CellChangeToWall.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Event\CellEvent\CellChangeToWall\CellChangeToWall.cpp > CMakeFiles\coursegame.dir\Event\CellEvent\CellChangeToWall\CellChangeToWall.cpp.i
 
 CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Event\CellEvent\CellChangeToWall\CellChangeToWall.cpp -o CMakeFiles\coursegame.dir\Event\CellEvent\CellChangeToWall\CellChangeToWall.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Event\CellEvent\CellChangeToWall\CellChangeToWall.cpp -o CMakeFiles\coursegame.dir\Event\CellEvent\CellChangeToWall\CellChangeToWall.cpp.s
 
 CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp.obj: ../Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\CellEvent\CellChangeToExit\CellChangeToExit.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Event\CellEvent\CellChangeToExit\CellChangeToExit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\CellEvent\CellChangeToExit\CellChangeToExit.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Event\CellEvent\CellChangeToExit\CellChangeToExit.cpp
 
 CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Event\CellEvent\CellChangeToExit\CellChangeToExit.cpp > CMakeFiles\coursegame.dir\Event\CellEvent\CellChangeToExit\CellChangeToExit.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Event\CellEvent\CellChangeToExit\CellChangeToExit.cpp > CMakeFiles\coursegame.dir\Event\CellEvent\CellChangeToExit\CellChangeToExit.cpp.i
 
 CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Event\CellEvent\CellChangeToExit\CellChangeToExit.cpp -o CMakeFiles\coursegame.dir\Event\CellEvent\CellChangeToExit\CellChangeToExit.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Event\CellEvent\CellChangeToExit\CellChangeToExit.cpp -o CMakeFiles\coursegame.dir\Event\CellEvent\CellChangeToExit\CellChangeToExit.cpp.s
 
 CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.obj: ../Logs/Logger/FileLog/FileLog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\Logger\FileLog\FileLog.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Logs\Logger\FileLog\FileLog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\Logger\FileLog\FileLog.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Logs\Logger\FileLog\FileLog.cpp
 
 CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Logs\Logger\FileLog\FileLog.cpp > CMakeFiles\coursegame.dir\Logs\Logger\FileLog\FileLog.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Logs\Logger\FileLog\FileLog.cpp > CMakeFiles\coursegame.dir\Logs\Logger\FileLog\FileLog.cpp.i
 
 CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Logs/Logger/FileLog/FileLog.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Logs\Logger\FileLog\FileLog.cpp -o CMakeFiles\coursegame.dir\Logs\Logger\FileLog\FileLog.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Logs\Logger\FileLog\FileLog.cpp -o CMakeFiles\coursegame.dir\Logs\Logger\FileLog\FileLog.cpp.s
 
 CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.obj: ../Logs/Logger/ConsoleLog/ConsoleLog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\Logger\ConsoleLog\ConsoleLog.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Logs\Logger\ConsoleLog\ConsoleLog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\Logger\ConsoleLog\ConsoleLog.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Logs\Logger\ConsoleLog\ConsoleLog.cpp
 
 CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Logs\Logger\ConsoleLog\ConsoleLog.cpp > CMakeFiles\coursegame.dir\Logs\Logger\ConsoleLog\ConsoleLog.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Logs\Logger\ConsoleLog\ConsoleLog.cpp > CMakeFiles\coursegame.dir\Logs\Logger\ConsoleLog\ConsoleLog.cpp.i
 
 CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Logs\Logger\ConsoleLog\ConsoleLog.cpp -o CMakeFiles\coursegame.dir\Logs\Logger\ConsoleLog\ConsoleLog.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Logs\Logger\ConsoleLog\ConsoleLog.cpp -o CMakeFiles\coursegame.dir\Logs\Logger\ConsoleLog\ConsoleLog.cpp.s
 
 CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.obj: ../Logs/Message/ErrorMessage/ErrorMessage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\Message\ErrorMessage\ErrorMessage.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Logs\Message\ErrorMessage\ErrorMessage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\Message\ErrorMessage\ErrorMessage.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Logs\Message\ErrorMessage\ErrorMessage.cpp
 
 CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Logs\Message\ErrorMessage\ErrorMessage.cpp > CMakeFiles\coursegame.dir\Logs\Message\ErrorMessage\ErrorMessage.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Logs\Message\ErrorMessage\ErrorMessage.cpp > CMakeFiles\coursegame.dir\Logs\Message\ErrorMessage\ErrorMessage.cpp.i
 
 CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Logs/Message/ErrorMessage/ErrorMessage.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Logs\Message\ErrorMessage\ErrorMessage.cpp -o CMakeFiles\coursegame.dir\Logs\Message\ErrorMessage\ErrorMessage.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Logs\Message\ErrorMessage\ErrorMessage.cpp -o CMakeFiles\coursegame.dir\Logs\Message\ErrorMessage\ErrorMessage.cpp.s
 
 CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.obj: ../Logs/Message/GameMessage/GameMessage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\Message\GameMessage\GameMessage.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Logs\Message\GameMessage\GameMessage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\Message\GameMessage\GameMessage.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Logs\Message\GameMessage\GameMessage.cpp
 
 CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Logs\Message\GameMessage\GameMessage.cpp > CMakeFiles\coursegame.dir\Logs\Message\GameMessage\GameMessage.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Logs\Message\GameMessage\GameMessage.cpp > CMakeFiles\coursegame.dir\Logs\Message\GameMessage\GameMessage.cpp.i
 
 CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Logs/Message/GameMessage/GameMessage.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Logs\Message\GameMessage\GameMessage.cpp -o CMakeFiles\coursegame.dir\Logs\Message\GameMessage\GameMessage.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Logs\Message\GameMessage\GameMessage.cpp -o CMakeFiles\coursegame.dir\Logs\Message\GameMessage\GameMessage.cpp.s
 
 CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.obj: ../Logs/Message/InfoMessage/InfoMessage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\Message\InfoMessage\InfoMessage.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Logs\Message\InfoMessage\InfoMessage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\Message\InfoMessage\InfoMessage.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Logs\Message\InfoMessage\InfoMessage.cpp
 
 CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Logs\Message\InfoMessage\InfoMessage.cpp > CMakeFiles\coursegame.dir\Logs\Message\InfoMessage\InfoMessage.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Logs\Message\InfoMessage\InfoMessage.cpp > CMakeFiles\coursegame.dir\Logs\Message\InfoMessage\InfoMessage.cpp.i
 
 CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Logs\Message\InfoMessage\InfoMessage.cpp -o CMakeFiles\coursegame.dir\Logs\Message\InfoMessage\InfoMessage.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Logs\Message\InfoMessage\InfoMessage.cpp -o CMakeFiles\coursegame.dir\Logs\Message\InfoMessage\InfoMessage.cpp.s
 
 CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.obj: ../Logs/LoggerPool/LoggerPool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\LoggerPool\LoggerPool.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Logs\LoggerPool\LoggerPool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\LoggerPool\LoggerPool.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Logs\LoggerPool\LoggerPool.cpp
 
 CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Logs\LoggerPool\LoggerPool.cpp > CMakeFiles\coursegame.dir\Logs\LoggerPool\LoggerPool.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Logs\LoggerPool\LoggerPool.cpp > CMakeFiles\coursegame.dir\Logs\LoggerPool\LoggerPool.cpp.i
 
 CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Logs/LoggerPool/LoggerPool.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Logs\LoggerPool\LoggerPool.cpp -o CMakeFiles\coursegame.dir\Logs\LoggerPool\LoggerPool.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Logs\LoggerPool\LoggerPool.cpp -o CMakeFiles\coursegame.dir\Logs\LoggerPool\LoggerPool.cpp.s
 
 CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cpp.obj: ../CommandReader/command-reader-file/CommandReaderFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\CommandReader\command-reader-file\CommandReaderFile.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\CommandReader\command-reader-file\CommandReaderFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\CommandReader\command-reader-file\CommandReaderFile.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\CommandReader\command-reader-file\CommandReaderFile.cpp
 
 CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\CommandReader\command-reader-file\CommandReaderFile.cpp > CMakeFiles\coursegame.dir\CommandReader\command-reader-file\CommandReaderFile.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\CommandReader\command-reader-file\CommandReaderFile.cpp > CMakeFiles\coursegame.dir\CommandReader\command-reader-file\CommandReaderFile.cpp.i
 
 CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\CommandReader\command-reader-file\CommandReaderFile.cpp -o CMakeFiles\coursegame.dir\CommandReader\command-reader-file\CommandReaderFile.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\CommandReader\command-reader-file\CommandReaderFile.cpp -o CMakeFiles\coursegame.dir\CommandReader\command-reader-file\CommandReaderFile.cpp.s
 
 CMakeFiles/coursegame.dir/Event/PlayerEvent/speedEvent/SpeedEvent.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Event/PlayerEvent/speedEvent/SpeedEvent.cpp.obj: ../Event/PlayerEvent/speedEvent/SpeedEvent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/coursegame.dir/Event/PlayerEvent/speedEvent/SpeedEvent.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\PlayerEvent\speedEvent\SpeedEvent.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\speedEvent\SpeedEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/coursegame.dir/Event/PlayerEvent/speedEvent/SpeedEvent.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\PlayerEvent\speedEvent\SpeedEvent.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Event\PlayerEvent\speedEvent\SpeedEvent.cpp
 
 CMakeFiles/coursegame.dir/Event/PlayerEvent/speedEvent/SpeedEvent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Event/PlayerEvent/speedEvent/SpeedEvent.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\speedEvent\SpeedEvent.cpp > CMakeFiles\coursegame.dir\Event\PlayerEvent\speedEvent\SpeedEvent.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Event\PlayerEvent\speedEvent\SpeedEvent.cpp > CMakeFiles\coursegame.dir\Event\PlayerEvent\speedEvent\SpeedEvent.cpp.i
 
 CMakeFiles/coursegame.dir/Event/PlayerEvent/speedEvent/SpeedEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Event/PlayerEvent/speedEvent/SpeedEvent.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\speedEvent\SpeedEvent.cpp -o CMakeFiles\coursegame.dir\Event\PlayerEvent\speedEvent\SpeedEvent.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Event\PlayerEvent\speedEvent\SpeedEvent.cpp -o CMakeFiles\coursegame.dir\Event\PlayerEvent\speedEvent\SpeedEvent.cpp.s
 
 CMakeFiles/coursegame.dir/Event/PlayerEvent/strengthEvent/StrengthEvent.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/Event/PlayerEvent/strengthEvent/StrengthEvent.cpp.obj: ../Event/PlayerEvent/strengthEvent/StrengthEvent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/coursegame.dir/Event/PlayerEvent/strengthEvent/StrengthEvent.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\PlayerEvent\strengthEvent\StrengthEvent.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\strengthEvent\StrengthEvent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/coursegame.dir/Event/PlayerEvent/strengthEvent/StrengthEvent.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Event\PlayerEvent\strengthEvent\StrengthEvent.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Event\PlayerEvent\strengthEvent\StrengthEvent.cpp
 
 CMakeFiles/coursegame.dir/Event/PlayerEvent/strengthEvent/StrengthEvent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Event/PlayerEvent/strengthEvent/StrengthEvent.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\strengthEvent\StrengthEvent.cpp > CMakeFiles\coursegame.dir\Event\PlayerEvent\strengthEvent\StrengthEvent.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Event\PlayerEvent\strengthEvent\StrengthEvent.cpp > CMakeFiles\coursegame.dir\Event\PlayerEvent\strengthEvent\StrengthEvent.cpp.i
 
 CMakeFiles/coursegame.dir/Event/PlayerEvent/strengthEvent/StrengthEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Event/PlayerEvent/strengthEvent/StrengthEvent.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\Event\PlayerEvent\strengthEvent\StrengthEvent.cpp -o CMakeFiles\coursegame.dir\Event\PlayerEvent\strengthEvent\StrengthEvent.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Event\PlayerEvent\strengthEvent\StrengthEvent.cpp -o CMakeFiles\coursegame.dir\Event\PlayerEvent\strengthEvent\StrengthEvent.cpp.s
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGeneration.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGeneration.cpp.obj: ../FieldGeneration/FieldGeneration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/coursegame.dir/FieldGeneration/FieldGeneration.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGeneration.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGeneration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/coursegame.dir/FieldGeneration/FieldGeneration.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGeneration.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGeneration.cpp
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGeneration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/FieldGeneration/FieldGeneration.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGeneration.cpp > CMakeFiles\coursegame.dir\FieldGeneration\FieldGeneration.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGeneration.cpp > CMakeFiles\coursegame.dir\FieldGeneration\FieldGeneration.cpp.i
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGeneration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/FieldGeneration/FieldGeneration.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGeneration.cpp -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGeneration.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGeneration.cpp -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGeneration.cpp.s
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.cpp.obj: ../FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-exit\RuleExit.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGenerationRules\rule-exit\RuleExit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-exit\RuleExit.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGenerationRules\rule-exit\RuleExit.cpp
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGenerationRules\rule-exit\RuleExit.cpp > CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-exit\RuleExit.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGenerationRules\rule-exit\RuleExit.cpp > CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-exit\RuleExit.cpp.i
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGenerationRules\rule-exit\RuleExit.cpp -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-exit\RuleExit.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGenerationRules\rule-exit\RuleExit.cpp -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-exit\RuleExit.cpp.s
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.cpp.obj: ../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-heal\RuleHeal.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGenerationRules\rule-heal\RuleHeal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-heal\RuleHeal.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGenerationRules\rule-heal\RuleHeal.cpp
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGenerationRules\rule-heal\RuleHeal.cpp > CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-heal\RuleHeal.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGenerationRules\rule-heal\RuleHeal.cpp > CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-heal\RuleHeal.cpp.i
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGenerationRules\rule-heal\RuleHeal.cpp -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-heal\RuleHeal.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGenerationRules\rule-heal\RuleHeal.cpp -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-heal\RuleHeal.cpp.s
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.cpp.obj: ../FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-mine\RuleMine.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGenerationRules\rule-mine\RuleMine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-mine\RuleMine.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGenerationRules\rule-mine\RuleMine.cpp
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGenerationRules\rule-mine\RuleMine.cpp > CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-mine\RuleMine.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGenerationRules\rule-mine\RuleMine.cpp > CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-mine\RuleMine.cpp.i
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGenerationRules\rule-mine\RuleMine.cpp -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-mine\RuleMine.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGenerationRules\rule-mine\RuleMine.cpp -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-mine\RuleMine.cpp.s
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.cpp.obj: ../FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-player\RulePlayer.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGenerationRules\rule-player\RulePlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-player\RulePlayer.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGenerationRules\rule-player\RulePlayer.cpp
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGenerationRules\rule-player\RulePlayer.cpp > CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-player\RulePlayer.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGenerationRules\rule-player\RulePlayer.cpp > CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-player\RulePlayer.cpp.i
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGenerationRules\rule-player\RulePlayer.cpp -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-player\RulePlayer.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGenerationRules\rule-player\RulePlayer.cpp -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-player\RulePlayer.cpp.s
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.cpp.obj: ../FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-speed\RuleSpeed.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGenerationRules\rule-speed\RuleSpeed.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-speed\RuleSpeed.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGenerationRules\rule-speed\RuleSpeed.cpp
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGenerationRules\rule-speed\RuleSpeed.cpp > CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-speed\RuleSpeed.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGenerationRules\rule-speed\RuleSpeed.cpp > CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-speed\RuleSpeed.cpp.i
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGenerationRules\rule-speed\RuleSpeed.cpp -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-speed\RuleSpeed.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGenerationRules\rule-speed\RuleSpeed.cpp -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-speed\RuleSpeed.cpp.s
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.cpp.obj: CMakeFiles/coursegame.dir/flags.make
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.cpp.obj: ../FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-strength\RuleStrength.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGenerationRules\rule-strength\RuleStrength.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-strength\RuleStrength.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGenerationRules\rule-strength\RuleStrength.cpp
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGenerationRules\rule-strength\RuleStrength.cpp > CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-strength\RuleStrength.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGenerationRules\rule-strength\RuleStrength.cpp > CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-strength\RuleStrength.cpp.i
 
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame\FieldGeneration\FieldGenerationRules\rule-strength\RuleStrength.cpp -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-strength\RuleStrength.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\FieldGeneration\FieldGenerationRules\rule-strength\RuleStrength.cpp -o CMakeFiles\coursegame.dir\FieldGeneration\FieldGenerationRules\rule-strength\RuleStrength.cpp.s
+
+CMakeFiles/coursegame.dir/Save/Originator/Originator.cpp.obj: CMakeFiles/coursegame.dir/flags.make
+CMakeFiles/coursegame.dir/Save/Originator/Originator.cpp.obj: ../Save/Originator/Originator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/coursegame.dir/Save/Originator/Originator.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Save\Originator\Originator.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Save\Originator\Originator.cpp
+
+CMakeFiles/coursegame.dir/Save/Originator/Originator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Save/Originator/Originator.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Save\Originator\Originator.cpp > CMakeFiles\coursegame.dir\Save\Originator\Originator.cpp.i
+
+CMakeFiles/coursegame.dir/Save/Originator/Originator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Save/Originator/Originator.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Save\Originator\Originator.cpp -o CMakeFiles\coursegame.dir\Save\Originator\Originator.cpp.s
+
+CMakeFiles/coursegame.dir/Save/Memento/Memento.cpp.obj: CMakeFiles/coursegame.dir/flags.make
+CMakeFiles/coursegame.dir/Save/Memento/Memento.cpp.obj: ../Save/Memento/Memento.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/coursegame.dir/Save/Memento/Memento.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Save\Memento\Memento.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Save\Memento\Memento.cpp
+
+CMakeFiles/coursegame.dir/Save/Memento/Memento.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Save/Memento/Memento.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Save\Memento\Memento.cpp > CMakeFiles\coursegame.dir\Save\Memento\Memento.cpp.i
+
+CMakeFiles/coursegame.dir/Save/Memento/Memento.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Save/Memento/Memento.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Save\Memento\Memento.cpp -o CMakeFiles\coursegame.dir\Save\Memento\Memento.cpp.s
+
+CMakeFiles/coursegame.dir/Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.obj: CMakeFiles/coursegame.dir/flags.make
+CMakeFiles/coursegame.dir/Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.obj: ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/coursegame.dir/Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Exceptions\ExceptionOnSaveState\ExceptionOnSaveState.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Exceptions\ExceptionOnSaveState\ExceptionOnSaveState.cpp
+
+CMakeFiles/coursegame.dir/Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Exceptions\ExceptionOnSaveState\ExceptionOnSaveState.cpp > CMakeFiles\coursegame.dir\Exceptions\ExceptionOnSaveState\ExceptionOnSaveState.cpp.i
+
+CMakeFiles/coursegame.dir/Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Exceptions\ExceptionOnSaveState\ExceptionOnSaveState.cpp -o CMakeFiles\coursegame.dir\Exceptions\ExceptionOnSaveState\ExceptionOnSaveState.cpp.s
+
+CMakeFiles/coursegame.dir/Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.obj: CMakeFiles/coursegame.dir/flags.make
+CMakeFiles/coursegame.dir/Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.obj: ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/coursegame.dir/Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Exceptions\ExceptionOnStateRestore\ExceptionOnStateRestore.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Exceptions\ExceptionOnStateRestore\ExceptionOnStateRestore.cpp
+
+CMakeFiles/coursegame.dir/Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Exceptions\ExceptionOnStateRestore\ExceptionOnStateRestore.cpp > CMakeFiles\coursegame.dir\Exceptions\ExceptionOnStateRestore\ExceptionOnStateRestore.cpp.i
+
+CMakeFiles/coursegame.dir/Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Exceptions\ExceptionOnStateRestore\ExceptionOnStateRestore.cpp -o CMakeFiles\coursegame.dir\Exceptions\ExceptionOnStateRestore\ExceptionOnStateRestore.cpp.s
+
+CMakeFiles/coursegame.dir/Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.obj: CMakeFiles/coursegame.dir/flags.make
+CMakeFiles/coursegame.dir/Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.obj: ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/coursegame.dir/Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Exceptions\ExceptionOnOpenFile\ExceptionOnOpenFile.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Exceptions\ExceptionOnOpenFile\ExceptionOnOpenFile.cpp
+
+CMakeFiles/coursegame.dir/Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Exceptions\ExceptionOnOpenFile\ExceptionOnOpenFile.cpp > CMakeFiles\coursegame.dir\Exceptions\ExceptionOnOpenFile\ExceptionOnOpenFile.cpp.i
+
+CMakeFiles/coursegame.dir/Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Exceptions\ExceptionOnOpenFile\ExceptionOnOpenFile.cpp -o CMakeFiles\coursegame.dir\Exceptions\ExceptionOnOpenFile\ExceptionOnOpenFile.cpp.s
+
+CMakeFiles/coursegame.dir/Exceptions/Exception.cpp.obj: CMakeFiles/coursegame.dir/flags.make
+CMakeFiles/coursegame.dir/Exceptions/Exception.cpp.obj: ../Exceptions/Exception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/coursegame.dir/Exceptions/Exception.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Exceptions\Exception.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Exceptions\Exception.cpp
+
+CMakeFiles/coursegame.dir/Exceptions/Exception.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Exceptions/Exception.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Exceptions\Exception.cpp > CMakeFiles\coursegame.dir\Exceptions\Exception.cpp.i
+
+CMakeFiles/coursegame.dir/Exceptions/Exception.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Exceptions/Exception.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Exceptions\Exception.cpp -o CMakeFiles\coursegame.dir\Exceptions\Exception.cpp.s
+
+CMakeFiles/coursegame.dir/Logs/Message/StateMessage/StateMessage.cpp.obj: CMakeFiles/coursegame.dir/flags.make
+CMakeFiles/coursegame.dir/Logs/Message/StateMessage/StateMessage.cpp.obj: ../Logs/Message/StateMessage/StateMessage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/coursegame.dir/Logs/Message/StateMessage/StateMessage.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\coursegame.dir\Logs\Message\StateMessage\StateMessage.cpp.obj -c C:\Users\arthu\CLionProjects\coursegame22\Logs\Message\StateMessage\StateMessage.cpp
+
+CMakeFiles/coursegame.dir/Logs/Message/StateMessage/StateMessage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coursegame.dir/Logs/Message/StateMessage/StateMessage.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\arthu\CLionProjects\coursegame22\Logs\Message\StateMessage\StateMessage.cpp > CMakeFiles\coursegame.dir\Logs\Message\StateMessage\StateMessage.cpp.i
+
+CMakeFiles/coursegame.dir/Logs/Message/StateMessage/StateMessage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coursegame.dir/Logs/Message/StateMessage/StateMessage.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\arthu\CLionProjects\coursegame22\Logs\Message\StateMessage\StateMessage.cpp -o CMakeFiles\coursegame.dir\Logs\Message\StateMessage\StateMessage.cpp.s
 
 # Object files for target coursegame
 coursegame_OBJECTS = \
@@ -486,7 +577,14 @@ coursegame_OBJECTS = \
 "CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.cpp.obj" \
 "CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.cpp.obj" \
 "CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.cpp.obj" \
-"CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.cpp.obj"
+"CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.cpp.obj" \
+"CMakeFiles/coursegame.dir/Save/Originator/Originator.cpp.obj" \
+"CMakeFiles/coursegame.dir/Save/Memento/Memento.cpp.obj" \
+"CMakeFiles/coursegame.dir/Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.obj" \
+"CMakeFiles/coursegame.dir/Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.obj" \
+"CMakeFiles/coursegame.dir/Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.obj" \
+"CMakeFiles/coursegame.dir/Exceptions/Exception.cpp.obj" \
+"CMakeFiles/coursegame.dir/Logs/Message/StateMessage/StateMessage.cpp.obj"
 
 # External object files for target coursegame
 coursegame_EXTERNAL_OBJECTS =
@@ -521,11 +619,18 @@ coursegame.exe: CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/r
 coursegame.exe: CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.cpp.obj
+coursegame.exe: CMakeFiles/coursegame.dir/Save/Originator/Originator.cpp.obj
+coursegame.exe: CMakeFiles/coursegame.dir/Save/Memento/Memento.cpp.obj
+coursegame.exe: CMakeFiles/coursegame.dir/Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.obj
+coursegame.exe: CMakeFiles/coursegame.dir/Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.obj
+coursegame.exe: CMakeFiles/coursegame.dir/Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.obj
+coursegame.exe: CMakeFiles/coursegame.dir/Exceptions/Exception.cpp.obj
+coursegame.exe: CMakeFiles/coursegame.dir/Logs/Message/StateMessage/StateMessage.cpp.obj
 coursegame.exe: CMakeFiles/coursegame.dir/build.make
 coursegame.exe: CMakeFiles/coursegame.dir/linklibs.rsp
 coursegame.exe: CMakeFiles/coursegame.dir/objects1.rsp
 coursegame.exe: CMakeFiles/coursegame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable coursegame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Linking CXX executable coursegame.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\coursegame.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -537,6 +642,6 @@ CMakeFiles/coursegame.dir/clean:
 .PHONY : CMakeFiles/coursegame.dir/clean
 
 CMakeFiles/coursegame.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\arthu\CLionProjects\coursegame C:\Users\arthu\CLionProjects\coursegame C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles\coursegame.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\arthu\CLionProjects\coursegame22 C:\Users\arthu\CLionProjects\coursegame22 C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles\coursegame.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/coursegame.dir/depend
 

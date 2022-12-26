@@ -5,11 +5,24 @@
 #ifndef INC_2COURSEGAME_CELL_H
 #define INC_2COURSEGAME_CELL_H
 #include "../Event/IEvent.h"
+#include <memory>
+#include <iostream>
+#include <map>
 
 class Cell {
 public:
     bool isPlayerIn = false;
     enum CellType {WALL, EMPTY, MEDICAL, MINE, EXIT, STRENGTH, QUICKNESS};
+
+    std::map<CellType, std::string> cellToSymbol = {
+            {CellType::WALL, "#"},
+            {CellType::EMPTY, " "},
+            {CellType::MEDICAL, "+"},
+            {CellType::MINE, "x"},
+            {CellType::EXIT, "H"},
+            {CellType::STRENGTH, "S"},
+            {CellType::QUICKNESS, "Q"},
+    };
 
     explicit Cell(CellType type);
 
@@ -19,6 +32,8 @@ public:
 
     CellType getCellType() const;
 
+    std::string getCellSymbol();
+
     void setNewEvent(IEvent *e);
 
     IEvent* getEvent();
@@ -26,6 +41,7 @@ public:
 private:
     IEvent *event;
     CellType type;
+    size_t hashCode;
 };
 
 

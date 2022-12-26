@@ -9,6 +9,7 @@
 #include "../CommandReader.h"
 class CommandReaderConsole: public CommandReader {
 public:
+    boolean first = true;
     explicit CommandReaderConsole(int flag);
     CommandReader::Action lastAction = Action::DOWN;
     std::pair<int, int> currentPosition;

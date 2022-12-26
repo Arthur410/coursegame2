@@ -4,7 +4,7 @@
 #include "StrengthEvent.h"
 
 void StrengthEvent::interact() {
-    if (cell->isPlayerIn) {
+    if (cell->isPlayerIn && player->getStrength() < 100) {
         player->setStrength(player->getStrength() + 1);
     } else {
         cell->setCellContent(Cell::STRENGTH);

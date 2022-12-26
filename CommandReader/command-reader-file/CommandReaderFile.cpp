@@ -34,6 +34,8 @@ CommandReaderFile::CommandReaderFile() {
         while (getline(in, line)) {
             counter++;
         }
+    } else {
+        throw ExceptionOnOpenFile("Can't open file");
     }
     in.close();
     in.open(R"(C:\Users\arthu\CLionProjects\coursegame\CommandReader\command-reader-file\controls.txt)");

@@ -20,6 +20,7 @@ template <class... Rules>
 class FieldGeneration {
 public:
     static const int size = sizeof...(Rules);
+
     Cell **field_instance;
     Player *player;
     std::pair<int,int> playerPosition;

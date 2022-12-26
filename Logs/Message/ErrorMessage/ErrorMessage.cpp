@@ -14,6 +14,8 @@ string ErrorMessage::getLogMessage() {
         text = "YOU ENTERED SOMETHING WRONG IN THE FIELD WIDTH AND HEIGHT PARAMETERS :(";
     } else if (currentType == messageTypes::CANT_GO) {
         text = "SOMETHING BLOCKING ME!!!";
+    } else if (currentType == messageTypes::UNKNOWN) {
+        text = "Unknown error";
     }
     return text;
 }

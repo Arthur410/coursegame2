@@ -4,7 +4,7 @@
 #include "SpeedEvent.h"
 
 void SpeedEvent::interact() {
-    if (cell->isPlayerIn) {
+    if (cell->isPlayerIn && player->getSpeed() < 100) {
         player->setSpeed(player->getSpeed() + 1);
     } else {
         cell->setCellContent(Cell::QUICKNESS);

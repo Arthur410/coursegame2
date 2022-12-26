@@ -17,6 +17,8 @@ public:
 
     void doAction(Field *field_instance, std::pair<int, int> curPos, CommandReader::Action nextDir);
     void run();
+    void saveGame();
+    void restoreGame();
 private:
     Player *currentPlayer;
     CommandReader::Action lastAction = CommandReader::Action::DOWN;

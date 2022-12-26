@@ -15,13 +15,27 @@ CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-key
  ../CommandReader/CommandReader.h \
  ../CommandReader/command-reader-console/CommandReader-keyboard.cpp \
  ../CommandReader/command-reader-console/CommandReader-keyboard.h \
+ ../Event/CellEvent/CellChangeToExit/CellChangeToExit.h \
+ ../Event/CellEvent/CellChangeToWall/CellChangeToWall.h \
+ ../Event/CellEvent/CellEvent.h \
  ../Event/IEvent.h \
  ../Event/PlayerEvent/PlayerEvent.h \
  ../Event/PlayerEvent/medicalEvent/MedicalEvent.h \
+ ../Event/PlayerEvent/mineEvent/MineEvent.h \
+ ../Event/PlayerEvent/speedEvent/SpeedEvent.h \
+ ../Event/PlayerEvent/strengthEvent/StrengthEvent.h \
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h \
  ../Field/Field.h \
  ../FieldGeneration/FieldGeneration.h \
  ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
+ ../FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.h \
  ../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h \
+ ../FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.h \
+ ../FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.h \
+ ../FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.h \
  ../FieldView/FieldView.h \
  ../Logs/Logger/ConsoleLog/ConsoleLog.h \
  ../Logs/Logger/FileLog/FileLog.h \
@@ -31,19 +45,36 @@ CMakeFiles/coursegame.dir/CommandReader/command-reader-console/CommandReader-key
  ../Logs/Message/GameMessage/GameMessage.h \
  ../Logs/Message/InfoMessage/InfoMessage.h \
  ../Logs/Message/Message.h \
- ../Player/Player.h
+ ../Logs/Message/StateMessage/StateMessage.h \
+ ../Player/Player.h \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.h
 CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cpp.obj: \
  ../Cell/Cell.h \
  ../CommandReader/CommandReader.h \
  ../CommandReader/command-reader-file/CommandReaderFile.cpp \
  ../CommandReader/command-reader-file/CommandReaderFile.h \
+ ../Event/CellEvent/CellChangeToExit/CellChangeToExit.h \
+ ../Event/CellEvent/CellChangeToWall/CellChangeToWall.h \
+ ../Event/CellEvent/CellEvent.h \
  ../Event/IEvent.h \
  ../Event/PlayerEvent/PlayerEvent.h \
  ../Event/PlayerEvent/medicalEvent/MedicalEvent.h \
+ ../Event/PlayerEvent/mineEvent/MineEvent.h \
+ ../Event/PlayerEvent/speedEvent/SpeedEvent.h \
+ ../Event/PlayerEvent/strengthEvent/StrengthEvent.h \
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h \
  ../Field/Field.h \
  ../FieldGeneration/FieldGeneration.h \
  ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
+ ../FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.h \
  ../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h \
+ ../FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.h \
+ ../FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.h \
+ ../FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.h \
  ../FieldView/FieldView.h \
  ../Logs/Logger/ConsoleLog/ConsoleLog.h \
  ../Logs/Logger/FileLog/FileLog.h \
@@ -53,20 +84,37 @@ CMakeFiles/coursegame.dir/CommandReader/command-reader-file/CommandReaderFile.cp
  ../Logs/Message/GameMessage/GameMessage.h \
  ../Logs/Message/InfoMessage/InfoMessage.h \
  ../Logs/Message/Message.h \
- ../Player/Player.h
+ ../Logs/Message/StateMessage/StateMessage.h \
+ ../Player/Player.h \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.h
 CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj: \
  ../Cell/Cell.h \
  ../CommandReader/CommandReader.h \
  ../CommandReader/command-reader-console/CommandReader-keyboard.h \
  ../Controller/Controller.cpp \
  ../Controller/Controller.h \
+ ../Event/CellEvent/CellChangeToExit/CellChangeToExit.h \
+ ../Event/CellEvent/CellChangeToWall/CellChangeToWall.h \
+ ../Event/CellEvent/CellEvent.h \
  ../Event/IEvent.h \
  ../Event/PlayerEvent/PlayerEvent.h \
  ../Event/PlayerEvent/medicalEvent/MedicalEvent.h \
+ ../Event/PlayerEvent/mineEvent/MineEvent.h \
+ ../Event/PlayerEvent/speedEvent/SpeedEvent.h \
+ ../Event/PlayerEvent/strengthEvent/StrengthEvent.h \
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h \
  ../Field/Field.h \
  ../FieldGeneration/FieldGeneration.h \
  ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
+ ../FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.h \
  ../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h \
+ ../FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.h \
+ ../FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.h \
+ ../FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.h \
  ../FieldView/FieldView.h \
  ../Logs/Logger/ConsoleLog/ConsoleLog.h \
  ../Logs/Logger/FileLog/FileLog.h \
@@ -76,7 +124,10 @@ CMakeFiles/coursegame.dir/Controller/Controller.cpp.obj: \
  ../Logs/Message/GameMessage/GameMessage.h \
  ../Logs/Message/InfoMessage/InfoMessage.h \
  ../Logs/Message/Message.h \
- ../Player/Player.h
+ ../Logs/Message/StateMessage/StateMessage.h \
+ ../Player/Player.h \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.h
 CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp.obj: \
  ../Cell/Cell.h \
  ../Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp \
@@ -85,16 +136,28 @@ CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToExit/CellChangeToExit.cpp.
  ../Event/IEvent.h
 CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp.obj: \
  ../Cell/Cell.h \
+ ../Event/CellEvent/CellChangeToExit/CellChangeToExit.h \
  ../Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp \
  ../Event/CellEvent/CellChangeToWall/CellChangeToWall.h \
  ../Event/CellEvent/CellEvent.h \
  ../Event/IEvent.h \
  ../Event/PlayerEvent/PlayerEvent.h \
  ../Event/PlayerEvent/medicalEvent/MedicalEvent.h \
+ ../Event/PlayerEvent/mineEvent/MineEvent.h \
+ ../Event/PlayerEvent/speedEvent/SpeedEvent.h \
+ ../Event/PlayerEvent/strengthEvent/StrengthEvent.h \
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h \
  ../Field/Field.h \
  ../FieldGeneration/FieldGeneration.h \
  ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
+ ../FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.h \
  ../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h \
+ ../FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.h \
+ ../FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.h \
+ ../FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.h \
  ../Logs/Logger/ConsoleLog/ConsoleLog.h \
  ../Logs/Logger/FileLog/FileLog.h \
  ../Logs/Logger/Logger.h \
@@ -103,7 +166,10 @@ CMakeFiles/coursegame.dir/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp.
  ../Logs/Message/GameMessage/GameMessage.h \
  ../Logs/Message/InfoMessage/InfoMessage.h \
  ../Logs/Message/Message.h \
- ../Player/Player.h
+ ../Logs/Message/StateMessage/StateMessage.h \
+ ../Player/Player.h \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.h
 CMakeFiles/coursegame.dir/Event/CellEvent/CellEvent.cpp.obj: \
  ../Cell/Cell.h \
  ../Event/CellEvent/CellEvent.cpp \
@@ -114,37 +180,83 @@ CMakeFiles/coursegame.dir/Event/PlayerEvent/PlayerEvent.cpp.obj: \
  ../Event/IEvent.h \
  ../Event/PlayerEvent/PlayerEvent.cpp \
  ../Event/PlayerEvent/PlayerEvent.h \
- ../Player/Player.h
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h \
+ ../Player/Player.h \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.h
 CMakeFiles/coursegame.dir/Event/PlayerEvent/medicalEvent/MedicalEvent.cpp.obj: \
  ../Cell/Cell.h \
  ../Event/IEvent.h \
  ../Event/PlayerEvent/PlayerEvent.h \
  ../Event/PlayerEvent/medicalEvent/MedicalEvent.cpp \
  ../Event/PlayerEvent/medicalEvent/MedicalEvent.h \
- ../Player/Player.h
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h \
+ ../Player/Player.h \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.h
 CMakeFiles/coursegame.dir/Event/PlayerEvent/mineEvent/MineEvent.cpp.obj: \
  ../Cell/Cell.h \
  ../Event/IEvent.h \
  ../Event/PlayerEvent/PlayerEvent.h \
  ../Event/PlayerEvent/mineEvent/MineEvent.cpp \
  ../Event/PlayerEvent/mineEvent/MineEvent.h \
- ../Player/Player.h
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h \
+ ../Player/Player.h \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.h
 CMakeFiles/coursegame.dir/Event/PlayerEvent/speedEvent/SpeedEvent.cpp.obj: \
  ../Cell/Cell.h \
  ../Event/IEvent.h \
  ../Event/PlayerEvent/PlayerEvent.h \
  ../Event/PlayerEvent/speedEvent/SpeedEvent.cpp \
  ../Event/PlayerEvent/speedEvent/SpeedEvent.h \
- ../Player/Player.h
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h \
+ ../Player/Player.h \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.h
 CMakeFiles/coursegame.dir/Event/PlayerEvent/strengthEvent/StrengthEvent.cpp.obj: \
  ../Cell/Cell.h \
  ../Event/IEvent.h \
  ../Event/PlayerEvent/PlayerEvent.h \
  ../Event/PlayerEvent/strengthEvent/StrengthEvent.cpp \
  ../Event/PlayerEvent/strengthEvent/StrengthEvent.h \
- ../Player/Player.h
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h \
+ ../Player/Player.h \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.h
+CMakeFiles/coursegame.dir/Exceptions/Exception.cpp.obj: \
+ ../Exceptions/Exception.cpp \
+ ../Exceptions/Exception.h
+CMakeFiles/coursegame.dir/Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.obj: \
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h
+CMakeFiles/coursegame.dir/Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.obj: \
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h
+CMakeFiles/coursegame.dir/Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.obj: \
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h
 CMakeFiles/coursegame.dir/Field/Field.cpp.obj: \
  ../Cell/Cell.h \
+ ../CellView/CellView.h \
  ../Event/CellEvent/CellChangeToExit/CellChangeToExit.h \
  ../Event/CellEvent/CellChangeToWall/CellChangeToWall.h \
  ../Event/CellEvent/CellEvent.h \
@@ -154,6 +266,10 @@ CMakeFiles/coursegame.dir/Field/Field.cpp.obj: \
  ../Event/PlayerEvent/mineEvent/MineEvent.h \
  ../Event/PlayerEvent/speedEvent/SpeedEvent.h \
  ../Event/PlayerEvent/strengthEvent/StrengthEvent.h \
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h \
  ../Field/Field.cpp \
  ../Field/Field.h \
  ../FieldGeneration/FieldGeneration.h \
@@ -171,75 +287,138 @@ CMakeFiles/coursegame.dir/Field/Field.cpp.obj: \
  ../Logs/Message/GameMessage/GameMessage.h \
  ../Logs/Message/InfoMessage/InfoMessage.h \
  ../Logs/Message/Message.h \
- ../Player/Player.h
+ ../Logs/Message/StateMessage/StateMessage.h \
+ ../Player/Player.h \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.h
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGeneration.cpp.obj: \
  ../Cell/Cell.h \
  ../Event/IEvent.h \
  ../Event/PlayerEvent/PlayerEvent.h \
  ../Event/PlayerEvent/medicalEvent/MedicalEvent.h \
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h \
  ../FieldGeneration/FieldGeneration.cpp \
  ../FieldGeneration/FieldGeneration.h \
  ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
  ../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h \
- ../Player/Player.h
+ ../Player/Player.h \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.h
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.cpp.obj: \
  ../Cell/Cell.h \
  ../Event/CellEvent/CellChangeToExit/CellChangeToExit.h \
  ../Event/CellEvent/CellEvent.h \
  ../Event/IEvent.h \
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h \
  ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
  ../FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.cpp \
  ../FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.h \
- ../Player/Player.h
+ ../Player/Player.h \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.h
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.cpp.obj: \
  ../Cell/Cell.h \
  ../Event/IEvent.h \
  ../Event/PlayerEvent/PlayerEvent.h \
  ../Event/PlayerEvent/medicalEvent/MedicalEvent.h \
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h \
  ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
  ../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.cpp \
  ../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h \
- ../Player/Player.h
+ ../Player/Player.h \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.h
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.cpp.obj: \
  ../Cell/Cell.h \
  ../Event/IEvent.h \
  ../Event/PlayerEvent/PlayerEvent.h \
  ../Event/PlayerEvent/mineEvent/MineEvent.h \
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h \
  ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
  ../FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.cpp \
  ../FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.h \
- ../Player/Player.h
+ ../Player/Player.h \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.h
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.cpp.obj: \
+ ../Cell/Cell.h \
+ ../Event/IEvent.h \
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h \
+ ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
  ../FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.cpp \
- ../FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.h
+ ../FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.h \
+ ../Player/Player.h \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.h
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.cpp.obj: \
  ../Cell/Cell.h \
  ../Event/IEvent.h \
  ../Event/PlayerEvent/PlayerEvent.h \
  ../Event/PlayerEvent/speedEvent/SpeedEvent.h \
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h \
  ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
  ../FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.cpp \
  ../FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.h \
- ../Player/Player.h
+ ../Player/Player.h \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.h
 CMakeFiles/coursegame.dir/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.cpp.obj: \
  ../Cell/Cell.h \
  ../Event/IEvent.h \
  ../Event/PlayerEvent/PlayerEvent.h \
  ../Event/PlayerEvent/strengthEvent/StrengthEvent.h \
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h \
  ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
  ../FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.cpp \
  ../FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.h \
- ../Player/Player.h
+ ../Player/Player.h \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.h
 CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.obj: \
  ../Cell/Cell.h \
  ../CellView/CellView.h \
+ ../Event/CellEvent/CellChangeToExit/CellChangeToExit.h \
+ ../Event/CellEvent/CellChangeToWall/CellChangeToWall.h \
+ ../Event/CellEvent/CellEvent.h \
  ../Event/IEvent.h \
  ../Event/PlayerEvent/PlayerEvent.h \
  ../Event/PlayerEvent/medicalEvent/MedicalEvent.h \
+ ../Event/PlayerEvent/mineEvent/MineEvent.h \
+ ../Event/PlayerEvent/speedEvent/SpeedEvent.h \
+ ../Event/PlayerEvent/strengthEvent/StrengthEvent.h \
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h \
  ../Field/Field.h \
  ../FieldGeneration/FieldGeneration.h \
  ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
+ ../FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.h \
  ../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h \
+ ../FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.h \
+ ../FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.h \
+ ../FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.h \
  ../FieldView/FieldView.cpp \
  ../FieldView/FieldView.h \
  ../Logs/Logger/ConsoleLog/ConsoleLog.h \
@@ -250,7 +429,10 @@ CMakeFiles/coursegame.dir/FieldView/FieldView.cpp.obj: \
  ../Logs/Message/GameMessage/GameMessage.h \
  ../Logs/Message/InfoMessage/InfoMessage.h \
  ../Logs/Message/Message.h \
- ../Player/Player.h
+ ../Logs/Message/StateMessage/StateMessage.h \
+ ../Player/Player.h \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.h
 CMakeFiles/coursegame.dir/Logs/Logger/ConsoleLog/ConsoleLog.cpp.obj: \
  ../Logs/Logger/ConsoleLog/ConsoleLog.cpp \
  ../Logs/Logger/ConsoleLog/ConsoleLog.h \
@@ -278,23 +460,57 @@ CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.obj: \
  ../Logs/Message/InfoMessage/InfoMessage.cpp \
  ../Logs/Message/InfoMessage/InfoMessage.h \
  ../Logs/Message/Message.h
+CMakeFiles/coursegame.dir/Logs/Message/StateMessage/StateMessage.cpp.obj: \
+ ../Logs/Message/Message.h \
+ ../Logs/Message/StateMessage/StateMessage.cpp \
+ ../Logs/Message/StateMessage/StateMessage.h
 CMakeFiles/coursegame.dir/Player/Player.cpp.obj: \
  ../Event/IEvent.h \
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h \
  ../Player/Player.cpp \
- ../Player/Player.h
+ ../Player/Player.h \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.h
+CMakeFiles/coursegame.dir/Save/Memento/Memento.cpp.obj: \
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Save/Memento/Memento.cpp \
+ ../Save/Memento/Memento.h
+CMakeFiles/coursegame.dir/Save/Originator/Originator.cpp.obj: \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.cpp \
+ ../Save/Originator/Originator.h
 CMakeFiles/coursegame.dir/main.cpp.obj: \
  ../Cell/Cell.h \
  ../CommandReader/CommandReader.h \
  ../CommandReader/command-reader-console/CommandReader-keyboard.h \
  ../CommandReader/command-reader-file/CommandReaderFile.h \
  ../Controller/Controller.h \
+ ../Event/CellEvent/CellChangeToExit/CellChangeToExit.h \
+ ../Event/CellEvent/CellChangeToWall/CellChangeToWall.h \
+ ../Event/CellEvent/CellEvent.h \
  ../Event/IEvent.h \
  ../Event/PlayerEvent/PlayerEvent.h \
  ../Event/PlayerEvent/medicalEvent/MedicalEvent.h \
+ ../Event/PlayerEvent/mineEvent/MineEvent.h \
+ ../Event/PlayerEvent/speedEvent/SpeedEvent.h \
+ ../Event/PlayerEvent/strengthEvent/StrengthEvent.h \
+ ../Exceptions/Exception.h \
+ ../Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.h \
+ ../Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.h \
+ ../Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.h \
  ../Field/Field.h \
  ../FieldGeneration/FieldGeneration.h \
  ../FieldGeneration/FieldGenerationRules/GenerationRule.h \
+ ../FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.h \
  ../FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h \
+ ../FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.h \
+ ../FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.h \
+ ../FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.h \
  ../FieldView/FieldView.h \
  ../Logs/Logger/ConsoleLog/ConsoleLog.h \
  ../Logs/Logger/FileLog/FileLog.h \
@@ -304,5 +520,8 @@ CMakeFiles/coursegame.dir/main.cpp.obj: \
  ../Logs/Message/GameMessage/GameMessage.h \
  ../Logs/Message/InfoMessage/InfoMessage.h \
  ../Logs/Message/Message.h \
+ ../Logs/Message/StateMessage/StateMessage.h \
  ../Player/Player.h \
+ ../Save/Memento/Memento.h \
+ ../Save/Originator/Originator.h \
  ../main.cpp

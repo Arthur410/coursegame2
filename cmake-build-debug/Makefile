@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\arthu\CLionProjects\coursegame
+CMAKE_SOURCE_DIR = C:\Users\arthu\CLionProjects\coursegame22
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\arthu\CLionProjects\coursegame\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\arthu\CLionProjects\coursegame22\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -439,6 +439,102 @@ Event/PlayerEvent/strengthEvent/StrengthEvent.s: Event/PlayerEvent/strengthEvent
 Event/PlayerEvent/strengthEvent/StrengthEvent.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Event/PlayerEvent/strengthEvent/StrengthEvent.cpp.s
 .PHONY : Event/PlayerEvent/strengthEvent/StrengthEvent.cpp.s
+
+Exceptions/Exception.obj: Exceptions/Exception.cpp.obj
+.PHONY : Exceptions/Exception.obj
+
+# target to build an object file
+Exceptions/Exception.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Exceptions/Exception.cpp.obj
+.PHONY : Exceptions/Exception.cpp.obj
+
+Exceptions/Exception.i: Exceptions/Exception.cpp.i
+.PHONY : Exceptions/Exception.i
+
+# target to preprocess a source file
+Exceptions/Exception.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Exceptions/Exception.cpp.i
+.PHONY : Exceptions/Exception.cpp.i
+
+Exceptions/Exception.s: Exceptions/Exception.cpp.s
+.PHONY : Exceptions/Exception.s
+
+# target to generate assembly for a file
+Exceptions/Exception.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Exceptions/Exception.cpp.s
+.PHONY : Exceptions/Exception.cpp.s
+
+Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.obj: Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.obj
+.PHONY : Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.obj
+
+# target to build an object file
+Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.obj
+.PHONY : Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.obj
+
+Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.i: Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.i
+.PHONY : Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.i
+
+# target to preprocess a source file
+Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.i
+.PHONY : Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.i
+
+Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.s: Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.s
+.PHONY : Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.s
+
+# target to generate assembly for a file
+Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.s
+.PHONY : Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.cpp.s
+
+Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.obj: Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.obj
+.PHONY : Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.obj
+
+# target to build an object file
+Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.obj
+.PHONY : Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.obj
+
+Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.i: Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.i
+.PHONY : Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.i
+
+# target to preprocess a source file
+Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.i
+.PHONY : Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.i
+
+Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.s: Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.s
+.PHONY : Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.s
+
+# target to generate assembly for a file
+Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.s
+.PHONY : Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.cpp.s
+
+Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.obj: Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.obj
+.PHONY : Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.obj
+
+# target to build an object file
+Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.obj
+.PHONY : Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.obj
+
+Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.i: Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.i
+.PHONY : Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.i
+
+# target to preprocess a source file
+Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.i
+.PHONY : Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.i
+
+Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.s: Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.s
+.PHONY : Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.s
+
+# target to generate assembly for a file
+Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.s
+.PHONY : Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.cpp.s
 
 Field/Field.obj: Field/Field.cpp.obj
 .PHONY : Field/Field.obj
@@ -800,6 +896,30 @@ Logs/Message/InfoMessage/InfoMessage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Message/InfoMessage/InfoMessage.cpp.s
 .PHONY : Logs/Message/InfoMessage/InfoMessage.cpp.s
 
+Logs/Message/StateMessage/StateMessage.obj: Logs/Message/StateMessage/StateMessage.cpp.obj
+.PHONY : Logs/Message/StateMessage/StateMessage.obj
+
+# target to build an object file
+Logs/Message/StateMessage/StateMessage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Message/StateMessage/StateMessage.cpp.obj
+.PHONY : Logs/Message/StateMessage/StateMessage.cpp.obj
+
+Logs/Message/StateMessage/StateMessage.i: Logs/Message/StateMessage/StateMessage.cpp.i
+.PHONY : Logs/Message/StateMessage/StateMessage.i
+
+# target to preprocess a source file
+Logs/Message/StateMessage/StateMessage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Message/StateMessage/StateMessage.cpp.i
+.PHONY : Logs/Message/StateMessage/StateMessage.cpp.i
+
+Logs/Message/StateMessage/StateMessage.s: Logs/Message/StateMessage/StateMessage.cpp.s
+.PHONY : Logs/Message/StateMessage/StateMessage.s
+
+# target to generate assembly for a file
+Logs/Message/StateMessage/StateMessage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Logs/Message/StateMessage/StateMessage.cpp.s
+.PHONY : Logs/Message/StateMessage/StateMessage.cpp.s
+
 Player/Player.obj: Player/Player.cpp.obj
 .PHONY : Player/Player.obj
 
@@ -823,6 +943,54 @@ Player/Player.s: Player/Player.cpp.s
 Player/Player.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Player/Player.cpp.s
 .PHONY : Player/Player.cpp.s
+
+Save/Memento/Memento.obj: Save/Memento/Memento.cpp.obj
+.PHONY : Save/Memento/Memento.obj
+
+# target to build an object file
+Save/Memento/Memento.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Save/Memento/Memento.cpp.obj
+.PHONY : Save/Memento/Memento.cpp.obj
+
+Save/Memento/Memento.i: Save/Memento/Memento.cpp.i
+.PHONY : Save/Memento/Memento.i
+
+# target to preprocess a source file
+Save/Memento/Memento.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Save/Memento/Memento.cpp.i
+.PHONY : Save/Memento/Memento.cpp.i
+
+Save/Memento/Memento.s: Save/Memento/Memento.cpp.s
+.PHONY : Save/Memento/Memento.s
+
+# target to generate assembly for a file
+Save/Memento/Memento.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Save/Memento/Memento.cpp.s
+.PHONY : Save/Memento/Memento.cpp.s
+
+Save/Originator/Originator.obj: Save/Originator/Originator.cpp.obj
+.PHONY : Save/Originator/Originator.obj
+
+# target to build an object file
+Save/Originator/Originator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Save/Originator/Originator.cpp.obj
+.PHONY : Save/Originator/Originator.cpp.obj
+
+Save/Originator/Originator.i: Save/Originator/Originator.cpp.i
+.PHONY : Save/Originator/Originator.i
+
+# target to preprocess a source file
+Save/Originator/Originator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Save/Originator/Originator.cpp.i
+.PHONY : Save/Originator/Originator.cpp.i
+
+Save/Originator/Originator.s: Save/Originator/Originator.cpp.s
+.PHONY : Save/Originator/Originator.s
+
+# target to generate assembly for a file
+Save/Originator/Originator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coursegame.dir\build.make CMakeFiles/coursegame.dir/Save/Originator/Originator.cpp.s
+.PHONY : Save/Originator/Originator.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -896,6 +1064,18 @@ help:
 	@echo ... Event/PlayerEvent/strengthEvent/StrengthEvent.obj
 	@echo ... Event/PlayerEvent/strengthEvent/StrengthEvent.i
 	@echo ... Event/PlayerEvent/strengthEvent/StrengthEvent.s
+	@echo ... Exceptions/Exception.obj
+	@echo ... Exceptions/Exception.i
+	@echo ... Exceptions/Exception.s
+	@echo ... Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.obj
+	@echo ... Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.i
+	@echo ... Exceptions/ExceptionOnOpenFile/ExceptionOnOpenFile.s
+	@echo ... Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.obj
+	@echo ... Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.i
+	@echo ... Exceptions/ExceptionOnSaveState/ExceptionOnSaveState.s
+	@echo ... Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.obj
+	@echo ... Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.i
+	@echo ... Exceptions/ExceptionOnStateRestore/ExceptionOnStateRestore.s
 	@echo ... Field/Field.obj
 	@echo ... Field/Field.i
 	@echo ... Field/Field.s
@@ -941,9 +1121,18 @@ help:
 	@echo ... Logs/Message/InfoMessage/InfoMessage.obj
 	@echo ... Logs/Message/InfoMessage/InfoMessage.i
 	@echo ... Logs/Message/InfoMessage/InfoMessage.s
+	@echo ... Logs/Message/StateMessage/StateMessage.obj
+	@echo ... Logs/Message/StateMessage/StateMessage.i
+	@echo ... Logs/Message/StateMessage/StateMessage.s
 	@echo ... Player/Player.obj
 	@echo ... Player/Player.i
 	@echo ... Player/Player.s
+	@echo ... Save/Memento/Memento.obj
+	@echo ... Save/Memento/Memento.i
+	@echo ... Save/Memento/Memento.s
+	@echo ... Save/Originator/Originator.obj
+	@echo ... Save/Originator/Originator.i
+	@echo ... Save/Originator/Originator.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
