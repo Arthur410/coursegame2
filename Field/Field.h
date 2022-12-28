@@ -40,9 +40,17 @@ public:
     bool exitFlag = false;
     Player *player{};
 
-    std::tuple<int, int, std::pair<int, int>, Cell**> restoredData;
+    std::tuple<int, int, int, int, int, std::pair<int, int>, Cell**> restoredData;
 
     explicit Field(std::pair<int, int> playerPos, int width, int height, Player *currentPlayer, int logType, int difficulty);
+
+    std::vector<std::string> playerParameters = {"health", "speed", "strength"};
+
+    std::map<std::string, std::function<int()>> getPlayerParam {
+            {"health", [this](){return this->player->getHp();}},
+            {"speed", [this](){return this->player->getSpeed();}},
+            {"strength", [this](){return this->player->getStrength();}},
+    };
 
     Field();
 
@@ -94,7 +102,7 @@ public:
 
     void restoreData(const string &str);
 
-    static size_t hash(int width, int height, std::pair<int,int> playerPos, Cell **field) ;
+    static size_t hash(int hp, int sp, int st, int width, int height, std::pair<int,int> playerPos, Cell **field) ;
 
 private:
     std::pair<int, int> playerPosition;

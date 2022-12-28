@@ -22,9 +22,71 @@ iostream
 ../Cell/Cell.h
 C:/Users/arthu/CLionProjects/coursegame22/Cell/Cell.h
 
+C:/Users/arthu/CLionProjects/coursegame22/CommandReader/CommandReader.h
+../FieldView/FieldView.h
+C:/Users/arthu/CLionProjects/coursegame22/FieldView/FieldView.h
+iostream
+-
+
+C:/Users/arthu/CLionProjects/coursegame22/CommandReader/command-reader-console/CommandReader-keyboard.cpp
+CommandReader-keyboard.h
+C:/Users/arthu/CLionProjects/coursegame22/CommandReader/command-reader-console/CommandReader-keyboard.h
+
+C:/Users/arthu/CLionProjects/coursegame22/CommandReader/command-reader-console/CommandReader-keyboard.h
+iostream
+-
+conio.h
+-
+../../Player/Player.h
+C:/Users/arthu/CLionProjects/coursegame22/Player/Player.h
+../../Field/Field.h
+C:/Users/arthu/CLionProjects/coursegame22/Field/Field.h
+../CommandReader.h
+C:/Users/arthu/CLionProjects/coursegame22/CommandReader/CommandReader.h
+
+C:/Users/arthu/CLionProjects/coursegame22/CommandReader/command-reader-file/CommandReaderFile.cpp
+CommandReaderFile.h
+C:/Users/arthu/CLionProjects/coursegame22/CommandReader/command-reader-file/CommandReaderFile.h
+
+C:/Users/arthu/CLionProjects/coursegame22/CommandReader/command-reader-file/CommandReaderFile.h
+iostream
+-
+conio.h
+-
+../../Player/Player.h
+C:/Users/arthu/CLionProjects/coursegame22/Player/Player.h
+../../Field/Field.h
+C:/Users/arthu/CLionProjects/coursegame22/Field/Field.h
+../CommandReader.h
+C:/Users/arthu/CLionProjects/coursegame22/CommandReader/CommandReader.h
+
+C:/Users/arthu/CLionProjects/coursegame22/Controller/Controller.cpp
+Windows.h
+-
+unistd.h
+-
+Controller.h
+C:/Users/arthu/CLionProjects/coursegame22/Controller/Controller.h
+
+C:/Users/arthu/CLionProjects/coursegame22/Controller/Controller.h
+../Player/Player.h
+C:/Users/arthu/CLionProjects/coursegame22/Player/Player.h
+../Field/Field.h
+C:/Users/arthu/CLionProjects/coursegame22/Field/Field.h
+../FieldView/FieldView.h
+C:/Users/arthu/CLionProjects/coursegame22/FieldView/FieldView.h
+../CommandReader/command-reader-console/CommandReader-keyboard.h
+C:/Users/arthu/CLionProjects/coursegame22/CommandReader/command-reader-console/CommandReader-keyboard.h
+
 C:/Users/arthu/CLionProjects/coursegame22/Event/CellEvent/CellChangeToExit/CellChangeToExit.h
 ../CellEvent.h
 C:/Users/arthu/CLionProjects/coursegame22/Event/CellEvent/CellEvent.h
+
+C:/Users/arthu/CLionProjects/coursegame22/Event/CellEvent/CellChangeToWall/CellChangeToWall.cpp
+CellChangeToWall.h
+C:/Users/arthu/CLionProjects/coursegame22/Event/CellEvent/CellChangeToWall/CellChangeToWall.h
+../../../Field/Field.h
+C:/Users/arthu/CLionProjects/coursegame22/Field/Field.h
 
 C:/Users/arthu/CLionProjects/coursegame22/Event/CellEvent/CellChangeToWall/CellChangeToWall.h
 ../CellEvent.h
@@ -38,6 +100,10 @@ C:/Users/arthu/CLionProjects/coursegame22/Cell/Cell.h
 
 C:/Users/arthu/CLionProjects/coursegame22/Event/IEvent.h
 
+C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/PlayerEvent.cpp
+PlayerEvent.h
+C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/PlayerEvent.h
+
 C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/PlayerEvent.h
 ../../Player/Player.h
 C:/Users/arthu/CLionProjects/coursegame22/Player/Player.h
@@ -46,17 +112,35 @@ C:/Users/arthu/CLionProjects/coursegame22/Cell/Cell.h
 ../IEvent.h
 C:/Users/arthu/CLionProjects/coursegame22/Event/IEvent.h
 
+C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/medicalEvent/MedicalEvent.cpp
+MedicalEvent.h
+C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/medicalEvent/MedicalEvent.h
+iostream
+-
+
 C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/medicalEvent/MedicalEvent.h
 ../PlayerEvent.h
 C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/PlayerEvent.h
+
+C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/mineEvent/MineEvent.cpp
+MineEvent.h
+C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/mineEvent/MineEvent.h
 
 C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/mineEvent/MineEvent.h
 ../PlayerEvent.h
 C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/PlayerEvent.h
 
+C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/speedEvent/SpeedEvent.cpp
+SpeedEvent.h
+C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/speedEvent/SpeedEvent.h
+
 C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/speedEvent/SpeedEvent.h
 ../PlayerEvent.h
 C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/PlayerEvent.h
+
+C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/strengthEvent/StrengthEvent.cpp
+StrengthEvent.h
+C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/strengthEvent/StrengthEvent.h
 
 C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/strengthEvent/StrengthEvent.h
 ../PlayerEvent.h
@@ -154,6 +238,10 @@ C:/Users/arthu/CLionProjects/coursegame22/Save/Originator/Originator.h
 utility
 -
 
+C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGeneration.cpp
+FieldGeneration.h
+C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGeneration.h
+
 C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGeneration.h
 iostream
 -
@@ -178,9 +266,21 @@ iostream
 cstdlib
 -
 
+C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.cpp
+../../../Event/CellEvent/CellChangeToExit/CellChangeToExit.h
+C:/Users/arthu/CLionProjects/coursegame22/Event/CellEvent/CellChangeToExit/CellChangeToExit.h
+RuleExit.h
+C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.h
+
 C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-exit/RuleExit.h
 ../GenerationRule.h
 C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/GenerationRule.h
+
+C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.cpp
+RuleHeal.h
+C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h
+iostream
+-
 
 C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-heal/RuleHeal.h
 ../GenerationRule.h
@@ -188,11 +288,27 @@ C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/G
 ../../../Event/PlayerEvent/medicalEvent/MedicalEvent.h
 C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/medicalEvent/MedicalEvent.h
 
+C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.cpp
+RuleMine.h
+C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.h
+
 C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-mine/RuleMine.h
 ../GenerationRule.h
 C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/GenerationRule.h
 ../../../Event/PlayerEvent/mineEvent/MineEvent.h
 C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/mineEvent/MineEvent.h
+
+C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.cpp
+RulePlayer.h
+C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.h
+
+C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-player/RulePlayer.h
+../GenerationRule.h
+C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/GenerationRule.h
+
+C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.cpp
+RuleSpeed.h
+C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.h
 
 C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-speed/RuleSpeed.h
 ../GenerationRule.h
@@ -200,11 +316,27 @@ C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/G
 ../../../Event/PlayerEvent/speedEvent/SpeedEvent.h
 C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/speedEvent/SpeedEvent.h
 
+C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.cpp
+RuleStrength.h
+C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.h
+
 C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/rule-strength/RuleStrength.h
 ../GenerationRule.h
 C:/Users/arthu/CLionProjects/coursegame22/FieldGeneration/FieldGenerationRules/GenerationRule.h
 ../../../Event/PlayerEvent/strengthEvent/StrengthEvent.h
 C:/Users/arthu/CLionProjects/coursegame22/Event/PlayerEvent/strengthEvent/StrengthEvent.h
+
+C:/Users/arthu/CLionProjects/coursegame22/FieldView/FieldView.cpp
+FieldView.h
+C:/Users/arthu/CLionProjects/coursegame22/FieldView/FieldView.h
+../CellView/CellView.h
+C:/Users/arthu/CLionProjects/coursegame22/CellView/CellView.h
+
+C:/Users/arthu/CLionProjects/coursegame22/FieldView/FieldView.h
+../Field/Field.h
+C:/Users/arthu/CLionProjects/coursegame22/Field/Field.h
+iostream
+-
 
 C:/Users/arthu/CLionProjects/coursegame22/Logs/Logger/ConsoleLog/ConsoleLog.h
 ../Logger.h
@@ -295,4 +427,22 @@ string
 C:/Users/arthu/CLionProjects/coursegame22/Save/Originator/Originator.h
 ../Memento/Memento.h
 C:/Users/arthu/CLionProjects/coursegame22/Save/Memento/Memento.h
+
+C:/Users/arthu/CLionProjects/coursegame22/main.cpp
+iostream
+-
+Cell/Cell.h
+C:/Users/arthu/CLionProjects/coursegame22/Cell/Cell.h
+Player/Player.h
+C:/Users/arthu/CLionProjects/coursegame22/Player/Player.h
+Field/Field.h
+C:/Users/arthu/CLionProjects/coursegame22/Field/Field.h
+FieldView/FieldView.h
+C:/Users/arthu/CLionProjects/coursegame22/FieldView/FieldView.h
+Controller/Controller.h
+C:/Users/arthu/CLionProjects/coursegame22/Controller/Controller.h
+CommandReader/command-reader-file/CommandReaderFile.h
+C:/Users/arthu/CLionProjects/coursegame22/CommandReader/command-reader-file/CommandReaderFile.h
+CommandReader/command-reader-console/CommandReader-keyboard.h
+C:/Users/arthu/CLionProjects/coursegame22/CommandReader/command-reader-console/CommandReader-keyboard.h
 

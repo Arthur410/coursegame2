@@ -84,7 +84,6 @@ void Controller::doAction(Field *field_instance, std::pair<int, int> curPos, Com
 
 void Controller::saveGame() {
     try {
-        currentPlayer->saveState();
         gameField->saveState();
         gameField->setNewMessage(new StateMessage(StateMessage::SAVED));
     } catch (ExceptionOnSaveState& er) {
@@ -97,10 +96,8 @@ void Controller::saveGame() {
 void Controller::restoreGame() {
     Memento mementoSavedState;
     try {
-        currentPlayer->restoreState(mementoSavedState);
         gameField->restoreState(mementoSavedState);
 
-        currentPlayer->restoreCorrectState();
         gameField->restoreCorrectState();
         gameField->setNewMessage(new StateMessage(StateMessage::RESTORED));
     } catch (ExceptionOnOpenFile& eoof){

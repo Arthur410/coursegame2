@@ -250,40 +250,48 @@ Message *Field::getCurrentMessage() {
 Memento Field::saveState() {
     Memento fieldMemento;
     std::string fieldState = createSaveState();
-    fieldMemento.saveState(fieldState, "field_save.txt");
+    fieldMemento.saveState(fieldState, "save.txt");
     return fieldMemento;
 }
 
 void Field::restoreState(Memento fieldMemento) {
-    std::string fieldStateHash = fieldMemento.restoreState("field_save.txt");
+    std::string fieldStateHash = fieldMemento.restoreState("save.txt");
     restoreData(fieldStateHash);
 }
 
 std::string Field::createSaveState() {
-    std::string fieldParameters = std::to_string(hash(fieldWidth, fieldHeight,  playerPosition, fieldVariable));
-    fieldParameters += "\n" + std::to_string(fieldWidth) + "\n" + std::to_string(fieldHeight);
-    fieldParameters += "\n" + std::to_string(playerPosition.first) + "\n" + std::to_string(playerPosition.second);
+    std::string saveParameters = std::to_string(hash(player->getHp(), player->getSpeed(), player->getStrength(), fieldWidth, fieldHeight,  playerPosition, fieldVariable));
+    for (const auto& parameter: playerParameters){
+        saveParameters+="\n";
+        saveParameters+=std::to_string(getPlayerParam.at(parameter)());
+    }
+    saveParameters += "\n" + std::to_string(fieldWidth) + "\n" + std::to_string(fieldHeight);
+    saveParameters += "\n" + std::to_string(playerPosition.first) + "\n" + std::to_string(playerPosition.second);
     for (int i = 0; i < fieldWidth; i++) {
         for (int j = 0; j < fieldHeight; j++) {
-            fieldParameters += "\n" + to_string(i) + " " + to_string(j);
+            saveParameters += "\n" + to_string(i) + " " + to_string(j);
             if (fieldVariable[i][j].getEvent()) {
-                fieldParameters += "\n" + fieldVariable[i][j].getCellSymbol();
+                saveParameters += "\n" + fieldVariable[i][j].getCellSymbol();
             } else {
-                fieldParameters += "\nNone";
+                saveParameters += "\nNone";
             }
         }
     }
-    return fieldParameters;
+    return saveParameters;
 }
 
 void Field::restoreCorrectState() {
-    Cell **tempField = std::get<3>(restoredData);
-    int tempWidth = std::get<0>(restoredData);
-    int tempHeight = std::get<1>(restoredData);
+    player->setHp(std::get<0>(restoredData));
+    player->setSpeed(std::get<1>(restoredData));
+    player->setStrength(std::get<2>(restoredData));
+    int tempWidth = std::get<3>(restoredData);
+    int tempHeight = std::get<4>(restoredData);
+    Cell **tempField = std::get<6>(restoredData);
+
     fieldWidth = tempWidth;
     fieldHeight = tempHeight;
     fieldVariable = tempField;
-    setPlayerPosition(std::get<2>(restoredData));
+    setPlayerPosition(std::get<5>(restoredData));
     Sleep(1000);
 }
 
@@ -309,13 +317,14 @@ void Field::restoreData(const std::string &str) {
                 hashFromFile = line;
                 isReadHash = false;
             } else {
-                if (cntLine < 4)
+                // Считываем сначала дату для игрока (хп 0, скорость 1, сила 2) Далее с 3 4 5 6 считываем параметры поля
+                if (cntLine < 7) {
                     data.push_back(std::stoi(line));
-                else {
+                } else {
                     if (onFirst) {
-                        tmpField = new Cell*[data[0]];
-                        for (int i = 0; i < data[1]; i++) {
-                            tmpField[i] = new Cell[data[1]];
+                        tmpField = new Cell*[data[3]];
+                        for (int i = 0; i < data[4]; i++) {
+                            tmpField[i] = new Cell[data[4]];
                         }
                         onFirst = 0;
                     }
@@ -348,8 +357,8 @@ void Field::restoreData(const std::string &str) {
                         ++width;
                     }
 
-                    height += width / data[0];
-                    width %= data[0];
+                    height += width / data[3];
+                    width %= data[3];
                     isCellType = !isCellType;
                 }
                 ++cntLine;
@@ -357,16 +366,19 @@ void Field::restoreData(const std::string &str) {
             ++cntTotalLine;
         }
     } catch (...) {
-        throw ExceptionOnOpenFile("Field file data incorrect at line " + std::to_string(cntTotalLine) + " >> " + tmpLine + "\n");
+        throw ExceptionOnOpenFile("Save file incorrect at line " + std::to_string(cntTotalLine) + " >> " + tmpLine + "\n");
     }
-    size_t fieldHash = hash(data[0], data[1], std::pair<int, int>(data[2], data[3]), tmpField);
+    size_t saveHash = hash(data[0], data[1], data[2], data[3], data[4], std::pair<int, int>(data[5], data[6]), tmpField);
 
-    if (std::to_string(fieldHash) != hashFromFile){
-        throw ExceptionOnStateRestore("Field file data has been changed. Hash of restored data " + std::to_string(fieldHash) + "not equal " + hashFromFile + "\n");
+    if (std::to_string(saveHash) != hashFromFile){
+        throw ExceptionOnStateRestore("Save file has been changed. Hash of restored data " + std::to_string(saveHash) + " not equal " + hashFromFile + "\n");
     } else {
         restoredData = std::make_tuple(data[0],
                                        data[1],
-                                       std::pair<int, int>(data[2], data[3]),
+                                       data[2],
+                                       data[3],
+                                       data[4],
+                                       std::pair<int, int>(data[5], data[6]),
                                        tmpField);
     }
 
@@ -380,9 +392,12 @@ long long hashTwoNumbers(int a, int b)
     return a < 0 && b < 0 || a >= 0 && b >= 0 ? C : -C - 1;
 }
 
-size_t Field::hash(int width, int height, std::pair<int,int> playerPos, Cell **field) {
+size_t Field::hash(int hp, int sp, int st, int width, int height, std::pair<int,int> playerPos, Cell **field) {
     size_t hashSize = std::hash<int>()(width) xor std::hash<int>()(height << 1);
     size_t hashPlayerPosition = std::hash<int>()(playerPos.first) xor std::hash<int>()(playerPos.second << 1);
+    size_t hashHealth = std::hash<int>()(hp);
+    size_t hashShield = std::hash<int>()(sp);
+    size_t hashSt = std::hash<int>()(st);
     ::hash<string> eventHasher;
     auto hashField = size_t(0);
     for (int i = 0; i < width; i++){
@@ -395,5 +410,5 @@ size_t Field::hash(int width, int height, std::pair<int,int> playerPos, Cell **f
     }
 
 
-    return hashField xor ( (hashPlayerPosition << 1) xor (hashSize << 2));
+    return hashHealth xor ( (hashShield << hashShield%10) xor ( (hashSt << hashSt%10))) xor hashField xor ( (hashPlayerPosition << 1) xor (hashSize << 2));
 }
